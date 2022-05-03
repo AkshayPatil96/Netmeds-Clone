@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import Docc from "../Assests/Icons/docc.png";
 import { Link } from "react-router-dom";
@@ -56,6 +56,7 @@ const NavContainer = styled.nav`
       font-size: 0.9rem;
       font-weight: 400;
       line-height: 22px;
+      position: relative;
 
       .navLocation {
         height: 100%;
@@ -63,6 +64,7 @@ const NavContainer = styled.nav`
         display: flex;
         align-items: center;
         justify-content: center;
+
         gap: 7px;
 
         p {
@@ -72,6 +74,7 @@ const NavContainer = styled.nav`
           font-size: 14px;
           color: #24aeb1;
           font-weight: bold;
+          cursor: pointer;
         }
       }
 
@@ -85,10 +88,95 @@ const NavContainer = styled.nav`
           font-size: 0.9rem;
           text-indent: 10px;
         }
+      }
 
-        .search:focus {
-          outline: none;
+      .getLocation {
+        position: absolute;
+        width: 53%;
+        top: 5.7vh;
+        height: auto;
+        border-radius: 8px;
+        background-color: #ffffff;
+        text-align: left;
+        box-sizing: border-box;
+        padding: 16px;
+
+        p {
+          margin: 0;
+          margin-bottom: 10px;
         }
+        strong {
+          color: black;
+          font-size: 16px;
+        }
+
+        button {
+          width: 100%;
+          height: 4vh;
+          background-color: #5bafb1;
+          border: 0;
+          border-radius: 5px;
+          color: #ffffff;
+          font-size: 14px;
+          margin-bottom: 10px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .getLocation > div {
+          border: 1px solid black;
+          height: 50%;
+
+          .paraText {
+            font-size: 14px;
+          }
+        }
+
+        .enterPincodeInput {
+          height: 4.5vh;
+          border: 1px solid #f3f7fb;
+          background-color: #f3f7fb;
+
+          display: flex;
+          border-radius: 5px;
+
+          input {
+            background-color: #f3f7fb;
+            border: 0;
+            text-indent: 5px;
+            font-weight: bold;
+          }
+          img {
+            width: 1.5vw;
+          }
+        }
+
+        .detectMyLocation {
+          display: flex;
+          height: 4vh;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+
+          img {
+            width: 0.9vw;
+          }
+          p {
+            margin: 0;
+            font-size: 12px;
+            color: #e35a87;
+            font-weight: bold;
+          }
+        }
+      }
+      .search:focus {
+        outline: none;
+      }
+
+      //Sowing Visibility
+      .getLocation {
+        opacity: ${(props) => (props.showLocation ? "100%" : "0")};
+        visibility: ${(props) => (props.showLocation ? "visible" : "none")};
+        z-index: 1;
       }
     }
 
@@ -187,8 +275,11 @@ const SubNavContainer = styled.div`
 `;
 
 export const Navbar = () => {
+  const [showLocationDiv, setShowLocationDiv] = useState(false);
+
+  const getLocation = () => {};
   return (
-    <NavContainer>
+    <NavContainer showLocation={showLocationDiv}>
       <div className="navContainer">
         <div className="navLogo">
           <img
@@ -200,7 +291,12 @@ export const Navbar = () => {
           {/* <div className="navSearchBarCon"> */}
           <div className="navLocation">
             <p>Dilever to </p>
-            <p className="pinCode">361001</p>
+            <p
+              className="pinCode"
+              onClick={() => setShowLocationDiv(!showLocationDiv)}
+            >
+              361001
+            </p>
             <img src={ArrowDown} alt="" />
           </div>
           <hr />
@@ -213,6 +309,46 @@ export const Navbar = () => {
             />
             <div className="navSearchResults"></div>
           </div>
+          <div className="getLocation" id="getLocation">
+            <div>
+              <p>
+                <strong>Where do you want the delivery?</strong>
+              </p>
+              <p className="paraText">
+                Get access to your Address, Orders, and Wishlist
+              </p>
+
+              <button>Sign in to see your location</button>
+            </div>
+            <hr />
+            <div>
+              <p>
+                <strong>Or Enter Pincode</strong>
+              </p>
+              <p className="paraText">
+                Select pincode to see product availability.
+              </p>
+              <div className="enterPincodeInput">
+                <img
+                  src="https://www.netmeds.com/assets/version1649433944/gloryweb/images/icons/location-on.svg"
+                  alt=""
+                />
+                <input
+                  className="search"
+                  type="text"
+                  name="number"
+                  placeholder="Enter Pincode"
+                />
+              </div>
+              <div className="detectMyLocation">
+                <img
+                  src="https://www.netmeds.com/assets/version1649433944/gloryweb/images/icons/location-detect.svg"
+                  alt=""
+                />
+                <p>Detect my location</p>
+              </div>
+            </div>
+          </div>
           {/* </div> */}
         </div>
         <div className="userUtilities">
@@ -221,7 +357,7 @@ export const Navbar = () => {
               <Link className="navLinks" to="#">
                 <img
                   src="https://www.netmeds.com/assets/gloryweb/images/icons/upload_rx.svg"
-                  alt="doccuments"
+                  alt="documents"
                   className="navIcons"
                 />
                 <p>Upload</p>
