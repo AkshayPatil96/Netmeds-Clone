@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Docc from "../Assests/Icons/docc.png";
+
 import { Link } from "react-router-dom";
-import cartIcon from "../Assests/Icons/cartIcon.png";
-import AccountIcon from "../Assests/Icons/account.png";
-import ArrowDown from "../Assests/Icons/down-arrow .png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
@@ -191,10 +189,7 @@ export const Navbar = () => {
     <NavContainer>
       <div className="navContainer">
         <div className="navLogo">
-          <img
-            src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg"
-            alt=""
-          />
+          <FontAwesomeIcon icon={faCaretDown} />
         </div>
         <div className="navSearch">
           {/* <div className="navSearchBarCon"> */}
