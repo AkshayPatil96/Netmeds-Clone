@@ -6,9 +6,10 @@ import HomeCategory from "../Components/HomeCategory";
 const Home = () => {
     return (
         <>
-            <div>Home</div>
+            {/* <div>Home</div> */}
             <Carousel />
             <HomeCategory />
+            <MultiItem />
             <MultiItem />
         </>
     );
