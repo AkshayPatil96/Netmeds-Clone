@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { multiData } from "./Data";
 import ShowMultiItems from "./ShowMultiItems";
 import styles from "./carousel.module.css";
+import data from "../../Assests/Data/Net_Med_Data.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faChevronLeft,
     faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+
+// Previous Button
 
 const PreviousBtn = (props) => {
     const { className, onClick } = props;
@@ -72,19 +75,45 @@ const carouselProperties = {
     ],
 };
 
-const MultiItem = () => {    
+const MultiItem = (props, { incomingData }) => {
+    const [homeCategory, setHomeCategory] = useState([]);
+
+    const fetchData = incomingData;
+    console.log('fetchData: ', fetchData);
+    
+    let wellnessCate = data.homeCategory;
+    const categoryData = () => {
+        setHomeCategory(wellnessCate);
+    };
+
+    useEffect(() => {
+        categoryData();
+    }, []);
+
     return (
-        <div className={styles.carousel}>
-            <div className={styles.headingFlex}>
-                <h1 className={styles.heading}>Trending Products</h1>
-                <p>View All</p>
+        <>
+            <div
+                className={styles.carousel}
+                style={{
+                    background: `linear-gradient(180deg, ${props.gradBgColor} 50%, rgba(243, 247, 251, 1) 50%)`,
+                }}
+            >
+                <div
+                    className={styles.headingFlex}
+                    style={{
+                        color: `${props.headingColor}`,
+                    }}
+                >
+                    <h1 className={styles.heading}>{props.heading}</h1>
+                    <p>{props.view}</p>
+                </div>
+                <Slider {...carouselProperties} className={styles.slider}>
+                    {homeCategory.map((product, index) => {
+                        return <ShowMultiItems key={index} {...product} />;
+                    })}
+                </Slider>
             </div>
-            <Slider {...carouselProperties} className={styles.slider}>
-                {multiData.map((product) => {
-                    return <ShowMultiItems key={product.id} {...product} />;
-                })}
-            </Slider>
-        </div>
+        </>
     );
 };
 
