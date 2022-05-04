@@ -1,18 +1,15 @@
-import "./App.css";
-
+import React from "react";
 import Home from "./Pages/Home";
-
 import { Navbar, SubNav } from "./Components/Navbar";
-import { Routes } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <SubNav />
-      <Home />
+      {/* <Home /> */}
     </div>
   );
-}
+};
 
 export default App;

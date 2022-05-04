@@ -7,6 +7,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 const Cate = styled.div`
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     /* border: 1px solid; */
     gap: 2rem;
     margin: 5%;
