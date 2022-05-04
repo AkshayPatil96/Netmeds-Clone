@@ -6,7 +6,13 @@ const Wrapper = styled.div`
   width: 70%;
   margin: auto;
   display: flex;
+  justify-content: space-around;
 `;
+const SignDiv = styled.div`
+    width:40%;
+    margin:auto;
+    padding:20px;
+`
 
 const Login = () => {
   return (
@@ -46,6 +52,7 @@ const Login = () => {
         </div>
 
         </div>
+
       </Wrapper>
       <div></div>
     </div>
