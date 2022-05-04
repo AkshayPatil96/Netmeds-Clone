@@ -39,8 +39,12 @@ const NavContainer = styled.nav`
       display: flex;
       align-items: center;
       box-sizing: border-box;
-      padding-right: 35px;
+      padding-right: 3.85vh;
       justify-content: flex-end;
+
+      img {
+        width: 8.75vw;
+      }
     }
 
     .navSearch {
@@ -49,13 +53,13 @@ const NavContainer = styled.nav`
       height: 5.25vh;
       display: flex;
       box-sizing: border-box;
-      padding: 3px;
+      padding: 0.32px;
       background-color: #ffffff;
       border-radius: 8px;
       color: #9093b4;
-      font-size: 0.9rem;
+      font-size: 1.53vh;
       font-weight: 400;
-      line-height: 22px;
+      line-height: 2.1vh;
       position: relative;
 
       .navLocation {
@@ -65,28 +69,33 @@ const NavContainer = styled.nav`
         align-items: center;
         justify-content: center;
 
-        gap: 7px;
+        gap: 0.34vw;
 
         p {
           margin: 0;
         }
         .pinCode {
-          font-size: 14px;
+          font-size: 1.8vh;
           color: #24aeb1;
           font-weight: bold;
           cursor: pointer;
         }
       }
 
+      //Arrow down pic
+      img {
+        width: 0.8vw;
+      }
+
       .searchCon {
         flex-grow: 1;
 
         input {
-          width: 99%;
+          width: 95%;
           height: 97%;
           border: 0;
-          font-size: 0.9rem;
-          text-indent: 10px;
+          font-size: 1.53vh;
+          /* text-indent: vw; */
         }
       }
 
@@ -99,15 +108,15 @@ const NavContainer = styled.nav`
         background-color: #ffffff;
         text-align: left;
         box-sizing: border-box;
-        padding: 16px;
+        padding: 1.75vh;
 
         p {
           margin: 0;
-          margin-bottom: 10px;
+          margin-bottom: 1.09vh;
         }
         strong {
           color: black;
-          font-size: 16px;
+          font-size: 1.75vh;
         }
 
         button {
@@ -117,8 +126,8 @@ const NavContainer = styled.nav`
           border: 0;
           border-radius: 5px;
           color: #ffffff;
-          font-size: 14px;
-          margin-bottom: 10px;
+          font-size: 1.53vh;
+          margin-bottom: 1vh;
           font-weight: bold;
           cursor: pointer;
         }
@@ -127,7 +136,7 @@ const NavContainer = styled.nav`
           height: 50%;
 
           .paraText {
-            font-size: 14px;
+            font-size: 1.53px;
           }
         }
 
@@ -142,11 +151,12 @@ const NavContainer = styled.nav`
           input {
             background-color: #f3f7fb;
             border: 0;
-            text-indent: 5px;
+            text-indent: 0.5vw;
             font-weight: bold;
+            font-size: 1.75vh;
           }
           img {
-            width: 1.5vw;
+            width: 1.2vw;
           }
         }
 
@@ -154,7 +164,7 @@ const NavContainer = styled.nav`
           display: flex;
           height: 4vh;
           align-items: center;
-          gap: 10px;
+          gap: 0.75vw;
           cursor: pointer;
 
           img {
@@ -162,7 +172,7 @@ const NavContainer = styled.nav`
           }
           p {
             margin: 0;
-            font-size: 12px;
+            font-size: 1.31vh;
             color: #e35a87;
             font-weight: bold;
           }
@@ -183,7 +193,8 @@ const NavContainer = styled.nav`
     .userUtilities > ul {
       list-style: none;
       display: flex;
-      gap: 30px;
+      gap: 1.56vw;
+      margin: 0;
 
       li > * {
         display: flex;
@@ -193,17 +204,17 @@ const NavContainer = styled.nav`
 
       .navLinks {
         text-decoration: none;
-        font-size: 14px;
+        font-size: 1.53vh;
         color: #e3fdff;
         font-weight: bold;
 
         p {
-          margin-left: 8px;
+          margin-left: 0.41vw;
         }
 
         .navIcons {
-          width: 25px;
-          font-size: 30px;
+          width: 1.3vw;
+          font-size: 3.28vh;
           color: white;
         }
       }
@@ -220,34 +231,42 @@ const SubNavContainer = styled.div`
   .firstDiv {
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     justify-content: center;
 
     ul {
+      margin: 0;
       list-style: none;
       display: flex;
-      gap: 100px;
+      gap: 5.2vw;
 
       li > * {
         display: flex;
 
         align-items: center;
-        gap: 10px;
+        gap: 0.52vw;
         text-decoration: none;
         color: #ffffff;
 
-        padding: 5px;
+        padding: 0.26vw;
+      }
+
+      li {
+        //Icons
+        img {
+          width: 2.39vw;
+        }
       }
 
       .downArrowIcon {
-        font-size: 10px;
+        font-size: 1.095vh;
       }
     }
     p {
       margin: 0;
 
-      font-size: 14px;
-      line-height: 46px;
+      font-size: 1.53vh;
+      line-height: 5.038vh;
     }
   }
 
@@ -258,11 +277,11 @@ const SubNavContainer = styled.div`
     ul {
       list-style: none;
       display: flex;
-      gap: 25px;
+      gap: 2.75vh;
       height: 100%;
 
       align-items: center;
-      font-size: 14px;
+      font-size: 1.53vh;
       justify-content: center;
       margin: 0;
 
@@ -276,6 +295,10 @@ const SubNavContainer = styled.div`
 
 export const Navbar = () => {
   const [showLocationDiv, setShowLocationDiv] = useState(false);
+  const body = document.querySelector("body");
+  // body.addEventListener("click", () => {
+  //   setShowLocationDiv(false);
+  // });
 
   const getLocation = () => {};
   return (

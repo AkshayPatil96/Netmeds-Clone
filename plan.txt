@@ -1,0 +1,39 @@
+--PAGE
+1.Landing
+2.Cart
+3.Login
+4.Logout
+5.Products 
+
+	-Categoriese
+	1.COVID Essentials
+	2.Diabetes
+	3.Eyewear
+	
+	-Wellness
+	-Labtest
+	-Beuty
+		2 categries
+6.Address
+7.Payment Page
+8.Product details page
+
+--COMPONENTS
+1.NavBar
+2.SubNav
+2.Footer
+
+=>LANDIND
+	1.Ad slider
+	2.Categorise 
+	3.Trending today => onClick Beuty
+	4.ShopBy cate : Product slider
+	5.Top Brands (Static)
+=> Products 
+	1.Cover Pic
+	2.Sidebar =>cate+Filter
+	3.Display Products
+	
+	
+	
+
