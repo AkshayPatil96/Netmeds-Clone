@@ -13,6 +13,7 @@ import {
   faCaretDown,
   faCaretUp,
 } from "@fortawesome/free-solid-svg-icons";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 const NavContainer = styled.nav`
   height: 9.85vh;
   width: 100%;
@@ -73,6 +74,12 @@ const NavContainer = styled.nav`
 
         p {
           margin: 0;
+          -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+          -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently*/
         }
         .pinCode {
           font-size: 1.8vh;
@@ -261,6 +268,55 @@ const SubNavContainer = styled.div`
       .downArrowIcon {
         font-size: 1.095vh;
       }
+
+      //Perent List
+      .perentList {
+        position: relative;
+      }
+
+      //SubList
+      .sub_list {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        height: auto;
+        z-index: 1;
+        background-color: #f6f6f6;
+        top: 4.5vh;
+        left: 3.1vw;
+        width: 8vw;
+
+        ul {
+          margin: 0;
+          list-style: none;
+          display: flex;
+          gap: 0;
+          padding: 0;
+          flex-direction: column;
+
+          width: 100%;
+          li {
+            height: 4.5vh;
+
+            display: flex;
+          }
+          .subLink {
+            color: #151b39;
+            font-size: 1.43vh;
+          }
+        }
+      }
+
+      .perentList:hover .sub_list {
+        opacity: 1;
+        visibility: visible;
+      }
+      .perentList:hover .sub_list li:hover {
+        background-color: #fffbfb;
+      }
+      .perentList:hover .sub_list li:hover .subLink {
+        color: #02b7c2;
+      }
     }
     p {
       margin: 0;
@@ -290,6 +346,8 @@ const SubNavContainer = styled.div`
         text-decoration: none;
       }
     }
+
+    //sublist
   }
 `;
 
@@ -419,7 +477,6 @@ export const SubNav = () => {
                 alt=""
               />
               <p>Medicine</p>
-              <FontAwesomeIcon icon={faCaretDown} className="downArrowIcon" />
             </Link>
           </li>
           <li>
@@ -440,17 +497,65 @@ export const SubNav = () => {
               <p>Lab Tests</p>
             </Link>
           </li>
-          <li>
+          <li className="perentList">
             <Link to={"#"}>
               <img
                 src="https://www.netmeds.com/assets/gloryweb/images/icons/beauty.svg"
                 alt=""
               />
               <p>Beuty</p>
-              <FontAwesomeIcon icon={faCaretDown} className="downArrowIcon" />
+              <FontAwesomeIcon
+                icon={faCaretDown}
+                onMouseOver={icon`${faCaretUp}`}
+                className="downArrowIcon"
+              />
             </Link>
+            <div className="sub_list">
+              <ul>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Personal Care
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Make-Up
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Hair
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Skin Care
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Tools & Appliances
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Mom & Baby
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Fragrances
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Men's Grooming
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li>
+          <li className="perentList">
             <Link to={"#"}>
               <img
                 src="https://www.netmeds.com/assets/version1649433944/gloryweb/images/icons/health-library.svg"
@@ -459,6 +564,25 @@ export const SubNav = () => {
               <p>Health Coener</p>
               <FontAwesomeIcon icon={faCaretDown} className="downArrowIcon" />
             </Link>
+            <div className="sub_list">
+              <ul>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Health Library
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    PatientsAlike
+                  </Link>
+                </li>
+                <li>
+                  <Link className="subLink" to={"#"}>
+                    Corona Awareness
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
       </div>
