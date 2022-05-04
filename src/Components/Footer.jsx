@@ -1,6 +1,12 @@
 import React from "react";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, p } from "react-router-dom";
 import styled from "styled-components";
+
+const FooterDiv = styled.div`
+  background-color:#fff;
+`
 
 const Wrapper = styled.footer`
   width:85%;
@@ -18,16 +24,31 @@ left:-50px;
 line-height:1.5;
 color:rgba(11,18,25,.5);
 font-size: 16px;
+margin-top:30px;
 `
 const FooterContainer = styled.div`
   display:flex;
   justify-content:space-between;
   margin:20px 0;
+  font-size:14px;
 `
+const Input = styled.input`
+border:none;
+padding:5px 15px; 
+`
+const ButtonAro = styled.button`
+border:none;
+color:#45babc;
+background-color:#fff;
+margin-left:30px;
 
+`
+const FooterSub =styled.div`
+  width:21%;
+`
 const Footer = () => {
   return (
-    <div>
+    <FooterDiv>
       <Wrapper>
         <FooterTop>
             <div><img src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg" alt="netmeds" /></div>
@@ -66,27 +87,30 @@ const Footer = () => {
                 <p>Youtube</p>
                 <p>Refer & Earn</p>
             </div>
-            <div>
+            <FooterSub>
                 <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
                 <p>Get a free subscription to our health and 
                     fitness tip and stay tuned to our latest offers
                 </p>
-                <input type="text" name="" placeholder="Enter your email address" />
+                <Input type="text" name="" placeholder="Enter your email address" />
+                <ButtonAro><FontAwesomeIcon icon={faArrowRight} /></ButtonAro>
                 <hr />
-                <img src="https://www.netmeds.com/assets/gloryweb/images/icons/play_store.png" alt="gPlay" />
-                <img src="https://www.netmeds.com/assets/gloryweb/images/icons/app_store.png" alt="app store" />
-            </div>
+                <div style={{display:"flex",marginTop:"10px"}}>
+                  <img style={{width:"130px",height:"35px"}} src="https://www.netmeds.com/assets/gloryweb/images/icons/play_store.png" alt="gPlay" />
+                  <img style={{width:"130px",height:"35px",marginLeft:"15px"}} src="https://www.netmeds.com/assets/gloryweb/images/icons/app_store.png" alt="app store" />
+                </div>
+            </FooterSub>
         </FooterContainer>
         <hr />
         <FooterContainer>
-          <div><Link to="/">Medicine</Link></div>
-          <div><Link to="/">Wellness</Link></div>
-          <div><Link to="/">Lab Test</Link></div>
-          <div><Link to="/">Beauty</Link></div>
-          <div><p style={{margin:"0px"}}>Copyright© 2022. All Rights Reserved.</p></div>
+        <div><Link to="/" style={{color:"rgba(11,18,25,.5)"}}>Medicine</Link></div>
+          <div><Link to="/" style={{color:"rgba(11,18,25,.5)"}}>Wellness</Link></div>
+          <div><Link to="/" style={{color:"rgba(11,18,25,.5)"}}>Lab Test</Link></div>
+          <div><Link to="/" style={{color:"rgba(11,18,25,.5)"}}>Beauty</Link></div>
+          <div><p style={{margin:"0px",color:"rgba(11,18,25,.5)"}}>Copyright© 2022. All Rights Reserved.</p></div>
         </FooterContainer>
       </Wrapper>
-    </div>
+    </FooterDiv>
   );
 };
 

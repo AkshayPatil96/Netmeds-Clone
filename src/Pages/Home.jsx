@@ -4,6 +4,7 @@ import MultiItem from "../Components/Carousel/MultiItem";
 import HomeCategory from "../Components/HomeCategory";
 import data from "../Assests/Data/Net_Med_Data.json";
 import ShowCategory from "../Components/ShowCategory";
+import Footer from "../Components/Footer";
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
             <ShowCategory />
             <MultiItem />
             <MultiItem />
+            <Footer/>
         </>
     );
 };
