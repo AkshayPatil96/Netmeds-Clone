@@ -72,18 +72,17 @@ const carouselProperties = {
     ],
 };
 
-const MultiItem = () => {
+const MultiItem = () => {    
     return (
         <div className={styles.carousel}>
             <div className={styles.headingFlex}>
-
-            <h1 className={styles.heading}>Trending Products</h1>
-            <p>View All</p>
+                <h1 className={styles.heading}>Trending Products</h1>
+                <p>View All</p>
             </div>
-            <Slider {...carouselProperties} className={styles.slider} >
-                    {multiData.map((product) => {
-                        return <ShowMultiItems key={product.id} {...product} />;
-                    })}
+            <Slider {...carouselProperties} className={styles.slider}>
+                {multiData.map((product) => {
+                    return <ShowMultiItems key={product.id} {...product} />;
+                })}
             </Slider>
         </div>
     );
