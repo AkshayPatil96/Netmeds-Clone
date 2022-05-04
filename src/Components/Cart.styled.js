@@ -67,6 +67,4 @@ export const CardProduct = styled.div`
   width:150px;
   margin-top:10px;
   border:none;
-  border-radius:10px
-
-  `
+  border-radius:10px`
