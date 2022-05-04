@@ -4,18 +4,15 @@ import MultiItem from "../Components/Carousel/MultiItem";
 import HomeCategory from "../Components/HomeCategory";
 import data from "../Assests/Data/Net_Med_Data.json";
 import ProductView from "../Components/ProductView";
+import Footer from "../Components/Footer";
 
 const Home = () => {
     const [homeCategory, setHomeCategory] = useState([]);
 
     let wellnessCate = data.homeCategory;
 
-    // let state = {
-    //     myData: wellnessCate,
-    // };
-
     const categoryData = () => {
-        setHomeCategory({...wellnessCate});
+        setHomeCategory({ ...wellnessCate });
     };
 
     useEffect(() => {
@@ -34,10 +31,7 @@ const Home = () => {
 
             {/* Sub-Category */}
 
-            <MultiItem
-                heading="Categories in Focus"
-                incomingData={homeCategory}
-            />
+            <MultiItem heading="Categories in Focus" />
 
             {/* Multi Product Slider for Top Brands */}
 
@@ -57,7 +51,9 @@ const Home = () => {
                 headingColor="#fff"
             />
 
-            <ProductView />
+            {/* Footer */}
+
+            <Footer />
         </>
     );
 };

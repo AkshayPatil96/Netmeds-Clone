@@ -7,7 +7,7 @@ import { data, NextBtn, PreviousBtn } from "./Data";
 const Carousel = () => {
     return (
         <>
-            <div style={{ margin: "30px" }} className="carousel">
+            <div className="carousel">
                 <Slider
                     autoplay
                     autoplaySpeed={5000}

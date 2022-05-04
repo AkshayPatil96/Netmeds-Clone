@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const Card = styled.div`
+export const Card = styled(Link)`
     border-radius: 10px;
     margin: 5% 5%;
     padding: 5%;
@@ -19,6 +20,7 @@ export const Card = styled.div`
         text-overflow: ellipsis;
         font-weight: bold;
         height: 38px;
+        margin-bottom: 5%;
         font-size: 16px;
         padding: 0 0.5rem 0 0.7rem;
         text-align: start;
@@ -203,9 +205,9 @@ const ProductCard = (props) => {
 
     return (
         <>
-            <Card>
+            <Card to={props.id}>
                 <img
-                    className="multi__image"
+                    className="multi_image"
                     src={props.imageUrl}
                     alt=""
                     style={{
