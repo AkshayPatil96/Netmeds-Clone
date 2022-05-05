@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-const SidebarLink = styled.div`
+export const SidebarLink = styled.div`
     display: flex;
     color: #777777;
     justify-content: space-between;
@@ -29,11 +29,13 @@ const SidebarLink = styled.div`
     }
 `;
 
-const SidebarLabel = styled.span`
+export const SidebarLabel = styled.span`
     margin-left: 16px;
+    color: ${(props) => (props.primary ? "#181e3c" : "#77777")};
+    font-weight: ${(props) => (props.primary ? "bolder" : "400")};
 `;
 
-const DropdownLink = styled(Link)`
+export const DropdownLink = styled(Link)`
     background: #fff;
     padding: 0.5rem 2rem;
     display: flex;
@@ -42,6 +44,7 @@ const DropdownLink = styled(Link)`
     color: #777777;
     font-size: 14px;
     border-left: 4px solid #fff;
+    /* border: 1px solid; */
 
     &:hover {
         background: #c4c4c490;

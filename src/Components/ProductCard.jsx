@@ -11,6 +11,7 @@ export const Card = styled(Link)`
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
     position: relative;
+    text-decoration: none;
 
     .title {
         display: -webkit-box;
@@ -20,10 +21,23 @@ export const Card = styled(Link)`
         text-overflow: ellipsis;
         font-weight: bold;
         height: 38px;
-        margin-bottom: 5%;
+        color: #181e3c;
+        margin-bottom: 1%;
         font-size: 16px;
         padding: 0 0.5rem 0 0.7rem;
         text-align: start;
+    }
+
+    .seller {
+        color: #777777;
+        font-size: 14px;
+        padding: 0 0.5rem 0 0.7rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 2%;
     }
 
     .discount {
@@ -35,7 +49,7 @@ export const Card = styled(Link)`
         font-weight: bold;
         background: #84be52;
         color: #ffffff;
-        top: 0;
+        top: 4%;
         left: 5%;
     }
 
@@ -203,6 +217,10 @@ const ProductCard = (props) => {
         }
     };
 
+    const discountPrice = Math.ceil(
+        ((props.strikeOfPrice - props.salePrice) / props.strikeOfPrice) * 100
+    );
+
     return (
         <>
             <Card to={props.id}>
@@ -218,6 +236,7 @@ const ProductCard = (props) => {
                     }}
                 />
                 <p className="title">{props.title}</p>
+                <p className="seller">Mkt: {props.seller}</p>
                 <Price>
                     <span className="static" style={{ color: "#696969" }}>
                         Best Price*{" "}
@@ -261,11 +280,7 @@ const ProductCard = (props) => {
                     <p></p>
                 ) : (
                     <p className="discount">
-                        {`${Math.ceil(
-                            ((props.strikeOfPrice - props.salePrice) /
-                                props.strikeOfPrice) *
-                                100
-                        )}% OFF`}
+                        {`${discountPrice}% OFF`}
                     </p>
                 )}
                 {!authCount ? (

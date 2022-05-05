@@ -50,8 +50,8 @@ const MainDiv = styled.div`
 const ProductView = () => {
     // const [homeCategory, setHomeCategory] = useState([]);
 
-    let wellnessCate = data.BrandCategory;
-    // console.log('wellnessCate: ', wellnessCate);
+    let wellnessCate = data.products[0].category[0].products;
+    // console.log('wellnessCate: ', data.products[0].category[0].products);
 
     // const categoryData = () => {
     //   setHomeCategory(wellnessCate);

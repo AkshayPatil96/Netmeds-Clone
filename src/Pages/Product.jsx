@@ -3,6 +3,7 @@ import styled from "styled-components";
 import ProductSideBar from "../Components/ProductSideBar";
 import ProductView from "../Components/ProductView";
 import Carousel from "../Components/Carousel/Carousel";
+import SortBar from "../Components/SortBar";
 
 const MainProdDiv = styled.div`
     display: grid;
@@ -22,11 +23,12 @@ const Product = () => {
                 <div>
                     <div
                         style={{
-                            margin: "0 1% 5% 1%" ,
+                            margin: "0 1% 5% 1%",
                         }}
                     >
                         <Carousel />
                     </div>
+                    <SortBar />
                     <ProductView />
                 </div>
             </MainProdDiv>
