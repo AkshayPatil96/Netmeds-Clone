@@ -5,11 +5,11 @@ body {
   padding: 0;
   max-width: 100%;
   box-sizing: border-box;
-  background: #f3f7fb;
+  background: #f6f6f7;
 
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #f3f7fb;
+  /* background-color: #f3f7fb; */
 }
