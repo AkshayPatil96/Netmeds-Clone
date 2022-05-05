@@ -20,7 +20,7 @@ export const Card = styled.div`
         height: 38px;
         font-size: 16px;
         padding: 0 0.5rem 0 0.7rem;
-        text-align: start;
+        text-align: center;
     }
 
     .discount {
@@ -156,61 +156,6 @@ const ShowMultiItems = (props) => {
                     }}
                 />
                 <p className="title">{props.title}</p>
-                <Price>
-                    <span className="static" style={{ color: "#696969" }}>
-                        Best Price*{" "}
-                    </span>
-                    <span
-                        style={{
-                            color: "green",
-                        }}
-                    >
-                        {`₹ ${props.salePrice}`}
-                    </span>
-                </Price>
-                <Price orig>
-                    {props.strikeOfPrice === undefined ? (
-                        <>
-                            <span style={{ color: "#696969" }}>MRP* </span>
-                            <span
-                                style={{
-                                    color: "#696969",
-                                    textDecoration: "line-through #c0c0c0",
-                                }}
-                            >
-                                {`₹ ${props.salePrice}`}
-                            </span>
-                        </>
-                    ) : (
-                        <>
-                            <span style={{ color: "#696969" }}>MRP* </span>
-                            <span
-                                style={{
-                                    color: "#696969",
-                                    textDecoration: "line-through #c0c0c0",
-                                }}
-                            >
-                                {`₹ ${props.strikeOfPrice}`}
-                            </span>
-                        </>
-                    )}
-                </Price>
-                {props.strikeOfPrice === undefined ? (
-                    <p></p>
-                ) : (
-                    <p className="discount">
-                        {`${Math.ceil(
-                            ((props.strikeOfPrice - props.salePrice) /
-                                props.strikeOfPrice) *
-                                100
-                        )}% OFF`}
-                    </p>
-                )}
-                <BUTTON>
-                    <button className="btn-7">
-                        <span>ADD TO CART</span>
-                    </button>
-                </BUTTON>
             </Card>
         </>
     );
