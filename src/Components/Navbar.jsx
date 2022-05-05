@@ -53,8 +53,9 @@ const NavContainer = styled.nav`
 
       height: 5.25vh;
       display: flex;
+      /* align-items: center; */
       box-sizing: border-box;
-      padding: 0.32px;
+      padding: 5px;
       background-color: #ffffff;
       border-radius: 8px;
       color: #9093b4;
@@ -96,13 +97,18 @@ const NavContainer = styled.nav`
 
       .searchCon {
         flex-grow: 1;
-
+        height: 100%;
+        //  border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         input {
           width: 95%;
-          height: 97%;
+          height: 70%;
           border: 0;
           font-size: 1.53vh;
-          /* text-indent: vw; */
+          text-indent: 0.5vw;
+          /* border: 1px solid black; */
         }
       }
 
@@ -191,8 +197,8 @@ const NavContainer = styled.nav`
 
       //Sowing Visibility
       .getLocation {
-        opacity: ${(props) => (props.showLocation ? "100%" : "0")};
-        visibility: ${(props) => (props.showLocation ? "visible" : "none")};
+        opacity: ${(props) => (props.showLocation ? "1" : "0")};
+        visibility: ${(props) => (props.showLocation ? "visible" : "hidden")};
         z-index: 1;
       }
     }
