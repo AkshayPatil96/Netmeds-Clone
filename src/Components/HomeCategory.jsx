@@ -10,6 +10,7 @@ const Cate = styled.div`
     gap: 2rem;
     margin: 5%;
 `;
+
 const Card = styled.div`
     display: flex;
     justify-content: space-between;
