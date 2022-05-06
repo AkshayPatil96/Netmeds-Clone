@@ -1,3 +1,5 @@
 node_modules
 App.js
 index.js
+package.json
+package-lock.json

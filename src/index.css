@@ -1,25 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,800&display=swap");
 
-<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
   max-width: 100%;
   box-sizing: border-box;
   background: #f6f6f7;
-=======
->>>>>>> 41305e048700aac4402f9ea5a8ae42c6ac929ba6
-
+}
 body {
   max-width: 100%;
   background: #f3f7fb;
-  
+
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-<<<<<<< HEAD
   /* background-color: #f3f7fb; */
-=======
->>>>>>> 41305e048700aac4402f9ea5a8ae42c6ac929ba6
 }
