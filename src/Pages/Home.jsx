@@ -35,21 +35,21 @@ const Home = () => {
 
             {/* Multi Product Slider for Top Brands */}
 
-            <MultiItem
+            {/* <MultiItem
                 gradBgColor="#ef4281"
                 heading="Expolre Beauty"
                 view="View All"
                 headingColor="#fff"
-            />
+            /> */}
 
             {/* Multi Product Slider for Top Brands */}
 
-            <MultiItem
+            {/* <MultiItem
                 gradBgColor="#8b9096"
                 heading="Top Brands"
                 view="View All"
                 headingColor="#fff"
-            />
+            /> */}
 
             {/* Footer */}
 

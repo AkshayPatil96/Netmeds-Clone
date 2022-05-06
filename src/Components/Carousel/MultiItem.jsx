@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { multiData } from "./Data";
 import ShowMultiItems from "./ShowMultiItems";
 import styles from "./carousel.module.css";
 import data from "../../Assests/Data/Net_Med_Data.json";
@@ -75,12 +74,14 @@ const carouselProperties = {
     ],
 };
 
-const MultiItem = (props, { incomingData }) => {
+const MultiItem = (props) => {
+    // console.log('incomingData: ', incomingData);
     const [homeCategory, setHomeCategory] = useState([]);
-
-    const fetchData = incomingData;
-    console.log('fetchData: ', fetchData);
     
+
+    // const fetchData = incomingData;
+    // console.log("fetchData: ", fetchData);
+
     let wellnessCate = data.homeCategory;
     const categoryData = () => {
         setHomeCategory(wellnessCate);

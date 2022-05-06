@@ -1,4 +1,5 @@
 import styled from "styled-components"
+
 export const Cardmain=styled.div`
 background-color: whitesmoke;
 width:100%;

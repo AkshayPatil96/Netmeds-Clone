@@ -38,21 +38,25 @@ const Card = styled.div`
 `;
 
 const ShowMultiItems = (props) => {
+    // console.log("props: ", props);
+
     return (
         <>
             <Card>
-                <img
-                    className="multi__image"
-                    src={props.imageUrl}
-                    alt=""
-                    style={{
-                        width: "100%",
-                        height: "170px",
-                        objectFit: "contain",
-                        marginBottom: "10px",
-                    }}
-                />
-                <p className="title">{props.title}</p>
+                <div>
+                    <img
+                        className="multi__image"
+                        src={props.imageUrl}
+                        alt=""
+                        style={{
+                            width: "100%",
+                            height: "170px",
+                            objectFit: "contain",
+                            marginBottom: "10px",
+                        }}
+                    />
+                    <p className="title">{props.title}</p>
+                </div>
             </Card>
         </>
     );

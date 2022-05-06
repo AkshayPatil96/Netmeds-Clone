@@ -4,6 +4,7 @@ import ProductSideBar from "../Components/ProductSideBar";
 import ProductView from "../Components/ProductView";
 import Carousel from "../Components/Carousel/Carousel";
 import SortBar from "../Components/SortBar";
+import MultiItem from "../Components/Carousel/MultiItem";
 
 const MainProdDiv = styled.div`
     display: grid;
@@ -28,6 +29,7 @@ const Product = () => {
                     >
                         <Carousel />
                     </div>
+                    <MultiItem heading="Category" />
                     <SortBar />
                     <ProductView />
                 </div>

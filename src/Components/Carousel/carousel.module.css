@@ -46,6 +46,11 @@
   margin-bottom: 3%;
 }
 
+.heading {
+  /* border:1px solid; */
+  margin: 1.5% 1%;
+}
+
 .headingFlex {
   display: flex;
   justify-content: space-between;
