@@ -20,10 +20,10 @@ const PaymentDiv = styled.div`
 const PayPrefer = styled.div`
   width: 70%;
   margin: 20px 0px;
-  img{
-      width:30px;
-      height:30px;
-      margin-right:10px;
+  img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
   }
 `;
 const PaymetPM = styled.div`
@@ -32,23 +32,68 @@ const PaymetPM = styled.div`
   padding: 5px 20px 15px 20px;
 `;
 const PaymetPDiv = styled.div`
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  label{
+  margin:15px 0 30px 0;
+
+  label {
     position: relative;
     top: -10px;
   }
-  .lnk{
-    color:red;
-    font-weight:650;
-    font-size:12px;
+  .lnk {
+    color: red;
+    font-weight: 650;
+    font-size: 12px;
   }
+  .inpRadio{
+      width:18px;
+    height:18px;
+   }
+   p{
+    padding: 0px 40px;
+    font-size:12px;
+   }
+`;
+const PaymetGDiv = styled.div`
+display: flex;
+  justify-content: space-between;
+  marginBottom:30px;
+  label {
+    position: relative;
+    top: -10px;
+  }
+  .lnk {
+    color: red;
+    font-weight: 650;
+    font-size: 12px;
+  }
+  .inpRadio{
+      width:18px;
+    height:18px;
+   }
+   p{
+    padding: 0px 40px;
+    font-size:12px;
+   }
 `
 const PaymetWallet = styled.div`
   margin-top: 15px;
   background-color: #fff;
   border-radius: 10px;
   padding: 5px 20px 15px 20px;
+  
+  
+`;
+const PaymetCod = styled.div`
+  margin-top: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 35px 20px;
+  font-sixe:12px;
+  p{
+    padding: 0px 40px;
+    font-size:12px;
+  }
 `;
 const PatyDetail = styled.div`
   width: 30%;
@@ -117,37 +162,51 @@ const Payment = () => {
                   <label>Paytm</label>
                 </div>
                 <div>
-                  <Link to="/" className="lnk">LINK</Link>
+                  <Link to="/" className="lnk">
+                    LINK
+                  </Link>
                 </div>
               </PaymetPDiv>
               <hr />
-              <PaymetPDiv>
+              <PaymetGDiv>
                 <div>
                   <img
                     src="https://www.netmeds.com/assets/pgicon/Mobikwik_lo.png"
                     alt="mobi"
                   />
                   <label>MobiKwik</label>
+                  <p>
+                  Get assured MobiKwik cashback up to Rs. 600 on orders above Rs. 750. TCA.
+                  </p>
                 </div>
                 <div>
-                  <Link to="/" className="lnk">LINK</Link>
+                  <Link to="/" className="lnk">
+                    LINK
+                  </Link>
                 </div>
-              </PaymetPDiv>
+              </PaymetGDiv>
             </PaymetPM>
             <PaymetWallet>
               <p>WALLET</p>
-              <PaymetPDiv >
+              <PaymetGDiv>
                 <div>
                   <img
                     src="https://www.netmeds.com/assets/pgicon/Free_Charge_lo.png"
                     alt="Frechagre"
                   />
                   <label>Freecharge PayLater | Wallet</label>
+                  <p>
+                    Get up to Rs. 30 Freecharge cashback (10%) on your
+                    transaction using Freecharge wallet on Netmeds. Offer valid
+                    ONCE per user till 31st May 2022. *T&C apply
+                  </p>
                 </div>
                 <div>
-                  <Link to="/" className="lnk">LINK</Link>
+                  <Link to="/" className="lnk">
+                    LINK
+                  </Link>
                 </div>
-              </PaymetPDiv>
+              </PaymetGDiv>
               <hr />
               <PaymetPDiv>
                 <div>
@@ -159,14 +218,14 @@ const Payment = () => {
                   <label>Amazon Pay</label>
                 </div>
                 <div>
-                  <input type="radio" name="" className="A" />
+                  <input type="radio" name="" className="inpRadio" />
                 </div>
               </PaymetPDiv>
             </PaymetWallet>
             {/*Other payment */}
-            <div>
+            <PaymetWallet>
               <p>OTHER PAYMENTS</p>
-              <div>
+              <PaymetPDiv>
                 <div>
                   <img
                     src="https://www.netmeds.com/assets/pgicon/Phone_Pay_lo.png"
@@ -174,14 +233,16 @@ const Payment = () => {
                   />
                   <label>PhonePe</label>
                 </div>
-                <div></div>
-              </div>
-            </div>
+                <div>
+                  <input type="radio" name="" className="inpRadio" />
+                </div>
+              </PaymetPDiv>
+            </PaymetWallet>
 
             {/*UPI */}
-            <div>
+            <PaymetWallet>
               <p>UPI</p>
-              <div>
+              <PaymetPDiv>
                 <div>
                   <img
                     src="https://www.netmeds.com/assets/pgicon/googlepaylogo.png"
@@ -189,22 +250,37 @@ const Payment = () => {
                   />
                   <label>Google Pay</label>
                 </div>
-                <div></div>
-              </div>
-            </div>
+                <div>
+                  <input type="radio" name="" className="inpRadio" />
+                </div>
+              </PaymetPDiv>
+            </PaymetWallet>
             {/*Credit and debit */}
-            <div>
-              <p>CREDIT & DEBIT CARDS</p>
-              <div></div>
-            </div>
+            <PaymetWallet>
+              <p style={{fontSize:"11px",fontWeight:"650"}}>CREDIT & DEBIT CARDS</p>
+              <hr style={{margin:"22px 0"}} />
+              <div style={{textAlign:"center",color:"#24aeb1",fontWeight:"750",cursor:"pointer"}}>
+                <p style={{marginBottom:"8px"}}>ADD NEW CARD</p>
+              </div>
+            </PaymetWallet>
             {/*Cod */}
-            <div>
-              <p>Cash on Delivery</p>
-              <p>
-                Hear us out! Pay online and earn 100% NMS SuperCash (up to Rs.
-                3000)on all prepaid orders
-              </p>
-            </div>
+            <PaymetCod>
+              <PaymetGDiv>
+                <div>
+                  <img
+                    src="https://www.netmeds.com/assets/pgicon/COD.png"
+                    alt="Frechagre"
+                  />
+                  <label>Cash on Delivery</label>
+                  <p>
+                  Hear us out! Pay online and earn 100% NMS SuperCash (up to Rs. 3000) on all prepaid orders
+                  </p>
+                </div>
+                <div>
+                  <input type="radio" name="" className="inpRadio" />
+                </div>
+              </PaymetGDiv>
+            </PaymetCod>
           </PayPrefer>
           <PatyDetail>
             <p
