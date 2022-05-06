@@ -34,7 +34,7 @@ const PaymetPM = styled.div`
 const PaymetPDiv = styled.div`
   display: flex;
   justify-content: space-between;
-  margin:15px 0 30px 0;
+  margin: 15px 0 30px 0;
 
   label {
     position: relative;
@@ -45,19 +45,19 @@ const PaymetPDiv = styled.div`
     font-weight: 650;
     font-size: 12px;
   }
-  .inpRadio{
-      width:18px;
-    height:18px;
-   }
-   p{
+  .inpRadio {
+    width: 18px;
+    height: 18px;
+  }
+  p {
     padding: 0px 40px;
-    font-size:12px;
-   }
+    font-size: 12px;
+  }
 `;
 const PaymetGDiv = styled.div`
-display: flex;
+  display: flex;
   justify-content: space-between;
-  marginBottom:30px;
+  marginbottom: 30px;
   label {
     position: relative;
     top: -10px;
@@ -67,32 +67,30 @@ display: flex;
     font-weight: 650;
     font-size: 12px;
   }
-  .inpRadio{
-      width:18px;
-    height:18px;
-   }
-   p{
+  .inpRadio {
+    width: 18px;
+    height: 18px;
+  }
+  p {
     padding: 0px 40px;
-    font-size:12px;
-   }
-`
+    font-size: 12px;
+  }
+`;
 const PaymetWallet = styled.div`
   margin-top: 15px;
   background-color: #fff;
   border-radius: 10px;
   padding: 5px 20px 15px 20px;
-  
-  
 `;
 const PaymetCod = styled.div`
   margin-top: 15px;
   background-color: #fff;
   border-radius: 10px;
   padding: 35px 20px;
-  font-sixe:12px;
-  p{
+  font-sixe: 12px;
+  p {
     padding: 0px 40px;
-    font-size:12px;
+    font-size: 12px;
   }
 `;
 const PatyDetail = styled.div`
@@ -176,7 +174,8 @@ const Payment = () => {
                   />
                   <label>MobiKwik</label>
                   <p>
-                  Get assured MobiKwik cashback up to Rs. 600 on orders above Rs. 750. TCA.
+                    Get assured MobiKwik cashback up to Rs. 600 on orders above
+                    Rs. 750. TCA.
                   </p>
                 </div>
                 <div>
@@ -257,10 +256,19 @@ const Payment = () => {
             </PaymetWallet>
             {/*Credit and debit */}
             <PaymetWallet>
-              <p style={{fontSize:"11px",fontWeight:"650"}}>CREDIT & DEBIT CARDS</p>
-              <hr style={{margin:"22px 0"}} />
-              <div style={{textAlign:"center",color:"#24aeb1",fontWeight:"750",cursor:"pointer"}}>
-                <p style={{marginBottom:"8px"}}>ADD NEW CARD</p>
+              <p style={{ fontSize: "11px", fontWeight: "650" }}>
+                CREDIT & DEBIT CARDS
+              </p>
+              <hr style={{ margin: "22px 0" }} />
+              <div
+                style={{
+                  textAlign: "center",
+                  color: "#24aeb1",
+                  fontWeight: "750",
+                  cursor: "pointer",
+                }}
+              >
+                <p style={{ marginBottom: "8px" }}>ADD NEW CARD</p>
               </div>
             </PaymetWallet>
             {/*Cod */}
@@ -273,7 +281,8 @@ const Payment = () => {
                   />
                   <label>Cash on Delivery</label>
                   <p>
-                  Hear us out! Pay online and earn 100% NMS SuperCash (up to Rs. 3000) on all prepaid orders
+                    Hear us out! Pay online and earn 100% NMS SuperCash (up to
+                    Rs. 3000) on all prepaid orders
                   </p>
                 </div>
                 <div>
@@ -282,35 +291,49 @@ const Payment = () => {
               </PaymetGDiv>
             </PaymetCod>
           </PayPrefer>
+
+          {/*Payment detail  */}
           <PatyDetail>
-            <p
-              style={{
-                padding: "0px 14px",
-                fontSize: "13px",
-                fontWeight: "650",
-                marginTop: "2px",
-              }}
-            >
-              PAYMENT DETAILS
-            </p>
             <div>
-              <PayT>
-                <span>MRP Total</span>
-                <span>Rs.1,234.00</span>
-                {/* //Data of price */}
-              </PayT>
-              <PayT>
-                <span>Netmeds Discount</span>
-                <span>- Rs.163.12</span>
-              </PayT>
-              <PayS>
-                <span>Total Amount*</span>
-                <span>Rs.1070.88</span>
-              </PayS>
+              <p
+                style={{
+                  padding: "0px 14px",
+                  fontSize: "13px",
+                  fontWeight: "650",
+                  marginTop: "2px",
+                }}
+              >
+                PAYMENT DETAILS
+              </p>
+              <div>
+                <PayT>
+                  <span>MRP Total</span>
+                  <span>Rs.1,234.00</span>
+                  {/* //Data of price */}
+                </PayT>
+                <PayT>
+                  <span>Netmeds Discount</span>
+                  <span>- Rs.163.12</span>
+                </PayT>
+                <PayS>
+                  <span>Total Amount*</span>
+                  <span>Rs.1070.88</span>
+                </PayS>
+              </div>
+              <PatTS>
+                <p>TOTAL SAVINGS RS.163.12</p>
+              </PatTS>
             </div>
-            <PatTS>
-              <p>TOTAL SAVINGS RS.163.12</p>
-            </PatTS>
+            <div style={{marginTop:"35px",fontStyle:"italic"}}>
+              <p style={{fontSize:"10px"}}>
+                Netmeds is a technology platform to facilitate transaction of
+                business. The products and services are offered for sale by the
+                sellers. The user authorizes the delivery personnel to be his
+                agent for delivery of the goods. For details read 
+                <Link to="/">Terms &
+                Conditions</Link>
+              </p>
+            </div>
           </PatyDetail>
         </PaymentDiv>
       </Wrapper>
