@@ -10,7 +10,7 @@ const SidebarNav = styled.nav`
     border-radius: 10px;
     background: #fff;
     /* width: 250px; */
-    /* height: 100vh; */
+    /* height: 100vh; */               
     display: flex;
     flex-direction: column;
     justify-content: center;
