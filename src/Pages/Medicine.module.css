@@ -1,0 +1,8 @@
+.col{
+    width: 242px;
+    text-align: left;
+}
+  .med_div{
+    display: flex;
+    justify-content: center;
+}

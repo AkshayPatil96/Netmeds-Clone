@@ -16,6 +16,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
                             "title": "Revital H Capsule 10'S",
                             "seller": "Sun Pharmaceutical Industries Ltd",
+                            "brand":"Revital",
                             "salePrice": 93.5,
                             "strikeOfPrice": 110.0
                         },
@@ -24,6 +25,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
                             "title": "Revital H Woman Tablet 30'S",
                             "seller": "Sun Pharmaceutical Industries Ltd",
+                            "brand":"Revital",
                             "salePrice": 293.25,
                             "strikeOfPrice": 345.0
                         },
@@ -32,6 +34,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
                             "title": "Revital H Capsule 60'S",
                             "seller": "Sun Pharmaceutical Industries Ltd",
+                            "brand":"Revital",
                             "salePrice": 467.5,
                             "strikeOfPrice": 550.0
                         },
@@ -40,6 +43,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
                             "title": "Dettol Antiseptic Liquid 60 ml",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 33.27,
                             "strikeOfPrice": 50.0
                         },
@@ -48,6 +52,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
                             "title": "Revital H Capsule 30'S",
                             "seller": "Sun Pharmaceutical Industries Ltd",
+                            "brand":"Revital",
                             "salePrice": 263.5,
                             "strikeOfPrice": 310.0
                         },
@@ -56,6 +61,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/835057/dettol_antiseptic_liquid_550_ml_0.jpg",
                             "title": "Dettol Antiseptic Liquid 550 ml",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 194.6,
                             "strikeOfPrice": 220.0
                         },
@@ -64,6 +70,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
                             "title": "Dettol Antiseptic Liquid 1 ltr",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 331.41,
                             "strikeOfPrice": 380.0
                         },
@@ -72,6 +79,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408222/revital_h_woman_tablet_10_s_0.jpg",
                             "title": "Revital H Woman Tablet 10'S",
                             "seller": "Sun Pharmaceutical Industries Ltd",
+                            "brand":"Revital",
                             "salePrice": 102.0,
                             "strikeOfPrice": 120.0
                         },
@@ -80,6 +88,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/38049/garlic_pearls_capsule_100_s_0.jpg",
                             "title": "Garlic Pearls Capsule 100'S",
                             "seller": "Sun Pharmaceutical Industries Ltd",
+                            "brand":"Garlic",
                             "salePrice": 127.5,
                             "strikeOfPrice": 150.0
                         },
@@ -88,6 +97,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/886988/dettol_antiseptic_liquid_disinfectant_250_ml_0_1.jpg",
                             "title": "Dettol Antiseptic Liquid Disinfectant 250 ml",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 116.16,
                             "strikeOfPrice": 150.0
                         },
@@ -96,6 +106,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/839437/fast_up_charge_natural_vitamin_c_tablets_orange_flavour_20_s_0.jpg",
                             "title": "Fast&Up Charge Natural Vitamin C & Zinc Tablets - Orange Flavour 20's",
                             "seller": "Aeronutrix Sports Products Private Limited",
+                            "brand":"Fast",
                             "salePrice": 300.3,
                             "strikeOfPrice": 390.0
                         },
@@ -104,6 +115,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15116/dettol_disinfectant_lime_fresh_500_ml_0_1.jpg",
                             "title": "Dettol Disinfectant - Lime Fresh 500 ml",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 173.7,
                             "strikeOfPrice": 193.0
                         },
@@ -112,6 +124,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412802/dettol_disinfectant_liquid_menthol_cool_500_ml_0.jpg",
                             "title": "Dettol Disinfectant Liquid - Menthol Cool 500 ml",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 173.7,
                             "strikeOfPrice": 193.0
                         },
@@ -120,6 +133,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15129/dettol_hand_sanitizer_original_50_ml_0.jpg",
                             "title": "Dettol Instant Hand Sanitizer - Original 50 ml",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 25.0,
                             "strikeOfPrice": 50.0
                         },
@@ -128,6 +142,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15115/dettol_disinfectant_lime_fresh_200_ml_0_1.jpg",
                             "title": "Dettol Disinfectant - Lime Fresh 200 ml",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 93.1,
                             "strikeOfPrice": 98.0
                         },
@@ -136,6 +151,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/406018/savlon_antiseptic_liquid_100_ml_0_1.jpg",
                             "title": "Savlon Antiseptic Liquid 100 ml",
                             "seller": "Itc India Ltd",
+                            "brand":"Savlon",
                             "salePrice": 48.0,
                             "strikeOfPrice": 70.0
                         },
@@ -144,6 +160,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/815146/healthvit_fitness_zma_zinc_magnesium_vitamin_b6_capsules_90_s_0.jpg",
                             "title": "HealthVit Fitness ZMA (Zinc,Magnesium & Vitamin B6) Capsules 90's",
                             "seller": "West Coast Pharmaceuticals Works Ltd",
+                            "brand":"HealthVit",
                             "salePrice": 946.0,
                             "strikeOfPrice": 1100.0
                         },
@@ -152,6 +169,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412801/dettol_disinfectant_liquid_menthol_cool_200_ml_0.jpg",
                             "title": "Dettol Disinfectant Liquid - Menthol Cool 200 ml",
                             "seller": "Reckitt Benckiser India Ltd",
+                            "brand":"Dettol",
                             "salePrice": 93.1,
                             "strikeOfPrice": 98.0
                         },
@@ -160,6 +178,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858571/inlife_multivitamins_and_minerals_for_women_capsules_60_s_0.jpg",
                             "title": "INLIFE Multivitamins and Minerals for Women Capsules 60's",
                             "seller": "Inlife Pharma Private Limited",
+                            "brand":"INLIFE",
                             "salePrice": 438.97,
                             "strikeOfPrice": 699.0
                         },
@@ -168,6 +187,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858570/inlife_multivitamins_and_minerals_for_men_capsules_60_s_0.jpg",
                             "title": "INLIFE Multivitamins and Minerals for Men Capsules 60's",
                             "seller": "Inlife Pharma Private Limited",
+                            "brand":"INLIFE",
                             "salePrice": 438.97,
                             "strikeOfPrice": 699.0
                         },
@@ -176,6 +196,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842856/healthvit_cenvitan_men_multivitamin_multimineral_tablet_60s_0_3.jpg",
                             "title": "HealthVit Cenvitan Men (Multivitamin & Multimineral) Tablet 60's",
                             "seller": "West Coast Pharmaceuticals Works Ltd",
+                            "brand":"HealthVit",
                             "salePrice": 450.0,
                             "strikeOfPrice": 500.0
                         },
@@ -184,6 +205,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858143/inlife_omega_3_fish_oil_500_mg_capsules_60s_0_1.jpg",
                             "title": "INLIFE Omega 3 Fish Oil 500 mg Capsules 60's",
                             "seller": "Inlife Pharma Private Limited",
+                            "brand":"INLIFE",
                             "salePrice": 330.84,
                             "strikeOfPrice": 499.0
                         },
@@ -192,6 +214,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/885336/fast_up_charge_effervesent_tablet_orange_flavour_pack_of_3_x_20_s_0.jpg",
                             "title": "Fast&Up Charge Natural Vitamin C & Zinc Effervesent Tablet - Orange Flavour (Pack of 3 x 20's)",
                             "seller": "Aeronutrix Sports Products Private Limited",
+                            "brand":"Fast",
                             "salePrice": 807.3,
                             "strikeOfPrice": 1170.0
                         },
@@ -200,6 +223,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412506/dr_vaidyas_herbofit_capsule_30s_0_1.jpg",
                             "title": "Dr.Vaidya's Herbofit Capsule 30's",
                             "seller": "Herbolab India Pvt Ltd",
+                            "brand":"Dr",
                             "salePrice": 111.6,
                             "strikeOfPrice": 180.0
                         },
@@ -208,6 +232,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/815541/healthvit_mulvit_multivitamins_and_minerals_tablet_60_s_0.jpg",
                             "title": "HealthVit Mulvit Multivitamins and Minerals Tablet 60's",
                             "seller": "West Coast Pharmaceuticals Works Ltd",
+                            "brand":"HealthVit",
                             "salePrice": 360.0,
                             "strikeOfPrice": 400.0
                         },
@@ -216,6 +241,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408712/romsons_respirometer_0.jpg",
                             "title": "Romsons Respirometer",
                             "seller": "Romsons Scientific & Surgical Pvt Ltd",
+                            "brand":"Romsons",
                             "salePrice": 160.01,
                             "strikeOfPrice": 773.0
                         },
@@ -224,6 +250,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842857/healthvit_cenvitan_women_multivitamin_multimineral_tablet_60s_0_2.jpg",
                             "title": "HealthVit Cenvitan Women (Multivitamin & Multimineral) Tablet 60's",
                             "seller": "West Coast Pharmaceuticals Works Ltd",
+                            "brand":"HealthVit",
                             "salePrice": 473.0,
                             "strikeOfPrice": 550.0
                         },
@@ -232,6 +259,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822956/healthvit_omega_3_fish_oil_double_strength_1000_mg_softgel_60_s_0.jpg",
                             "title": "HealthVit Omega - 3 Fish Oil Double Strength 1000 mg Softgel 60's",
                             "seller": "West Coast Pharmaceuticals Works Ltd",
+                            "brand":"HealthVit",
                             "salePrice": 688.0,
                             "strikeOfPrice": 800.0
                         },
@@ -240,6 +268,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858134/inlife_multivitamin_and_minerals_supplement_tablets_60s_0_1.jpg",
                             "title": "INLIFE Multivitamin and Minerals Supplement Tablets 60's",
                             "seller": "Inlife Pharma Private Limited",
+                            "brand":"INLIFE",
                             "salePrice": 418.8,
                             "strikeOfPrice": 600.0
                         },
@@ -248,6 +277,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858173/inlife_curcumin_95_advanced_500_mg_vegetarian_capsule_60_s_0.jpg",
                             "title": "INLIFE Curcumin 95 Advanced 500 mg Vegetarian Capsule 60's",
                             "seller": "Inlife Pharma Private Limited",
+                            "brand":"INLIFE",
                             "salePrice": 714.45,
                             "strikeOfPrice": 1299.0
                         },
@@ -256,6 +286,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/814956/healthvit_femyvit_women_multivitamin_minerals_tablet_60_s_0.jpg",
                             "title": "HealthVit Femyvit Women Multivitamin Minerals Tablet 60's",
                             "seller": "West Coast Pharmaceuticals Works Ltd",
+                            "brand":"HealthVit",
                             "salePrice": 258.0,
                             "strikeOfPrice": 300.0
                         },
@@ -264,6 +295,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/821405/healthvit_b_vit_multivitamin_tablet_60s_0_1.jpg",
                             "title": "HealthVit B-Vit Multivitamin Tablet 60's",
                             "seller": "West Coast Pharmaceuticals Works Ltd",
+                            "brand":"HealthVit",
                             "salePrice": 516.0,
                             "strikeOfPrice": 600.0
                         },
@@ -272,6 +304,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/902228/sahyog_wellness_hot_water_bottle_bag_blue_0_1.jpg",
                             "title": "Sahyog Wellness Hot Water Bottle/Bag - Blue",
                             "seller": "Sahyog Wellness",
+                            "brand":"Sahyog",
                             "salePrice": 249.0,
                             "strikeOfPrice": 300.0
                         },
@@ -280,6 +313,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412632/savlon_moisture_shield_hand_wash_200_ml_0.jpg",
                             "title": "Savlon Moisture Shield Hand Wash 200 ml",
                             "seller": "Itc India Ltd",
+                            "brand":"Savlon",
                             "salePrice": 95.0
                         },
                         {
@@ -287,6 +321,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/885349/fast_up_vitalize_multivitamin_effervescent_tablet_orange_flavour_pack_of_3_x_20s_0_1.jpg",
                             "title": "Fast&Up Vitalize Multivitamin Effervescent Tablet - Orange Flavour (Pack of 3 x 20's)",
                             "seller": "Aeronutrix Sports Products Private Limited",
+                            "brand":"Fast",
                             "salePrice": 900.9,
                             "strikeOfPrice": 1170.0
                         },
@@ -295,6 +330,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412697/savlon_herbal_sensitive_hand_wash_200_ml_0.jpg",
                             "title": "Savlon Herbal Sensitive Hand Wash 200 ml",
                             "seller": "Itc India Ltd",
+                            "brand":"Savlon",
                             "salePrice": 69.0,
                             "strikeOfPrice": 80.0
                         },
@@ -303,6 +339,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842858/healthvit_cenvitan_adults_multivitamin_multimineral_tablet_60s_0_1.jpg",
                             "title": "HealthVit Cenvitan Adults (Multivitamin & Multimineral) Tablet 60's",
                             "seller": "West Coast Pharmaceuticals Works Ltd",
+                            "brand":"HealthVit",
                             "salePrice": 602.0,
                             "strikeOfPrice": 700.0
                         },
@@ -311,6 +348,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858146/inlife_garlic_oil_500_mg_capsules_60_s_0.jpg",
                             "title": "INLIFE Garlic Oil 500 mg Capsules 60's",
                             "seller": "Inlife Pharma Private Limited",
+                            "brand":"INLIFE",
                             "salePrice": 288.88,
                             "strikeOfPrice": 399.0
                         },
@@ -319,6 +357,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/859708/omron_compressor_nebulizer_ne_c101_0.jpg",
                             "title": "Omron Compressor Nebulizer (NE-C101)",
                             "seller": "Omron Healthcare Co Ltd",
+                            "brand":"Omron",
                             "salePrice": 1904.0,
                             "strikeOfPrice": 2380.0
                         },
@@ -327,6 +366,7 @@
                             "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858055/choicemmed_finger_tip_pulse_oximeter_0.jpg",
                             "title": "Choicemmed Finger Tip Pulse Oximeter",
                             "seller": "Choicemmed Technology India Pvt. Ltd.",
+                            "brand":"Choicemmed",
                             "salePrice": 900.0,
                             "strikeOfPrice": 3750.0
                         }
