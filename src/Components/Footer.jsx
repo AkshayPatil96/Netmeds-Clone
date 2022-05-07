@@ -1,7 +1,7 @@
 import React from "react";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const FooterDiv = styled.div`
@@ -32,7 +32,7 @@ const FooterContainer = styled.div`
   font-size: 14px;
 `;
 const FooterComDiv = styled.div`
-color:#0b1219;
+  color: #0b1219;
 `;
 const Input = styled.input`
   border: none;

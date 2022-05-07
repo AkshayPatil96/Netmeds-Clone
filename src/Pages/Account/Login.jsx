@@ -3,8 +3,16 @@ import { Link } from "react-router-dom";
 import { Wrapper, OTPdiv } from "./login.styled";
 import axios from "axios";
 import { nanoid } from "nanoid";
+import { addNewUser, loginExisitingUser } from "../../Redux/Auth/action.js";
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
+let token = localStorage.getItem("token") || "";
+
+let userLocalData = JSON.parse(localStorage.getItem("user")) || {};
 
 const OTP = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [mobileNumber, setMobileNumber] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
   const [checkSubmit, setCheckSubmit] = useState(false);
@@ -15,6 +23,9 @@ const OTP = () => {
 
   //Auth
   const [userAuth, setUserAuth] = useState(false);
+  //When user is already registered
+  const [userData, setUserData] = useState({});
+  //New user
 
   let id = useRef();
 
@@ -22,6 +33,7 @@ const OTP = () => {
   useEffect(() => {
     setOtp(new Array(6).fill(""));
   }, [checkSubmit]);
+
   //Handling otp input
   const handleOtpInput = (el, i) => {
     if (isNaN(el.value)) return false;
@@ -58,18 +70,86 @@ const OTP = () => {
   const getAuthNo = async (number) => {
     try {
       let res = await axios.get(
-        `http://localhost:8080/auth?mobileNumber=${number}`
+        `http://localhost:8080/AuthDetails?mobileNumber=${number}`
       );
       let data = await res.data;
 
       if (data.length !== 0) {
         setUserAuth(true);
-        console.log(userAuth);
+        setUserData({ ...data[0] });
+        // console.log(userAuth);
       }
       console.log(data);
     } catch (err) {
       console.log(err);
     }
+  };
+
+  const veryfyUser = (e) => {
+    e.preventDefault();
+    let { email, mobileNumber, firstName, lastName } = userData;
+
+    if (!email || !mobileNumber || !firstName || !lastName) {
+      alert("Invalid Input");
+    } else {
+      if (userAuth) {
+        token = nanoid(10);
+        userLocalData = userData;
+        setUserData({});
+
+        if (otp.join("") == "123456") {
+          console.log(otp);
+          let payload = {
+            userData,
+            token,
+          };
+
+          dispatch(loginExisitingUser(userData, token));
+          localStorage.setItem("token", token);
+          localStorage.setItem("user", JSON.stringify(userLocalData));
+          navigate("/");
+        } else {
+          alert("Invalid OTP");
+        }
+      } else {
+        token = nanoid(10);
+        userLocalData = userData;
+
+        if (otp.join("") == "123456") {
+          console.log(otp);
+
+          // let payload = {
+          //   userData: userLocalData,
+          //   token,
+          // };
+
+          dispatch(addNewUser(userData, token));
+          localStorage.setItem("token", token);
+          localStorage.setItem("user", JSON.stringify(userLocalData));
+          navigate("/");
+        } else {
+          alert("Invalid OTP");
+        }
+      }
+    }
+    // setUserData({ ...{} });
+  };
+
+  //Create new User
+
+  const newUserChangeData = (e) => {
+    let name = e.target.name;
+    let value = e.target.value;
+
+    console.log(name, value);
+
+    setUserData({
+      ...userData,
+      [name]: value,
+      mobileNumber,
+
+      cart: [],
+    });
   };
 
   //On Submit Form
@@ -192,7 +272,9 @@ const OTP = () => {
                 </p>
               )}
 
-              <button className="submitOTP">VERIFY</button>
+              <button onClick={veryfyUser} className="submitOTP">
+                VERIFY
+              </button>
             </div>
           </div>
         </>
@@ -206,10 +288,12 @@ const OTP = () => {
                 <div className="numberInputDiv">
                   <input
                     type="email"
+                    name="email"
                     placeholder="Enter your Email Id"
                     style={{ textIndent: "0" }}
                     // value={mobileNumber}
-                    // onChange={(e) => setMobileNumber(e.target.value)}
+                    onChange={(e) => newUserChangeData(e)}
+                    required={true}
                   />
                 </div>
 
@@ -220,10 +304,12 @@ const OTP = () => {
                 <div className="numberInputDiv">
                   <input
                     type="text"
+                    name="firstName"
                     placeholder="Your First Name"
                     style={{ textIndent: "0" }}
                     // value={mobileNumber}
-                    // onChange={(e) => setMobileNumber(e.target.value)}
+                    onChange={(e) => newUserChangeData(e)}
+                    required={true}
                   />
                 </div>
 
@@ -234,10 +320,12 @@ const OTP = () => {
                 <div className="numberInputDiv">
                   <input
                     type="text"
+                    name="lastName"
                     placeholder="Your Last Name"
                     style={{ textIndent: "0" }}
                     // value={mobileNumber}
-                    // onChange={(e) => setMobileNumber(e.target.value)}
+                    onChange={(e) => newUserChangeData(e)}
+                    required={true}
                   />
                 </div>
                 <p className="invalidInput">{errorMsg}</p>
@@ -309,7 +397,7 @@ const OTP = () => {
                 </p>
               )}
 
-              <button type="submit" className="submitOTP">
+              <button type="submit" className="submitOTP" onClick={veryfyUser}>
                 VERIFY
               </button>
             </div>

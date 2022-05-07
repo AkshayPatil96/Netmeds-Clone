@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import Docc from "../Assests/Icons/docc.png";
+
 import { Link } from "react-router-dom";
-import cartIcon from "../Assests/Icons/cartIcon.png";
-import AccountIcon from "../Assests/Icons/account.png";
 import ArrowDown from "../Assests/Icons/down-arrow .png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { useSelector } from "react-redux";
 import {
   faCircleUser,
   faCartShopping,
@@ -14,8 +12,16 @@ import {
   faCaretUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { icon } from "@fortawesome/fontawesome-svg-core";
+import { getData } from "../Redux/Auth/action";
+import { useDispatch } from "react-redux";
+//Taking data from localStorage
+let localToken = localStorage.getItem("token") || "";
+let localUser = JSON.parse(localStorage.getItem("user"));
+
+console.log(localToken);
 const NavContainer = styled.nav`
-  height: 9.85vh;
+  /* height: 9.85vh; */
+  height: 90px;
   width: 100%;
 
   background-color: #32aeb1;
@@ -41,7 +47,8 @@ const NavContainer = styled.nav`
       display: flex;
       align-items: center;
       box-sizing: border-box;
-      padding-right: 3.85vh;
+      /* padding-right: 3.85vh; */
+      padding-right: 35px;
       justify-content: flex-end;
 
       img {
@@ -50,9 +57,11 @@ const NavContainer = styled.nav`
     }
 
     .navSearch {
-      width: 34.89vw;
+      /* width: 34.89vw; */
+      width: 670px;
 
-      height: 5.25vh;
+      /* height: 5.25vh; */
+      height: 48px;
       display: flex;
       /* align-items: center; */
       box-sizing: border-box;
@@ -61,6 +70,7 @@ const NavContainer = styled.nav`
       border-radius: 8px;
       color: #9093b4;
       font-size: 1.53vh;
+      /* font-size: 1em; */
       font-weight: 400;
       line-height: 2.1vh;
       position: relative;
@@ -216,6 +226,23 @@ const NavContainer = styled.nav`
         align-items: center;
       }
 
+      .cartCon {
+        position: relative;
+      }
+      .cartCount {
+        position: absolute;
+        font-size: 10px;
+        background-color: red;
+        height: 13px;
+        width: 18px;
+        border: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 45%;
+        left: 5%;
+        top: -2px;
+      }
       .navLinks {
         text-decoration: none;
         font-size: 1.53vh;
@@ -359,11 +386,22 @@ const SubNavContainer = styled.div`
 `;
 
 export const Navbar = () => {
+  const dispatch = useDispatch();
   const [showLocationDiv, setShowLocationDiv] = useState(false);
-  const body = document.querySelector("body");
-  // body.addEventListener("click", () => {
-  //   setShowLocationDiv(false);
-  // });
+  const [pincode, setPincode] = useState();
+
+  const { token, user } = useSelector((state) => state.isAuth);
+  console.log(token);
+
+  useEffect(() => {
+    if (localToken) {
+      dispatch(getData(localToken, localUser.mobileNumber));
+    } else {
+      return;
+    }
+  }, []);
+
+  console.log(user);
 
   const getLocation = () => {};
   return (
@@ -454,17 +492,21 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="#" className="navLinks">
+              <Link to="/cart" className="navLinks cartCon ">
                 {/* <img src={cartIcon} alt="" className="navIcons" /> */}
                 <FontAwesomeIcon icon={faCartShopping} className="navIcons" />
+                <p className="cartCount">{token ? user.cart.length : 0}</p>
                 <p>Cart</p>
               </Link>
             </li>
             <li>
-              <Link to="#" className="navLinks">
+              <Link
+                to={token ? "/customer/account" : "/login"}
+                className="navLinks"
+              >
                 <FontAwesomeIcon icon={faCircleUser} className="navIcons" />
                 {/* <img src={AccountIcon} alt="" className="navIcons" /> */}
-                <p>Sign in / Sign up</p>
+                <p>{token ? user.firstName : "Sign in / Sign up"}</p>
               </Link>
             </li>
           </ul>

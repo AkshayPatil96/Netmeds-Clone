@@ -3,7 +3,21 @@ import { AccountContainer } from "./account.styled.js";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { useSelector, useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { logoutUser } from "../../Redux/Auth/action.js";
 const Account = () => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const { user } = useSelector((state) => state.isAuth);
+
+  //Logout
+  const LogoutAccount = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+    dispatch(logoutUser());
+    navigate("/");
+  };
   return (
     <AccountContainer>
       <h2 style={{ marginLeft: "10px" }}>Your Account</h2>
@@ -16,9 +30,11 @@ const Account = () => {
             alt=""
           />
           <div>
-            <h2>Gautam Gohil</h2>
-            <p style={{ fontStyle: "italic" }}>gautamgohil0@gmail.com</p>
-            <p>+91-9824240421</p>
+            <h2>
+              {user.firstName} {user.lastName}
+            </h2>
+            <p style={{ fontStyle: "italic" }}>{user.email}</p>
+            <p>+91-{user.mobileNumber}</p>
           </div>
         </div>
         {/* Payment Opt */}
@@ -271,7 +287,7 @@ const Account = () => {
                 alt=""
               />
             </li>
-            <li>
+            <li onClick={LogoutAccount}>
               <div>
                 <span>
                   <img
@@ -296,18 +312,20 @@ const Account = () => {
               <p>LOGIN INFORMATION</p>
               <div>
                 <label>EMAIL</label>
-                <p>gautamgohil0@gmail.com</p>
+                <p>{user.email}</p>
               </div>
               <div>
                 <label>MOBILE NUMBER</label>
-                <p>+91-9824240421</p>
+                <p>+91-{user.mobileNumber}</p>
               </div>
             </div>
             <div className="personalInfo">
               <p>PERSONAL INFORMATION</p>
               <div>
                 <label>FUll NAME</label>
-                <p>Gautam Gohil</p>
+                <p>
+                  {user.firstName} {user.lastName}
+                </p>
               </div>
               <div>
                 <label>GENDER</label>
