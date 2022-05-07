@@ -4,8 +4,8 @@ import { getCategory } from "../Redux/Category/action";
 import Carousel from "../Components/Carousel/Carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faChevronLeft,
-    faChevronRight,
+  faChevronLeft,
+  faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { useParams } from "react-router-dom";
 import { NextBtn, PreviousBtn } from "../Components/Carousel/Data";
@@ -20,144 +20,123 @@ import Labtest from "./Labtest";
 import AllMedicine from "./AllMedicine";
 
 const carouselProperties = {
-    prevArrow: <PreviousBtn />,
-    nextArrow: <NextBtn />,
-    slidesToShow: 5,
-    infinite: false,
-    slidesToScroll: 1,
-    centerPadding: "170px",
-    responsive: [
-        {
-            breakpoint: 426,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            },
-        },
-        {
-            breakpoint: 769,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-            },
-        },
-        {
-            breakpoint: 1025,
-            settings: {
-                slidesToShow: 4,
-                slidesToScroll: 2,
-            },
-        },
-    ],
+  prevArrow: <PreviousBtn />,
+  nextArrow: <NextBtn />,
+  slidesToShow: 5,
+  infinite: false,
+  slidesToScroll: 1,
+  centerPadding: "170px",
+  responsive: [
+    {
+      breakpoint: 426,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 2,
+      },
+    },
+  ],
 };
 
 const CategoryPage = () => {
-    const { category } = useParams();
-    // console.log("category: ", category);
-    const { isLoading, isError, data } = useSelector((state) => state.products);
+  const { category } = useParams();
+  // console.log("category: ", category);
+  const { isLoading, isError, data } = useSelector((state) => state.products);
 
-    console.log("products: ", data);
-    const dispatch = useDispatch();
+  console.log("products: ", data);
+  const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(getCategory(category));
-    }, [category]);
+  useEffect(() => {
+    dispatch(getCategory(category));
+  }, [category]);
 
-    return (
+  return (
+    <>
+      {category === "lab-test" ? (
+        <Labtest />
+      ) : category === "medicine" ? (
+        <AllMedicine />
+      ) : (
         <>
-            {category === "lab-test" ? (
-                <Labtest />
-            ) : category === "medicine" ? (
-                <AllMedicine />
-            ) : (
-                <>
-                    <div>
-                        {/* <Carousel /> */}
-                        {/* Carousel */}
-                        <Slider
-                            autoplay
-                            autoplaySpeed={5000}
-                            dots
-                            initialSlide={2}
-                            infinite
-                            prevArrow={<PreviousBtn />}
-                            nextArrow={<NextBtn />}
-                            dotsClass="slick-dots"
-                        >
-                            {data.carousel &&
-                                data.carousel.map((item, index) => {
-                                    <div key={index}>
-                                        <img
-                                            src={item}
-                                            alt=""
-                                            style={{ width: "100%" }}
-                                        />
-                                    </div>;
-                                })}
-                        </Slider>
-                    </div>
+          <div>
+            {/* <Carousel /> */}
+            {/* Carousel */}
+            <Slider
+              autoplay
+              autoplaySpeed={5000}
+              dots
+              initialSlide={2}
+              infinite
+              prevArrow={<PreviousBtn />}
+              nextArrow={<NextBtn />}
+              dotsClass="slick-dots"
+            >
+              {data.carousel &&
+                data.carousel.map((item, index) => {
+                  <div key={index}>
+                    <img src={item} alt="" style={{ width: "100%" }} />
+                  </div>;
+                })}
+            </Slider>
+          </div>
 
-                    {isLoading ? (
-                        <h1>Loading...</h1>
-                    ) : isError ? (
-                        <h1>Something went wrong while fetching data</h1>
-                    ) : (
-                        <>
-                            <div>
-                                <div className={styles.carousel}>
-                                    <div className={styles.headingFlex}>
-                                        <h1 className={styles.heading}>
-                                            Popular Categories
-                                        </h1>
-                                        {/* <p>View All</p> */}
-                                    </div>
+          {isLoading ? (
+            <h1>Loading...</h1>
+          ) : isError ? (
+            <h1>Something went wrong while fetching data</h1>
+          ) : (
+            <>
+              <div>
+                <div className={styles.carousel}>
+                  <div className={styles.headingFlex}>
+                    <h1 className={styles.heading}>Popular Categories</h1>
+                    {/* <p>View All</p> */}
+                  </div>
 
-                                    {/* category */}
+                  {/* category */}
 
-                                    <Slider
-                                        {...carouselProperties}
-                                        className={styles.slider}
-                                    >
-                                        {data.category &&
-                                            data.category.map(
-                                                (product, index) => {
-                                                    return (
-                                                        <ShowMultiItems
-                                                            key={index}
-                                                            {...product}
-                                                        />
-                                                    );
-                                                }
-                                            )}
-                                    </Slider>
-                                </div>
-                            </div>
+                  <Slider {...carouselProperties} className={styles.slider}>
+                    {data.category &&
+                      data.category.map((product, index) => {
+                        return <ShowMultiItems key={index} {...product} />;
+                      })}
+                  </Slider>
+                </div>
+              </div>
 
-                            {/* All Products */}
+              {/* All Products */}
 
-                            <CategoryDiv>
-                                <div className="products">
-                                    {data.products &&
-                                        data.products.map((product, index) => {
-                                            return (
-                                                <ProductCard
-                                                    key={index}
-                                                    {...product}
-                                                />
-                                            );
-                                        })}
-                                </div>
-                            </CategoryDiv>
-                        </>
-                    )}
-                </>
-            )}
-
-            {/* Footer */}
-
-            <Footer />
+              <CategoryDiv>
+                <div className="products">
+                  {data.products &&
+                    data.products.map((product, index) => {
+                      return <ProductCard key={index} {...product} />;
+                    })}
+                </div>
+              </CategoryDiv>
+            </>
+          )}
         </>
-    );
+      )}
+
+      {/* Footer */}
+
+      <Footer />
+    </>
+  );
 };
 
 export default CategoryPage;
