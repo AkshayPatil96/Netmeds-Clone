@@ -223,7 +223,12 @@ const ProductCard = (props) => {
 
     return (
         <>
-            <Card to={props.id}>
+            <Card
+                to={props.id}
+                onClick={() => {
+                    console.log(props.id);
+                }}
+            >
                 <img
                     className="multi_image"
                     src={props.imageUrl}
@@ -279,9 +284,7 @@ const ProductCard = (props) => {
                 {props.strikeOfPrice === undefined ? (
                     <p></p>
                 ) : (
-                    <p className="discount">
-                        {`${discountPrice}% OFF`}
-                    </p>
+                    <p className="discount">{`${discountPrice}% OFF`}</p>
                 )}
                 {!authCount ? (
                     <BUTTON onClick={toggleCount}>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -25,6 +25,14 @@ const PayPrefer = styled.div`
     height: 30px;
     margin-right: 10px;
   }
+  .statusCardStyle {
+    position: fixed;
+    top: -55px;
+    right: 0px;
+    z-index: 200;
+    height: 100vh;
+    border-radius: 0px;
+  }
 `;
 const PaymetPM = styled.div`
   background-color: #fff;
@@ -46,12 +54,25 @@ const PaymetPDiv = styled.div`
     font-size: 12px;
   }
   .inpRadio {
+    float: right;
     width: 18px;
     height: 18px;
+    cursor: pointer;
   }
   p {
     padding: 0px 40px;
     font-size: 12px;
+  }
+  button {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: #24aeb1;
+    border-radius: 5px;
+    color: #fff;
+    font: 15px bold;
+    cursor: pointer;
   }
 `;
 const PaymetGDiv = styled.div`
@@ -68,12 +89,25 @@ const PaymetGDiv = styled.div`
     font-size: 12px;
   }
   .inpRadio {
+    float: right;
     width: 18px;
     height: 18px;
+    cursor: pointer;
   }
   p {
     padding: 0px 40px;
     font-size: 12px;
+  }
+  button {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: #24aeb1;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font: 15px bold;
   }
 `;
 const PaymetWallet = styled.div`
@@ -101,7 +135,7 @@ const PatyDetail = styled.div`
   padding: 20px 9px;
   position: sticky;
   top: 0;
-  z-index: 1020;
+  z-index: 100;
   font-size: 14px;
   line-height: 2;
   height: 180px;
@@ -133,10 +167,106 @@ const PatTS = styled.div`
   }
 `;
 
+const CardDiv = styled.div`
+  width: 300px;
+  position: relative;
+  float: right;
+  text-align: left;
+  font-size: 13px;
+  .pText {
+    width: 100%;
+    border: 0;
+    text-indent: 0.7vw;
+    flex-grow: 1;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: #e4dede;
+      font-size: 1.9vh;
+    }
+  }
+`;
+const ExpDiv = styled.div`
+  display: flex;
+  justifycontent: space-around;
+
+  .pExp {
+    width: 60px;
+    border: 0;
+    text-indent: 0.7vw;
+    flex-grow: 1;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: black;
+      font-size: 16px;
+    }
+  }
+`;
+const InpCvv = styled.input`
+  width: 100px;
+  border: 0;
+  text-indent: 0.7vw;
+  flex-grow: 1;
+  &:focus {
+    outline: none;
+  }
+`;
+const PayBtn = styled.button`
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  border: none;
+  background-color: #24aeb1;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+`;
+
 const Payment = () => {
+  const [statusA, setStatusA] = useState(false);
+  const [statusP, setStatusP] = useState(false);
+  const [statusG, setStatusG] = useState(false);
+  const [statusC, setStatusC] = useState(false);
+  const [statusCard, setStatusCard] = useState(false);
+
+  const handlePayA = () => {
+    setStatusA(true);
+    setStatusP(false);
+    setStatusC(false);
+    setStatusG(false);
+  };
+  const handlePayP = () => {
+    setStatusA(false);
+    setStatusP(true);
+    setStatusC(false);
+    setStatusG(false);
+  };
+  const handlePayG = () => {
+    setStatusG(true);
+    setStatusP(false);
+    setStatusC(false);
+    setStatusA(false);
+  };
+  const handlePayC = () => {
+    setStatusC(true);
+    setStatusP(false);
+    setStatusA(false);
+    setStatusG(false);
+  };
+  const handleCard = () => {
+    setStatusCard(true);
+  };
   return (
     <div>
-      <Wrapper>
+      <Wrapper
+        onDoubleClick={() => {
+          setStatusCard(false);
+        }}
+      >
         <div className="payHead">
           <div>
             <h2>Payment Details</h2>
@@ -217,7 +347,31 @@ const Payment = () => {
                   <label>Amazon Pay</label>
                 </div>
                 <div>
-                  <input type="radio" name="" className="inpRadio" />
+                  {statusA ? (
+                    <div>
+                      <input
+                        type="radio"
+                        value="amazon"
+                        name="pay"
+                        className="inpRadio"
+                        onClick={handlePayA}
+                      />
+                      <div>
+                        <button>
+                          PAY <span>RS.114.00</span>
+                          {/*data */}
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    <input
+                      type="radio"
+                      value="amazon"
+                      name="pay"
+                      className="inpRadio"
+                      onClick={handlePayA}
+                    />
+                  )}
                 </div>
               </PaymetPDiv>
             </PaymetWallet>
@@ -233,7 +387,30 @@ const Payment = () => {
                   <label>PhonePe</label>
                 </div>
                 <div>
-                  <input type="radio" name="" className="inpRadio" />
+                  {statusP ? (
+                    <div>
+                      <input
+                        type="radio"
+                        value="phonePay"
+                        name="pay"
+                        className="inpRadio"
+                        onClick={handlePayP}
+                      />
+                      <div>
+                        <button>
+                          Pay <span>Rs.114.00</span>
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    <input
+                      type="radio"
+                      value="phonePay"
+                      name="pay"
+                      className="inpRadio"
+                      onClick={handlePayP}
+                    />
+                  )}
                 </div>
               </PaymetPDiv>
             </PaymetWallet>
@@ -250,14 +427,40 @@ const Payment = () => {
                   <label>Google Pay</label>
                 </div>
                 <div>
-                  <input type="radio" name="" className="inpRadio" />
+                  {statusG ? (
+                    <div>
+                      <input
+                        type="radio"
+                        value="gpay"
+                        name="pay"
+                        className="inpRadio"
+                        onClick={handlePayG}
+                      />
+                      <div>
+                        <button>
+                          PAY <span>RS.114.00</span>
+                          {/*data */}
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    <input
+                      type="radio"
+                      value="gPay"
+                      name="pay"
+                      className="inpRadio"
+                      onClick={handlePayG}
+                    />
+                  )}
                 </div>
               </PaymetPDiv>
             </PaymetWallet>
+
             {/*Credit and debit */}
-            <PaymetWallet>
+
+            <PaymetWallet className={statusCard ? "statusCardStyle" : ""}>
               <p style={{ fontSize: "11px", fontWeight: "650" }}>
-                CREDIT & DEBIT CARDS
+                {statusCard ? "" : "CREDIT & DEBIT CARDS"}
               </p>
               <hr style={{ margin: "22px 0" }} />
               <div
@@ -268,7 +471,82 @@ const Payment = () => {
                   cursor: "pointer",
                 }}
               >
-                <p style={{ marginBottom: "8px" }}>ADD NEW CARD</p>
+                <div>
+                  {statusCard ? (
+                    <CardDiv>
+                      <p style={{ color: "rgba(21,27,57,.6)" }}>
+                        ENTER CARD DETAILS
+                      </p>
+                      <div>
+                        <p>CARD NUMBER</p>
+                        <input
+                          type="text"
+                          name=""
+                          id=""
+                          className="pText"
+                          style={{ borderBottom: "2px solid #e4dede" }}
+                        />
+                      </div>
+                      <ExpDiv>
+                        <div>
+                          <p>EXPIRY DATE</p>
+                          <div
+                            style={{
+                              display: "flex",
+                              justifyContent: "space-between",
+                            }}
+                          >
+                            <input
+                              type="text"
+                              name=""
+                              id=""
+                              className="pExp"
+                              style={{ borderBottom: "2px solid #e4dede" }}
+                              placeholder="MM"
+                            />
+                            <input
+                              type="text"
+                              name=""
+                              id=""
+                              className="pExp"
+                              style={{
+                                borderBottom: "2px solid #e4dede",
+                                marginLeft: "15px",
+                              }}
+                              placeholder="YY"
+                            />
+                          </div>
+                        </div>
+                        <div style={{ marginLeft: "20px" }}>
+                          <p>CVV</p>
+                          <InpCvv
+                            type="text"
+                            name=""
+                            id=""
+                            style={{ borderBottom: "2px solid #e4dede" }}
+                          ></InpCvv>
+                        </div>
+                      </ExpDiv>
+                      <div>
+                        <p>NAME ON CARD</p>
+                        <input
+                          type="text"
+                          name=""
+                          id=""
+                          className="pText"
+                          style={{ borderBottom: "2px solid #e4dede" }}
+                        />
+                      </div>
+                      <div>
+                        <PayBtn>PAY</PayBtn>
+                      </div>
+                    </CardDiv>
+                  ) : (
+                    <p style={{ marginBottom: "8px" }} onClick={handleCard}>
+                      ADD NEW CARD
+                    </p>
+                  )}
+                </div>
               </div>
             </PaymetWallet>
             {/*Cod */}
@@ -286,7 +564,30 @@ const Payment = () => {
                   </p>
                 </div>
                 <div>
-                  <input type="radio" name="" className="inpRadio" />
+                  {statusC ? (
+                    <div>
+                      <input
+                        type="radio"
+                        value="gpay"
+                        name="pay"
+                        className="inpRadio"
+                        onClick={handlePayC}
+                      />
+                      <div>
+                        <button style={{ width: "auto" }}>
+                          PAY <span>RS.114.00</span> ON DELIVERY{/*data */}
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    <input
+                      type="radio"
+                      value="cod"
+                      name="pay"
+                      className="inpRadio"
+                      onClick={handlePayC}
+                    />
+                  )}
                 </div>
               </PaymetGDiv>
             </PaymetCod>
@@ -324,14 +625,13 @@ const Payment = () => {
                 <p>TOTAL SAVINGS RS.163.12</p>
               </PatTS>
             </div>
-            <div style={{marginTop:"35px",fontStyle:"italic"}}>
-              <p style={{fontSize:"10px"}}>
+            <div style={{ marginTop: "35px", fontStyle: "italic" }}>
+              <p style={{ fontSize: "10px" }}>
                 Netmeds is a technology platform to facilitate transaction of
                 business. The products and services are offered for sale by the
                 sellers. The user authorizes the delivery personnel to be his
-                agent for delivery of the goods. For details read 
-                <Link to="/">Terms &
-                Conditions</Link>
+                agent for delivery of the goods. For details read
+                <Link to="/"> Terms & Conditions</Link>
               </p>
             </div>
           </PatyDetail>

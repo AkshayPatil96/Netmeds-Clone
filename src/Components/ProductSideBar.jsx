@@ -1,24 +1,24 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
-import data from "../Assests/Data/Net_Med_Data.json";
 import SubMenu, { DropdownLink, SidebarLabel, SidebarLink } from "./SubMenu";
+import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import {
+    getCategory,
+    getFilteredProducts,
+    getProducts,
+} from "../Redux/Category/action";
 
 const SidebarNav = styled.nav`
     margin: 0% 0% 15% 0%;
     border-radius: 10px;
     background: #fff;
-    /* width: 250px; */
-    /* height: 100vh; */               
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* position: fixed; */
-    /* top: 0; */
-    /* left: 0; */
     transition: 350ms;
-    /* z-index: 10; */
 
     .cate {
         margin: 4% 3%;
@@ -38,8 +38,6 @@ const SidebarScroll = styled.div`
     overflow: scroll;
     margin: 2%;
     overflow-x: hidden;
-    /* background: #000; */
-    /* border: 1px solid #000; */
 
     ::-webkit-scrollbar {
         width: 3px;
@@ -54,30 +52,47 @@ const SidebarScroll = styled.div`
 `;
 
 const ProductSideBar = () => {
-    let categories = data.products;
-    let filter = data.products[0].category[0].products;
+    const { category, product } = useParams();
+    const dispatch = useDispatch();
 
-    let arr = [];
-    let arr1 = [];
-    filter.map((item) => {
-        let brand = arr.push(item.brand);
-        let manufacturers = arr1.push(item.seller);
+    const { data } = useSelector((state) => state.products);
+    // console.log('data: ', data);
+
+    const { filteredBrandData } = useSelector((state) => state.products);
+    // console.log("filteredBrandData: ", filteredBrandData);
+
+    const { productData } = useSelector((state) => state.products);
+
+    let brand = [];
+    let manufacturers = [];
+    for (let i = 0; i < productData.length; i++) {
+        brand.push(productData[i].brand);
+        manufacturers.push(productData[i].seller);
+    }
+
+    let filteredBrands = brand.filter((c, index) => {
+        return brand.indexOf(c) === index;
     });
-    let filteredBrands = arr.filter((c, index) => {
-        return arr.indexOf(c) === index;
+
+    let filteredManufacturers = manufacturers.filter((c, index) => {
+        return manufacturers.indexOf(c) === index;
     });
-    let filterManufacturers = arr1.filter((c, index) => {
-        return arr1.indexOf(c) === index;
-    });
+
+    useEffect(() => {
+        dispatch(getCategory(category));
+        dispatch(getProducts(category, product));
+        dispatch(getFilteredProducts(category, product, brand));
+    }, [category, product, brand]);
 
     return (
         <>
             <SidebarNav>
                 <h3 className="cate">Categories</h3>
                 <SidebarWrap>
-                    {categories.map((item, index) => {
-                        return <SubMenu items={item} key={index} />;
-                    })}
+                    {data.category &&
+                        data.category.map((item, index) => {
+                            return <SubMenu items={item} key={index} />;
+                        })}
                 </SidebarWrap>
             </SidebarNav>
             <SidebarNav>
@@ -105,7 +120,7 @@ const ProductSideBar = () => {
                         </div>
                     </SidebarLink>
                     <SidebarScroll>
-                        {filterManufacturers.map((item, index) => {
+                        {filteredManufacturers.map((item, index) => {
                             return (
                                 <DropdownLink to={`${item}`} key={index}>
                                     <SidebarLabel>{item}</SidebarLabel>

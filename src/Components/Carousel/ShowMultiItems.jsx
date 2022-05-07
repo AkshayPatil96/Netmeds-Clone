@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
+import { getCategory } from "../../Redux/Category/action";
 
 const Card = styled.div`
     border-radius: 10px;
@@ -38,25 +41,27 @@ const Card = styled.div`
 `;
 
 const ShowMultiItems = (props) => {
-    // console.log("props: ", props);
+    const { category } = useParams();
 
     return (
         <>
             <Card>
-                <div>
-                    <img
-                        className="multi__image"
-                        src={props.imageUrl}
-                        alt=""
-                        style={{
-                            width: "100%",
-                            height: "170px",
-                            objectFit: "contain",
-                            marginBottom: "10px",
-                        }}
-                    />
-                    <p className="title">{props.title}</p>
-                </div>
+                <Link to={`/${category}/${props.path}`}>
+                    <div>
+                        <img
+                            className="multi__image"
+                            src={props.imageUrl}
+                            alt=""
+                            style={{
+                                width: "100%",
+                                height: "170px",
+                                objectFit: "contain",
+                                marginBottom: "10px",
+                            }}
+                        />
+                        <p className="title">{props.title}</p>
+                    </div>
+                </Link>
             </Card>
         </>
     );

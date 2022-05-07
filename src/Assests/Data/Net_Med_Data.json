@@ -1,1168 +1,1379 @@
 {
-  "products": [
+  "data": [
+    {
+      "id": 1,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
+      "title": "Revital H Capsule 10'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 93.5,
+      "strikeOfPrice": 110.0
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
+      "title": "Revital H Woman Tablet 30'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 293.25,
+      "strikeOfPrice": 345.0
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
+      "title": "Revital H Capsule 60'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 467.5,
+      "strikeOfPrice": 550.0
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
+      "title": "Dettol Antiseptic Liquid 60 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 33.27,
+      "strikeOfPrice": 50.0
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
+      "title": "Revital H Capsule 30'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 263.5,
+      "strikeOfPrice": 310.0
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/835057/dettol_antiseptic_liquid_550_ml_0.jpg",
+      "title": "Dettol Antiseptic Liquid 550 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 194.6,
+      "strikeOfPrice": 220.0
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
+      "title": "Dettol Antiseptic Liquid 1 ltr",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 331.41,
+      "strikeOfPrice": 380.0
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408222/revital_h_woman_tablet_10_s_0.jpg",
+      "title": "Revital H Woman Tablet 10'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 102.0,
+      "strikeOfPrice": 120.0
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/38049/garlic_pearls_capsule_100_s_0.jpg",
+      "title": "Garlic Pearls Capsule 100'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Garlic Pearls",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 127.5,
+      "strikeOfPrice": 150.0
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/886988/dettol_antiseptic_liquid_disinfectant_250_ml_0_1.jpg",
+      "title": "Dettol Antiseptic Liquid Disinfectant 250 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 116.16,
+      "strikeOfPrice": 150.0
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/839437/fast_up_charge_natural_vitamin_c_tablets_orange_flavour_20_s_0.jpg",
+      "title": "Fast&Up Charge Natural Vitamin C & Zinc Tablets - Orange Flavour 20's",
+      "seller": "Aeronutrix Sports Products Private Limited",
+      "brand": "Fast&",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 300.3,
+      "strikeOfPrice": 390.0
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15116/dettol_disinfectant_lime_fresh_500_ml_0_1.jpg",
+      "title": "Dettol Disinfectant - Lime Fresh 500 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 173.7,
+      "strikeOfPrice": 193.0
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412802/dettol_disinfectant_liquid_menthol_cool_500_ml_0.jpg",
+      "title": "Dettol Disinfectant Liquid - Menthol Cool 500 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 173.7,
+      "strikeOfPrice": 193.0
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15129/dettol_hand_sanitizer_original_50_ml_0.jpg",
+      "title": "Dettol Instant Hand Sanitizer - Original 50 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 25.0,
+      "strikeOfPrice": 50.0
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15115/dettol_disinfectant_lime_fresh_200_ml_0_1.jpg",
+      "title": "Dettol Disinfectant - Lime Fresh 200 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 93.1,
+      "strikeOfPrice": 98.0
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/406018/savlon_antiseptic_liquid_100_ml_0_1.jpg",
+      "title": "Savlon Antiseptic Liquid 100 ml",
+      "seller": "Itc India Ltd",
+      "brand": "Savlon",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 48.0,
+      "strikeOfPrice": 70.0
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/815146/healthvit_fitness_zma_zinc_magnesium_vitamin_b6_capsules_90_s_0.jpg",
+      "title": "HealthVit Fitness ZMA (Zinc,Magnesium & Vitamin B6) Capsules 90's",
+      "seller": "West Coast Pharmaceuticals Works Ltd",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 946.0,
+      "strikeOfPrice": 1100.0
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412801/dettol_disinfectant_liquid_menthol_cool_200_ml_0.jpg",
+      "title": "Dettol Disinfectant Liquid - Menthol Cool 200 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 93.1,
+      "strikeOfPrice": 98.0
+    },
+    {
+      "id": 19,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858571/inlife_multivitamins_and_minerals_for_women_capsules_60_s_0.jpg",
+      "title": "INLIFE Multivitamins and Minerals for Women Capsules 60's",
+      "seller": "Inlife Pharma Private Limited",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 438.97,
+      "strikeOfPrice": 699.0
+    },
+    {
+      "id": 20,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858570/inlife_multivitamins_and_minerals_for_men_capsules_60_s_0.jpg",
+      "title": "INLIFE Multivitamins and Minerals for Men Capsules 60's",
+      "seller": "Inlife Pharma Private Limited",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 438.97,
+      "strikeOfPrice": 699.0
+    },
+    {
+      "id": 21,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842856/healthvit_cenvitan_men_multivitamin_multimineral_tablet_60s_0_3.jpg",
+      "title": "HealthVit Cenvitan Men (Multivitamin & Multimineral) Tablet 60's",
+      "seller": "West Coast Pharmaceuticals Works Ltd",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 450.0,
+      "strikeOfPrice": 500.0
+    },
+    {
+      "id": 22,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858143/inlife_omega_3_fish_oil_500_mg_capsules_60s_0_1.jpg",
+      "title": "INLIFE Omega 3 Fish Oil 500 mg Capsules 60's",
+      "seller": "Inlife Pharma Private Limited",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 330.84,
+      "strikeOfPrice": 499.0
+    },
+    {
+      "id": 23,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/885336/fast_up_charge_effervesent_tablet_orange_flavour_pack_of_3_x_20_s_0.jpg",
+      "title": "Fast&Up Charge Natural Vitamin C & Zinc Effervesent Tablet - Orange Flavour (Pack of 3 x 20's)",
+      "seller": "Aeronutrix Sports Products Private Limited",
+      "brand": "Fast&Up",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 807.3,
+      "strikeOfPrice": 1170.0
+    },
+    {
+      "id": 24,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412506/dr_vaidyas_herbofit_capsule_30s_0_1.jpg",
+      "title": "Dr.Vaidya's Herbofit Capsule 30's",
+      "seller": "Herbolab India Pvt Ltd",
+      "brand": "Dr Vaidya's",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 111.6,
+      "strikeOfPrice": 180.0
+    },
+    {
+      "id": 25,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/815541/healthvit_mulvit_multivitamins_and_minerals_tablet_60_s_0.jpg",
+      "title": "HealthVit Mulvit Multivitamins and Minerals Tablet 60's",
+      "seller": "West Coast Pharmaceuticals Works Ltd",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 360.0,
+      "strikeOfPrice": 400.0
+    },
+    {
+      "id": 26,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408712/romsons_respirometer_0.jpg",
+      "title": "Romsons Respirometer",
+      "seller": "Romsons Scientific & Surgical Pvt Ltd",
+      "brand": "Romsons",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 160.01,
+      "strikeOfPrice": 773.0
+    },
+    {
+      "id": 27,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842857/healthvit_cenvitan_women_multivitamin_multimineral_tablet_60s_0_2.jpg",
+      "title": "HealthVit Cenvitan Women (Multivitamin & Multimineral) Tablet 60's",
+      "seller": "West Coast Pharmaceuticals Works Ltd",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 473.0,
+      "strikeOfPrice": 550.0
+    },
+    {
+      "id": 28,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822956/healthvit_omega_3_fish_oil_double_strength_1000_mg_softgel_60_s_0.jpg",
+      "title": "HealthVit Omega - 3 Fish Oil Double Strength 1000 mg Softgel 60's",
+      "seller": "West Coast Pharmaceuticals Works Ltd",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 688.0,
+      "strikeOfPrice": 800.0
+    },
+    {
+      "id": 29,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858134/inlife_multivitamin_and_minerals_supplement_tablets_60s_0_1.jpg",
+      "title": "INLIFE Multivitamin and Minerals Supplement Tablets 60's",
+      "seller": "Inlife Pharma Private Limited",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 418.8,
+      "strikeOfPrice": 600.0
+    },
+    {
+      "id": 30,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858173/inlife_curcumin_95_advanced_500_mg_vegetarian_capsule_60_s_0.jpg",
+      "title": "INLIFE Curcumin 95 Advanced 500 mg Vegetarian Capsule 60's",
+      "seller": "Inlife Pharma Private Limited",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 714.45,
+      "strikeOfPrice": 1299.0
+    },
+    {
+      "id": 31,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/814956/healthvit_femyvit_women_multivitamin_minerals_tablet_60_s_0.jpg",
+      "title": "HealthVit Femyvit Women Multivitamin Minerals Tablet 60's",
+      "seller": "West Coast Pharmaceuticals Works Ltd",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 258.0,
+      "strikeOfPrice": 300.0
+    },
+    {
+      "id": 32,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/821405/healthvit_b_vit_multivitamin_tablet_60s_0_1.jpg",
+      "title": "HealthVit B-Vit Multivitamin Tablet 60's",
+      "seller": "West Coast Pharmaceuticals Works Ltd",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 516.0,
+      "strikeOfPrice": 600.0
+    },
+    {
+      "id": 33,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/902228/sahyog_wellness_hot_water_bottle_bag_blue_0_1.jpg",
+      "title": "Sahyog Wellness Hot Water Bottle/Bag - Blue",
+      "seller": "Sahyog Wellness",
+      "brand": "Sahyog",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 249.0,
+      "strikeOfPrice": 300.0
+    },
+    {
+      "id": 34,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412632/savlon_moisture_shield_hand_wash_200_ml_0.jpg",
+      "title": "Savlon Moisture Shield Hand Wash 200 ml",
+      "seller": "Itc India Ltd",
+      "brand": "Savlon",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 95.0
+    },
+    {
+      "id": 35,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/885349/fast_up_vitalize_multivitamin_effervescent_tablet_orange_flavour_pack_of_3_x_20s_0_1.jpg",
+      "title": "Fast&Up Vitalize Multivitamin Effervescent Tablet - Orange Flavour (Pack of 3 x 20's)",
+      "seller": "Aeronutrix Sports Products Private Limited",
+      "brand": "Fast",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 900.9,
+      "strikeOfPrice": 1170.0
+    },
+    {
+      "id": 36,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412697/savlon_herbal_sensitive_hand_wash_200_ml_0.jpg",
+      "title": "Savlon Herbal Sensitive Hand Wash 200 ml",
+      "seller": "Itc India Ltd",
+      "brand": "Savlon",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 69.0,
+      "strikeOfPrice": 80.0
+    },
+    {
+      "id": 37,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842858/healthvit_cenvitan_adults_multivitamin_multimineral_tablet_60s_0_1.jpg",
+      "title": "HealthVit Cenvitan Adults (Multivitamin & Multimineral) Tablet 60's",
+      "seller": "West Coast Pharmaceuticals Works Ltd",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 602.0,
+      "strikeOfPrice": 700.0
+    },
+    {
+      "id": 38,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858146/inlife_garlic_oil_500_mg_capsules_60_s_0.jpg",
+      "title": "INLIFE Garlic Oil 500 mg Capsules 60's",
+      "seller": "Inlife Pharma Private Limited",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 288.88,
+      "strikeOfPrice": 399.0
+    },
+    {
+      "id": 39,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/859708/omron_compressor_nebulizer_ne_c101_0.jpg",
+      "title": "Omron Compressor Nebulizer (NE-C101)",
+      "seller": "Omron Healthcare Co Ltd",
+      "brand": "Omron",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 1904.0,
+      "strikeOfPrice": 2380.0
+    },
+    {
+      "id": 40,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858055/choicemmed_finger_tip_pulse_oximeter_0.jpg",
+      "title": "Choicemmed Finger Tip Pulse Oximeter",
+      "seller": "Choicemmed Technology India Pvt. Ltd.",
+      "brand": "Choicemmed",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 900.0,
+      "strikeOfPrice": 3750.0
+    },
+    {
+      "id": 41,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411251/nivea_men_roll_on_deodorant_fresh_active_25_ml_0.jpg",
+      "title": "Nivea Men Roll On Deodorant - Fresh Active 25 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 79.2,
+      "strikeOfPrice": 99.0
+    },
+    {
+      "id": 42,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411253/nivea_whitening_roll_on_25_ml_0.jpg",
+      "title": "Nivea Roll-On Deodorant - Whitening Smooth Skin 25 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 79.2,
+      "strikeOfPrice": 99.0
+    },
+    {
+      "id": 43,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/850990/kamasutra_deodorant_spark_150_ml_0.jpg",
+      "title": "Kamasutra Deodorant - Spark 150 ml",
+      "seller": "Raymond Consumer Care Private Limited",
+      "brand": "Kamasutra",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 178.5,
+      "strikeOfPrice": 210.0
+    },
+    {
+      "id": 44,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409767/nivea_men_fresh_active_deodorant_150_ml_0.jpg",
+      "title": "Nivea Men Fresh Active Deodorant 150 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 180.0,
+      "strikeOfPrice": 225.0
+    },
+    {
+      "id": 45,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13596/nivea_men_fresh_power_deodorant_150_ml_0.jpg",
+      "title": "Nivea Men Fresh Power Deodorant 150 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 163.18,
+      "strikeOfPrice": 199.0
+    },
+    {
+      "id": 46,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/820357/nivea_men_deep_impact_deodorant_freshness_150_ml_0.jpg",
+      "title": "Nivea Men Deep Impact Deodorant - Freshness 150 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 168.0,
+      "strikeOfPrice": 210.0
+    },
+    {
+      "id": 47,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801482/nivea_men_fresh_ocean_deodorant_spray_150_ml_0.jpg",
+      "title": "Nivea Men Fresh Ocean Deodorant Spray 150 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 180.0,
+      "strikeOfPrice": 225.0
+    },
+    {
+      "id": 48,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13198/axe_gold_temptation_deodorant_150_ml_0.jpg",
+      "title": "AXE Gold Temptation Deodorant 150 ml",
+      "seller": "Hindustan Unilever Ltd",
+      "brand": "AXE",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 210.0
+    },
+    {
+      "id": 49,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13643/nivea_pearl_beauty_deodorant_150_ml_0.jpg",
+      "title": "Nivea Pearl & Beauty Deodorant 150 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 180.0,
+      "strikeOfPrice": 225.0
+    },
+    {
+      "id": 50,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412559/nivea_protect_care_roll_on_25_ml_0.jpg",
+      "title": "Nivea Protect & Care Roll On 25 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 83.16,
+      "strikeOfPrice": 99.0
+    },
+    {
+      "id": 51,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/825339/nivea_pearl_beauty_roll_on_50_ml_0_1.jpg",
+      "title": "Nivea Pearl & Beauty Roll On 50 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 175.12,
+      "strikeOfPrice": 199.0
+    },
+    {
+      "id": 52,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13935/old_spice_original_deodorant_spray_150_ml_0.jpg",
+      "title": "Old Spice Original Deodorant Spray 150 ml",
+      "seller": "Procter & Gamble",
+      "brand": "Old",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 199.0
+    },
+    {
+      "id": 53,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853632/rexona_men_sport_defence_underarm_odour_protection_roll_on_50_ml_0.jpg",
+      "title": "Rexona Men Sport Defence Underarm Odour Protection Roll On 50 ml",
+      "seller": "Hindustan Unilever Ltd",
+      "brand": "Rexona",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 145.0
+    },
+    {
+      "id": 54,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412197/nivea_protect_care_roll_on_50_ml_0_3.jpg",
+      "title": "Nivea Protect & Care Roll On 50 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 169.15,
+      "strikeOfPrice": 199.0
+    },
+    {
+      "id": 55,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411250/nivea_pearl_beauty_roll_on_25_ml_0.jpg",
+      "title": "Nivea Pearl & Beauty Roll On 25 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 79.2,
+      "strikeOfPrice": 99.0
+    },
+    {
+      "id": 56,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411252/nivea_men_roll_on_deodorant_cool_kick_25_ml_0.jpg",
+      "title": "Nivea Men Roll On Deodorant - Cool Kick 25 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 83.16,
+      "strikeOfPrice": 99.0
+    },
+    {
+      "id": 57,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412398/set_wet_cool_avatar_deo_spray_150_ml_0.jpg",
+      "title": "Set Wet Cool Avatar Deo Spray 150 ml",
+      "seller": "Marico Ltd",
+      "brand": "Set",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 149.0
+    },
+    {
+      "id": 58,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15324/axe_pulse_deodorant_150_ml_0.jpg",
+      "title": "AXE Pulse Deodorant 150 ml",
+      "seller": "Hindustan Unilever Ltd",
+      "brand": "AXE",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 210.0
+    },
+    {
+      "id": 59,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412183/wild_stone_deodorant_ultra_sensual_150_ml_0_1.jpg",
+      "title": "Wild Stone Deodorant - Ultra Sensual 150 ml",
+      "seller": "Mcnroe Consumer Products Pvt Ltd",
+      "brand": "Wild",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 199.0
+    },
+    {
+      "id": 60,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/823197/nivea_men_deep_impact_roll_on_deodorant_freshness_50_ml_0.jpg",
+      "title": "Nivea Men Deep Impact Roll On Deodorant - Freshness 50 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "fragrance",
+      "salePrice": 169.15,
+      "strikeOfPrice": 199.0
+    },
+    {
+      "id": 61,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/362506/scalpe_plus_anti_dandruff_shampoo_75_ml_0_1.jpg",
+      "title": "Scalpe Plus Anti Dandruff Shampoo 75 ml",
+      "seller": "Glenmark Pharmaceuticals Ltd",
+      "brand": "Scalpe",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 208.0,
+      "strikeOfPrice": 260.0
+    },
+    {
+      "id": 62,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/404896/indulekha_bringha_oil_100_ml_0.jpg",
+      "title": "Indulekha Bringha Oil 100 ml",
+      "seller": "Hindustan Unilever Ltd",
+      "brand": "Indulekha",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 388.8,
+      "strikeOfPrice": 432.0
+    },
+    {
+      "id": 63,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/326043/keratone_oil_100ml_0.jpg",
+      "title": "Dabur Keratone Oil 100 ml",
+      "seller": "Fem Care Pharma Ltd",
+      "brand": "Dabur",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 178.0,
+      "strikeOfPrice": 200.0
+    },
+    {
+      "id": 64,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12740/dabur_amla_hair_oil_275_ml_0_1.jpg",
+      "title": "Dabur Amla Hair Oil 275 ml",
+      "seller": "Dabur India Ltd",
+      "brand": "Dabur",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 138.0
+    },
+    {
+      "id": 65,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405219/dabur_amla_hair_oil_450_ml_0.jpg",
+      "title": "Dabur Amla Hair Oil 450 ml",
+      "seller": "Dabur India Ltd",
+      "brand": "Dabur",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 209.0
+    },
+    {
+      "id": 66,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853021/ducray_anaphase_anti_hair_loss_complement_shampoo_100_ml_0_3.jpg",
+      "title": "Ducray Anaphase+ Anti-Hair Loss Complement Shampoo 100 ml",
+      "seller": "Abbott Healthcare Pvt. Ltd.",
+      "brand": "Ducray",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 647.8,
+      "strikeOfPrice": 790.0
+    },
+    {
+      "id": 67,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12751/dabur_almond_hair_oil_50_ml_0.jpg",
+      "title": "Dabur Almond Hair Oil 50 ml",
+      "seller": "Dabur India Ltd",
+      "brand": "Dabur",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 37.0
+    },
+    {
+      "id": 68,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/21058/sebamed_everyday_shampoo_200ml_0.jpg",
+      "title": "SEBAMED EVERYDAY Shampoo 200ml",
+      "seller": "Usv Private Ltd",
+      "brand": "SEBAMED",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 557.07,
+      "strikeOfPrice": 599.0
+    },
+    {
+      "id": 69,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12721/dabur_amla_hair_oil_45_ml_0.jpg",
+      "title": "Dabur Amla Hair Oil 45 ml",
+      "seller": "Dabur India Ltd",
+      "brand": "Dabur",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 20.0
+    },
+    {
+      "id": 70,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405954/patanjali_kesh_kanti_hair_cleanser_natural_200_ml_0.jpg",
+      "title": "Patanjali Kesh Kanti Hair Cleanser - Natural 200 ml",
+      "seller": "Patanjali Ayurved Ltd",
+      "brand": "Patanjali",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 75.0
+    },
+    {
+      "id": 71,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405938/patanjali_kesh_kanti_hair_cleanser_milk_protein_200_ml_0.jpg",
+      "title": "Patanjali Kesh Kanti Hair Cleanser - Milk Protein 200 ml",
+      "seller": "Patanjali Ayurved Ltd",
+      "brand": "Patanjali",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 95.0
+    },
+    {
+      "id": 72,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12739/dabur_amla_hair_oil_180_ml_0.jpg",
+      "title": "Dabur Amla Hair Oil 180 ml",
+      "seller": "Dabur India Ltd",
+      "brand": "Dabur",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 90.0
+    },
+    {
+      "id": 73,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405129/bajaj_almond_drops_hair_oil_50_ml_0_1.jpg",
+      "title": "Bajaj Almond Drops Hair Oil 50 ml",
+      "seller": "Bajaj Consumer Care Ltd",
+      "brand": "Bajaj",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 37.0
+    },
+    {
+      "id": 74,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405945/patanjali_kesh_kanti_hair_cleanser_anti_dandruff_200_ml_0_1.jpg",
+      "title": "Patanjali Kesh Kanti Hair Cleanser - Anti Dandruff 200 ml",
+      "seller": "Patanjali Ayurved Ltd",
+      "brand": "Patanjali",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 110.0
+    },
+    {
+      "id": 75,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411866/bontress_hair_revitalising_shampoo_150ml_0.jpg",
+      "title": "Bontress Hair Revitalising Shampoo 150ml",
+      "seller": "Glenmark Pharmaceuticals Ltd",
+      "brand": "Bontress",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 690.0
+    },
+    {
+      "id": 76,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405128/bajaj_almond_drops_hair_oil_300_ml_0.jpg",
+      "title": "Bajaj Almond Drops Hair Oil 300 ml",
+      "seller": "Bajaj Consumer Care Ltd",
+      "brand": "Bajaj",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 195.0
+    },
+    {
+      "id": 77,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407394/himalaya_protein_hair_cream_extra_nourishment_100_ml_0.jpg",
+      "title": "Himalaya Protein Hair Cream - Extra Nourishment 100 ml",
+      "seller": "The Himalaya Drug Company",
+      "brand": "Himalaya",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 84.6,
+      "strikeOfPrice": 90.0
+    },
+    {
+      "id": 78,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405957/patanjali_kesh_kanti_hair_cleanser_shikakai_200_ml_0.jpg",
+      "title": "Patanjali Kesh Kanti Hair Cleanser - Shikakai 200 ml",
+      "seller": "Patanjali Ayurved Ltd",
+      "brand": "Patanjali",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 95.0
+    },
+    {
+      "id": 79,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13514/navratna_ayurvedic_cool_oil_100_ml_0.jpg",
+      "title": "Navratna Ayurvedic Cool Oil 100 ml",
+      "seller": "Emami Ltd",
+      "brand": "Navratna",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 80.0
+    },
+    {
+      "id": 80,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405126/bajaj_almond_drops_hair_oil_100_ml_0.jpg",
+      "title": "Bajaj Almond Drops Hair Oil 100 ml",
+      "seller": "Bajaj Consumer Care Ltd",
+      "brand": "Bajaj",
+      "category": "beauty",
+      "type": "hair",
+      "salePrice": 70.0
+    },
+    {
+      "id": 81,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13454/nestle_nan_pro_1_upto_6_months_powder_400_gm_refill_pack_0_0.jpg",
+      "title": "Nestle Nan Pro 1 (Upto 6 Months) Powder 400 gm (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 690.0
+    },
+    {
+      "id": 82,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13449/nestle_lactogen_stage_1_upto_6_months_powder_400_gm_refill_pack_0_1.jpg",
+      "title": "Nestle Lactogen Stage 1 (Upto 6 Months) Powder 400 gm (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 375.0
+    },
+    {
+      "id": 83,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13457/nestle_nan_pro_2_6_months_powder_400_gm_refill_pack_0.jpg",
+      "title": "Nestle Nan Pro 2 (6 Months+) Powder 400 gm (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 660.0
+    },
+    {
+      "id": 84,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13470/nestle_cerelac_stage_4_12_months_powder_300_gm_multigrain_fruits_refill_pack_0.jpg",
+      "title": "Nestle Cerelac Stage 4 (12 Months+) Powder 300 gm- Multigrain & Fruits (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 279.0
+    },
+    {
+      "id": 85,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13451/nestle_lactogen_stage_2_6_months_powder_400_gm_refill_pack_0.jpg",
+      "title": "Nestle Lactogen Stage 2 (6 Months+) Powder 400 gm (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 360.0
+    },
+    {
+      "id": 86,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15041/whisper_choice_ultra_sanitary_pads_xl_6_s_0.jpg",
+      "title": "Whisper Choice Ultra Sanitary Pads (XL) 6's",
+      "seller": "Procter & Gamble",
+      "brand": "Whisper",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 45.0
+    },
+    {
+      "id": 87,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411958/similac_iq_stage_2_after_6_months_400_gm_powder_tin_0_2.jpg",
+      "title": "Similac IQ+ Stage 2 (After 6 Months) 400 gm Powder Tin",
+      "seller": "Abbott Healthcare Pvt Ltd",
+      "brand": "Similac",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 700.0
+    },
+    {
+      "id": 88,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801217/vicks_baby_rub_25_ml_0.jpg",
+      "title": "Vicks Baby Rub 25 ml",
+      "seller": "Procter & Gamble",
+      "brand": "Vicks",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 105.0
+    },
+    {
+      "id": 89,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/410889/nestle_nan_excella_pro_2_6_months_powder_400_gm_refill_pack_0_0.jpg",
+      "title": "Nestle Nan Excella Pro 2 (6 Months+) Powder 400 gm (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 760.0
+    },
+    {
+      "id": 90,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/111908/vwash_plus_expert_intimate_hygiene_wash_100_ml_0_1.jpg",
+      "title": "VWash Plus Expert Intimate Hygiene Wash 100 ml",
+      "seller": "Hindustan Unilever Ltd",
+      "brand": "VWash",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 162.0,
+      "strikeOfPrice": 180.0
+    },
+    {
+      "id": 91,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13450/nestle_lactogen_stage_1_upto_6_months_powder_400_gm_tin_0_1.jpg",
+      "title": "Nestle Lactogen Stage 1 (Upto 6 Months) Powder 400 gm (Tin)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 390.0
+    },
+    {
+      "id": 92,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13471/nestle_cerelac_stage_4_12_months_powder_300_gm_multigrain_dal_veg_refill_pack_0_1.jpg",
+      "title": "Nestle Cerelac Stage 4 (12 Months+) Powder 300 gm - Multigrain Dal Veg (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 279.0
+    },
+    {
+      "id": 93,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13476/nestle_nestum_stage_3_10_24_months_powder_300_gm_rice_fruits_refill_pack_0_1.jpg",
+      "title": "Nestle Nestum Stage 3 (10-24 Months) Powder 300 gm - Rice Fruits (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 195.0
+    },
+    {
+      "id": 94,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822028/whisper_choice_wings_sanitary_pads_7s_0_0.jpg",
+      "title": "Whisper Choice Wings Sanitary Pads 7's",
+      "seller": "Procter & Gamble",
+      "brand": "Whisper",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 30.4,
+      "strikeOfPrice": 32.0
+    },
+    {
+      "id": 95,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/857348/nestle_cerelac_stage_5_18_months_powder_300_gm_5_grains_fruits_refill_pack_0.jpg",
+      "title": "Nestle Cerelac Stage 5 (18 months+) Powder 300 gm - 5 Grains & Fruits (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 288.0
+    },
+    {
+      "id": 96,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801428/stayfree_secure_cottony_soft_wings_sanitary_napkin_xl_6_s_0.jpg",
+      "title": "Stayfree Secure Cottony with Wings Sanitary Pads (XL) 6's",
+      "seller": "Johnson & Johnson Pvt Ltd",
+      "brand": "Stayfree",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 35.15,
+      "strikeOfPrice": 37.0
+    },
+    {
+      "id": 97,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412293/nestle_nan_lo_lac_upto_24_months_powder_200_gm_refill_pack_0.jpg",
+      "title": "Nestle Nan Lo-Lac (Upto 24 months) Powder 200 gm (Refill Pack)",
+      "seller": "Nestle India Ltd",
+      "brand": "Nestle",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 265.0
+    },
+    {
+      "id": 98,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/111909/vwash_plus_expert_intimate_hygiene_wash_200_ml_0_2.jpg",
+      "title": "VWash Plus Expert Intimate Hygiene Wash 200 ml",
+      "seller": "Hindustan Unilever Ltd",
+      "brand": "VWash",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 269.89,
+      "strikeOfPrice": 324.0
+    },
+    {
+      "id": 99,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/14626/similac_isomil_soy_infant_formula_400_gm_tin_0_3.jpg",
+      "title": "Similac Isomil Soy Infant Formula 400 gm - Tin",
+      "seller": "Abbott Healthcare Pvt Ltd",
+      "brand": "Similac",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 550.0
+    },
+    {
+      "id": 100,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412464/whisper_choice_wings_sanitary_pad_20s_0_1.jpg",
+      "title": "Whisper Choice Wings Sanitary Pad 20's",
+      "seller": "Procter & Gamble",
+      "brand": "Whisper",
+      "category": "beauty",
+      "type": "momAndBaby",
+      "salePrice": 85.5,
+      "strikeOfPrice": 90.0
+    },
+    {
+      "id": 101,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12746/dabur_gulabari_premium_rose_water_250_ml_0_2.jpg",
+      "title": "Dabur Gulabari Premium Rose Water 250 ml",
+      "seller": "Dabur India Ltd",
+      "brand": "Dabur",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 84.0
+    },
+    {
+      "id": 102,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/800494/candid_cream_50gm_0.jpg",
+      "title": "Candid Cream 50gm",
+      "seller": "Glenmark Pharmaceuticals Ltd",
+      "brand": "Candid",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 153.7
+    },
+    {
+      "id": 103,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408827/boro_plus_healthy_skin_antiseptic_cream_40_ml_0.jpg",
+      "title": "Boro Plus Healthy Skin Antiseptic Cream 40 ml",
+      "seller": "Emami Ltd",
+      "brand": "Boro",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 75.0
+    },
+    {
+      "id": 104,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409293/acne_star_gel_15_gm_0.jpg",
+      "title": "Acne Star Gel 15 gm",
+      "seller": "Mankind Pharma Pvt Ltd",
+      "brand": "Acne",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 76.0,
+      "strikeOfPrice": 80.0
+    },
+    {
+      "id": 105,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853511/boroline_antiseptic_ayurvedic_cream_20_gm_0_0.jpg",
+      "title": "Boroline Antiseptic Ayurvedic Cream 20 gm",
+      "seller": "G D Pharmaceuticals Ltd.",
+      "brand": "Boroline",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 40.0
+    },
+    {
+      "id": 106,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/108961/renu_fresh_multi_purpose_solution_500_ml_0_1.jpg",
+      "title": "Renu Fresh Multi Purpose Solution 500 ml",
+      "seller": "Bausch & Lomb India Private Limited",
+      "brand": "Renu",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 519.2,
+      "strikeOfPrice": 590.0
+    },
+    {
+      "id": 107,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853514/boroline_antiseptic_ayurvedic_cream_40_gm_0.jpg",
+      "title": "Boroline Antiseptic Ayurvedic Cream 40 gm",
+      "seller": "G D Pharmaceuticals Ltd.",
+      "brand": "Boroline",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 75.0
+    },
+    {
+      "id": 108,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/100276/fair_lovely_advanced_multi_vitamin_face_cream_25_gm_0_1.jpg",
+      "title": "Glow & Lovely Advanced Multi Vitamin Face Cream 25 gm",
+      "seller": "Hindustan Unilever Ltd",
+      "brand": "Glow",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 58.0
+    },
+    {
+      "id": 109,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411868/lacto_calamine_oil_balance_for_oily_skin_lotion_120_ml_0_3.jpg",
+      "title": "Lacto Calamine Oil Balance for Oily Skin Lotion 120 ml",
+      "seller": "Piramal Healthcare Ltd",
+      "brand": "Lacto",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 194.92,
+      "strikeOfPrice": 220.0
+    },
+    {
+      "id": 110,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/410717/vicco_turmeric_skin_cream_70_gm_0.jpg",
+      "title": "Vicco Turmeric Skin Cream 70 gm",
+      "seller": "Vicco Laboratories",
+      "brand": "Vicco",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 245.0
+    },
+    {
+      "id": 111,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/410718/vicco_turmeric_skin_cream_50_gm_0_1.jpg",
+      "title": "Vicco Turmeric Skin Cream 50 gm",
+      "seller": "Vicco Laboratories",
+      "brand": "Vicco",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 198.0
+    },
+    {
+      "id": 112,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12745/dabur_gulabari_premium_rose_water_120_ml_0_2.jpg",
+      "title": "Dabur Gulabari Premium Rose Water 120 ml",
+      "seller": "Dabur India Ltd",
+      "brand": "Dabur",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 49.0
+    },
+    {
+      "id": 113,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/827253/mankind_acnestar_gel_22_gm_0.jpg",
+      "title": "Mankind Acnestar Gel 22 gm",
+      "seller": "Mankind Pharma Pvt Ltd",
+      "brand": "Mankind",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 104.5,
+      "strikeOfPrice": 110.0
+    },
+    {
+      "id": 114,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/410263/patanjali_saundarya_alovera_kesar_chandan_gel_60_ml_0.jpg",
+      "title": "Patanjali Saundarya Alovera Kesar Chandan Gel 60 ml",
+      "seller": "Patanjali Ayurved Ltd",
+      "brand": "Patanjali",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 55.0
+    },
+    {
+      "id": 115,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853599/glow_lovely_advanced_multi_vitamin_face_cream_50_gm_0_1.jpg",
+      "title": "Glow & Lovely Advanced Multi Vitamin Face Cream 50 gm",
+      "seller": "Hindustan Unilever Ltd",
+      "brand": "Glow",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 110.0
+    },
+    {
+      "id": 116,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405059/lacto_calamine_oil_balance_combination_to_normal_skin_lotion_120_ml_0_2.jpg",
+      "title": "Lacto Calamine Oil Balance Combination to Normal Skin Lotion 120 ml",
+      "seller": "Piramal Healthcare Ltd",
+      "brand": "Lacto",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 198.0,
+      "strikeOfPrice": 220.0
+    },
+    {
+      "id": 117,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/327036/elovera_cream_150gm_0.jpg",
+      "title": "Elovera Cream 150gm",
+      "seller": "Glenmark Pharmaceuticals Ltd",
+      "brand": "Elovera",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 360.0
+    },
+    {
+      "id": 118,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13603/nivea_soft_light_moisturiser_25_ml_0.jpg",
+      "title": "Nivea Soft Light Moisturiser 25 ml",
+      "seller": "Nivea India Pvt Ltd",
+      "brand": "Nivea",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 42.75,
+      "strikeOfPrice": 45.0
+    },
+    {
+      "id": 119,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408979/biotrue_multi_purpose_solution_300_ml_0.jpg",
+      "title": "Biotrue Multi Purpose Solution 300 ml",
+      "seller": "Bausch & Lomb India Private Limited",
+      "brand": "Biotrue",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 515.2,
+      "strikeOfPrice": 560.0
+    },
+    {
+      "id": 120,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/108959/renu_fresh_multi_purpose_solution_120_ml_0.jpg",
+      "title": "Renu Fresh Multi Purpose Solution 120 ml",
+      "seller": "Bausch & Lomb India Private Limited",
+      "brand": "Renu",
+      "category": "beauty",
+      "type": "skinCare",
+      "salePrice": 220.8,
+      "strikeOfPrice": 240.0
+    }
+  ],
+
+  "categories": [
     {
       "id": "wellness",
       "imageUrl": "https://cdn-icons-png.flaticon.com/512/2791/2791163.png",
       "title": "Wellness",
-      "path": "/wellness",
+      "path": "wellness",
       "carousel": [
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498134_sdvbnm.jpg",
+
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651338093_Web_Home89.jpg",
+
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
       ],
       "category": [
         {
-          "id": 1,
+          "id": "covid-essentials",
           "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
           "title": "Covid Essentials",
-          "path": "/covid-essentials",
-          "products": [
-            {
-              "id": 1,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-              "title": "Revital H Capsule 10'S",
-              "seller": "Sun Pharmaceutical Industries Ltd",
-              "brand": "Revital",
-              "salePrice": 93.5,
-              "strikeOfPrice": 110
-            },
-            {
-              "id": 2,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-              "title": "Revital H Woman Tablet 30'S",
-              "seller": "Sun Pharmaceutical Industries Ltd",
-              "brand": "Revital",
-              "salePrice": 293.25,
-              "strikeOfPrice": 345
-            },
-            {
-              "id": 3,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
-              "title": "Revital H Capsule 60'S",
-              "seller": "Sun Pharmaceutical Industries Ltd",
-              "brand": "Revital",
-              "salePrice": 467.5,
-              "strikeOfPrice": 550
-            },
-            {
-              "id": 4,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
-              "title": "Dettol Antiseptic Liquid 60 ml",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 33.27,
-              "strikeOfPrice": 50
-            },
-            {
-              "id": 5,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
-              "title": "Revital H Capsule 30'S",
-              "seller": "Sun Pharmaceutical Industries Ltd",
-              "brand": "Revital",
-              "salePrice": 263.5,
-              "strikeOfPrice": 310
-            },
-            {
-              "id": 6,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/835057/dettol_antiseptic_liquid_550_ml_0.jpg",
-              "title": "Dettol Antiseptic Liquid 550 ml",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 194.6,
-              "strikeOfPrice": 220
-            },
-            {
-              "id": 7,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
-              "title": "Dettol Antiseptic Liquid 1 ltr",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 331.41,
-              "strikeOfPrice": 380
-            },
-            {
-              "id": 8,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408222/revital_h_woman_tablet_10_s_0.jpg",
-              "title": "Revital H Woman Tablet 10'S",
-              "seller": "Sun Pharmaceutical Industries Ltd",
-              "brand": "Revital",
-              "salePrice": 102,
-              "strikeOfPrice": 120
-            },
-            {
-              "id": 9,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/38049/garlic_pearls_capsule_100_s_0.jpg",
-              "title": "Garlic Pearls Capsule 100'S",
-              "seller": "Sun Pharmaceutical Industries Ltd",
-              "brand": "Garlic",
-              "salePrice": 127.5,
-              "strikeOfPrice": 150
-            },
-            {
-              "id": 10,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/886988/dettol_antiseptic_liquid_disinfectant_250_ml_0_1.jpg",
-              "title": "Dettol Antiseptic Liquid Disinfectant 250 ml",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 116.16,
-              "strikeOfPrice": 150
-            },
-            {
-              "id": 11,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/839437/fast_up_charge_natural_vitamin_c_tablets_orange_flavour_20_s_0.jpg",
-              "title": "Fast&Up Charge Natural Vitamin C & Zinc Tablets - Orange Flavour 20's",
-              "seller": "Aeronutrix Sports Products Private Limited",
-              "brand": "Fast",
-              "salePrice": 300.3,
-              "strikeOfPrice": 390
-            },
-            {
-              "id": 12,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15116/dettol_disinfectant_lime_fresh_500_ml_0_1.jpg",
-              "title": "Dettol Disinfectant - Lime Fresh 500 ml",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 173.7,
-              "strikeOfPrice": 193
-            },
-            {
-              "id": 13,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412802/dettol_disinfectant_liquid_menthol_cool_500_ml_0.jpg",
-              "title": "Dettol Disinfectant Liquid - Menthol Cool 500 ml",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 173.7,
-              "strikeOfPrice": 193
-            },
-            {
-              "id": 14,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15129/dettol_hand_sanitizer_original_50_ml_0.jpg",
-              "title": "Dettol Instant Hand Sanitizer - Original 50 ml",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 25,
-              "strikeOfPrice": 50
-            },
-            {
-              "id": 15,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15115/dettol_disinfectant_lime_fresh_200_ml_0_1.jpg",
-              "title": "Dettol Disinfectant - Lime Fresh 200 ml",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 93.1,
-              "strikeOfPrice": 98
-            },
-            {
-              "id": 16,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/406018/savlon_antiseptic_liquid_100_ml_0_1.jpg",
-              "title": "Savlon Antiseptic Liquid 100 ml",
-              "seller": "Itc India Ltd",
-              "brand": "Savlon",
-              "salePrice": 48,
-              "strikeOfPrice": 70
-            },
-            {
-              "id": 17,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/815146/healthvit_fitness_zma_zinc_magnesium_vitamin_b6_capsules_90_s_0.jpg",
-              "title": "HealthVit Fitness ZMA (Zinc,Magnesium & Vitamin B6) Capsules 90's",
-              "seller": "West Coast Pharmaceuticals Works Ltd",
-              "brand": "HealthVit",
-              "salePrice": 946,
-              "strikeOfPrice": 1100
-            },
-            {
-              "id": 18,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412801/dettol_disinfectant_liquid_menthol_cool_200_ml_0.jpg",
-              "title": "Dettol Disinfectant Liquid - Menthol Cool 200 ml",
-              "seller": "Reckitt Benckiser India Ltd",
-              "brand": "Dettol",
-              "salePrice": 93.1,
-              "strikeOfPrice": 98
-            },
-            {
-              "id": 19,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858571/inlife_multivitamins_and_minerals_for_women_capsules_60_s_0.jpg",
-              "title": "INLIFE Multivitamins and Minerals for Women Capsules 60's",
-              "seller": "Inlife Pharma Private Limited",
-              "brand": "INLIFE",
-              "salePrice": 438.97,
-              "strikeOfPrice": 699
-            },
-            {
-              "id": 20,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858570/inlife_multivitamins_and_minerals_for_men_capsules_60_s_0.jpg",
-              "title": "INLIFE Multivitamins and Minerals for Men Capsules 60's",
-              "seller": "Inlife Pharma Private Limited",
-              "brand": "INLIFE",
-              "salePrice": 438.97,
-              "strikeOfPrice": 699
-            },
-            {
-              "id": 21,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842856/healthvit_cenvitan_men_multivitamin_multimineral_tablet_60s_0_3.jpg",
-              "title": "HealthVit Cenvitan Men (Multivitamin & Multimineral) Tablet 60's",
-              "seller": "West Coast Pharmaceuticals Works Ltd",
-              "brand": "HealthVit",
-              "salePrice": 450,
-              "strikeOfPrice": 500
-            },
-            {
-              "id": 22,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858143/inlife_omega_3_fish_oil_500_mg_capsules_60s_0_1.jpg",
-              "title": "INLIFE Omega 3 Fish Oil 500 mg Capsules 60's",
-              "seller": "Inlife Pharma Private Limited",
-              "brand": "INLIFE",
-              "salePrice": 330.84,
-              "strikeOfPrice": 499
-            },
-            {
-              "id": 23,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/885336/fast_up_charge_effervesent_tablet_orange_flavour_pack_of_3_x_20_s_0.jpg",
-              "title": "Fast&Up Charge Natural Vitamin C & Zinc Effervesent Tablet - Orange Flavour (Pack of 3 x 20's)",
-              "seller": "Aeronutrix Sports Products Private Limited",
-              "brand": "Fast",
-              "salePrice": 807.3,
-              "strikeOfPrice": 1170
-            },
-            {
-              "id": 24,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412506/dr_vaidyas_herbofit_capsule_30s_0_1.jpg",
-              "title": "Dr.Vaidya's Herbofit Capsule 30's",
-              "seller": "Herbolab India Pvt Ltd",
-              "brand": "Dr",
-              "salePrice": 111.6,
-              "strikeOfPrice": 180
-            },
-            {
-              "id": 25,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/815541/healthvit_mulvit_multivitamins_and_minerals_tablet_60_s_0.jpg",
-              "title": "HealthVit Mulvit Multivitamins and Minerals Tablet 60's",
-              "seller": "West Coast Pharmaceuticals Works Ltd",
-              "brand": "HealthVit",
-              "salePrice": 360,
-              "strikeOfPrice": 400
-            },
-            {
-              "id": 26,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408712/romsons_respirometer_0.jpg",
-              "title": "Romsons Respirometer",
-              "seller": "Romsons Scientific & Surgical Pvt Ltd",
-              "brand": "Romsons",
-              "salePrice": 160.01,
-              "strikeOfPrice": 773
-            },
-            {
-              "id": 27,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842857/healthvit_cenvitan_women_multivitamin_multimineral_tablet_60s_0_2.jpg",
-              "title": "HealthVit Cenvitan Women (Multivitamin & Multimineral) Tablet 60's",
-              "seller": "West Coast Pharmaceuticals Works Ltd",
-              "brand": "HealthVit",
-              "salePrice": 473,
-              "strikeOfPrice": 550
-            },
-            {
-              "id": 28,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822956/healthvit_omega_3_fish_oil_double_strength_1000_mg_softgel_60_s_0.jpg",
-              "title": "HealthVit Omega - 3 Fish Oil Double Strength 1000 mg Softgel 60's",
-              "seller": "West Coast Pharmaceuticals Works Ltd",
-              "brand": "HealthVit",
-              "salePrice": 688,
-              "strikeOfPrice": 800
-            },
-            {
-              "id": 29,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858134/inlife_multivitamin_and_minerals_supplement_tablets_60s_0_1.jpg",
-              "title": "INLIFE Multivitamin and Minerals Supplement Tablets 60's",
-              "seller": "Inlife Pharma Private Limited",
-              "brand": "INLIFE",
-              "salePrice": 418.8,
-              "strikeOfPrice": 600
-            },
-            {
-              "id": 30,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858173/inlife_curcumin_95_advanced_500_mg_vegetarian_capsule_60_s_0.jpg",
-              "title": "INLIFE Curcumin 95 Advanced 500 mg Vegetarian Capsule 60's",
-              "seller": "Inlife Pharma Private Limited",
-              "brand": "INLIFE",
-              "salePrice": 714.45,
-              "strikeOfPrice": 1299
-            },
-            {
-              "id": 31,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/814956/healthvit_femyvit_women_multivitamin_minerals_tablet_60_s_0.jpg",
-              "title": "HealthVit Femyvit Women Multivitamin Minerals Tablet 60's",
-              "seller": "West Coast Pharmaceuticals Works Ltd",
-              "brand": "HealthVit",
-              "salePrice": 258,
-              "strikeOfPrice": 300
-            },
-            {
-              "id": 32,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/821405/healthvit_b_vit_multivitamin_tablet_60s_0_1.jpg",
-              "title": "HealthVit B-Vit Multivitamin Tablet 60's",
-              "seller": "West Coast Pharmaceuticals Works Ltd",
-              "brand": "HealthVit",
-              "salePrice": 516,
-              "strikeOfPrice": 600
-            },
-            {
-              "id": 33,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/902228/sahyog_wellness_hot_water_bottle_bag_blue_0_1.jpg",
-              "title": "Sahyog Wellness Hot Water Bottle/Bag - Blue",
-              "seller": "Sahyog Wellness",
-              "brand": "Sahyog",
-              "salePrice": 249,
-              "strikeOfPrice": 300
-            },
-            {
-              "id": 34,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412632/savlon_moisture_shield_hand_wash_200_ml_0.jpg",
-              "title": "Savlon Moisture Shield Hand Wash 200 ml",
-              "seller": "Itc India Ltd",
-              "brand": "Savlon",
-              "salePrice": 95
-            },
-            {
-              "id": 35,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/885349/fast_up_vitalize_multivitamin_effervescent_tablet_orange_flavour_pack_of_3_x_20s_0_1.jpg",
-              "title": "Fast&Up Vitalize Multivitamin Effervescent Tablet - Orange Flavour (Pack of 3 x 20's)",
-              "seller": "Aeronutrix Sports Products Private Limited",
-              "brand": "Fast",
-              "salePrice": 900.9,
-              "strikeOfPrice": 1170
-            },
-            {
-              "id": 36,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412697/savlon_herbal_sensitive_hand_wash_200_ml_0.jpg",
-              "title": "Savlon Herbal Sensitive Hand Wash 200 ml",
-              "seller": "Itc India Ltd",
-              "brand": "Savlon",
-              "salePrice": 69,
-              "strikeOfPrice": 80
-            },
-            {
-              "id": 37,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842858/healthvit_cenvitan_adults_multivitamin_multimineral_tablet_60s_0_1.jpg",
-              "title": "HealthVit Cenvitan Adults (Multivitamin & Multimineral) Tablet 60's",
-              "seller": "West Coast Pharmaceuticals Works Ltd",
-              "brand": "HealthVit",
-              "salePrice": 602,
-              "strikeOfPrice": 700
-            },
-            {
-              "id": 38,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858146/inlife_garlic_oil_500_mg_capsules_60_s_0.jpg",
-              "title": "INLIFE Garlic Oil 500 mg Capsules 60's",
-              "seller": "Inlife Pharma Private Limited",
-              "brand": "INLIFE",
-              "salePrice": 288.88,
-              "strikeOfPrice": 399
-            },
-            {
-              "id": 39,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/859708/omron_compressor_nebulizer_ne_c101_0.jpg",
-              "title": "Omron Compressor Nebulizer (NE-C101)",
-              "seller": "Omron Healthcare Co Ltd",
-              "brand": "Omron",
-              "salePrice": 1904,
-              "strikeOfPrice": 2380
-            },
-            {
-              "id": 40,
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858055/choicemmed_finger_tip_pulse_oximeter_0.jpg",
-              "title": "Choicemmed Finger Tip Pulse Oximeter",
-              "seller": "Choicemmed Technology India Pvt. Ltd.",
-              "brand": "Choicemmed",
-              "salePrice": 900,
-              "strikeOfPrice": 3750
-            }
-          ]
+          "path": "covidEssentials"
         },
+
         {
           "imageUrl": "https://www.netmeds.com/images/category/v1/3251/thumb/sexual_wellness_2.jpg",
           "title": "Sexual Wellness",
-          "path": "/sexual-wellness",
-          "products": []
+          "path": "sexualWellness"
         },
+
         {
           "imageUrl": "https://www.netmeds.com/images/category/3222/thumb/vitamins_and_supplements_1.jpg",
           "title": "Vitamins And Supplements",
-          "path": "/vitamins-suppliments",
-          "products": []
+          "path": "vitaminsAndSuppliments"
         },
+
         {
           "imageUrl": "https://www.netmeds.com/images/category/491/thumb/homeopathy_1.jpg",
           "title": "Homeopathy",
-          "path": "/homeopathy",
-          "products": []
+          "path": "homeopathy"
         },
+
         {
           "imageUrl": "https://www.netmeds.com/images/category/482/thumb/ayurvedic_1.jpg",
           "title": "Ayurvedic",
-          "path": "/ayurvedic",
-          "products": []
-        }
-      ],
-      "products": [
-        {
-          "id": 1,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-          "title": "Revital H Capsule 10'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "salePrice": 93.5,
-          "strikeOfPrice": 110
-        },
-        {
-          "id": 2,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-          "title": "Revital H Woman Tablet 30'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "salePrice": 293.25,
-          "strikeOfPrice": 345
-        },
-        {
-          "id": 3,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
-          "title": "Revital H Capsule 60'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "salePrice": 467.5,
-          "strikeOfPrice": 550
-        },
-        {
-          "id": 4,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
-          "title": "Dettol Antiseptic Liquid 60 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "salePrice": 33.27,
-          "strikeOfPrice": 50
-        },
-        {
-          "id": 5,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
-          "title": "Revital H Capsule 30'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "salePrice": 263.5,
-          "strikeOfPrice": 310
-        },
-        {
-          "id": 6,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/835057/dettol_antiseptic_liquid_550_ml_0.jpg",
-          "title": "Dettol Antiseptic Liquid 550 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "salePrice": 194.6,
-          "strikeOfPrice": 220
-        },
-        {
-          "id": 7,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
-          "title": "Dettol Antiseptic Liquid 1 ltr",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "salePrice": 331.41,
-          "strikeOfPrice": 380
-        },
-        {
-          "id": 8,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408222/revital_h_woman_tablet_10_s_0.jpg",
-          "title": "Revital H Woman Tablet 10'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "salePrice": 102,
-          "strikeOfPrice": 120
-        },
-        {
-          "id": 9,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/38049/garlic_pearls_capsule_100_s_0.jpg",
-          "title": "Garlic Pearls Capsule 100'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Garlic",
-          "salePrice": 127.5,
-          "strikeOfPrice": 150
-        },
-        {
-          "id": 10,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/886988/dettol_antiseptic_liquid_disinfectant_250_ml_0_1.jpg",
-          "title": "Dettol Antiseptic Liquid Disinfectant 250 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "salePrice": 116.16,
-          "strikeOfPrice": 150
-        },
-        {
-          "id": 11,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/839437/fast_up_charge_natural_vitamin_c_tablets_orange_flavour_20_s_0.jpg",
-          "title": "Fast&Up Charge Natural Vitamin C & Zinc Tablets - Orange Flavour 20's",
-          "seller": "Aeronutrix Sports Products Private Limited",
-          "brand": "Fast",
-          "salePrice": 300.3,
-          "strikeOfPrice": 390
-        },
-        {
-          "id": 12,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15116/dettol_disinfectant_lime_fresh_500_ml_0_1.jpg",
-          "title": "Dettol Disinfectant - Lime Fresh 500 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "salePrice": 173.7,
-          "strikeOfPrice": 193
-        },
-        {
-          "id": 13,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412802/dettol_disinfectant_liquid_menthol_cool_500_ml_0.jpg",
-          "title": "Dettol Disinfectant Liquid - Menthol Cool 500 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "salePrice": 173.7,
-          "strikeOfPrice": 193
-        },
-        {
-          "id": 14,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15129/dettol_hand_sanitizer_original_50_ml_0.jpg",
-          "title": "Dettol Instant Hand Sanitizer - Original 50 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "salePrice": 25,
-          "strikeOfPrice": 50
-        },
-        {
-          "id": 15,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15115/dettol_disinfectant_lime_fresh_200_ml_0_1.jpg",
-          "title": "Dettol Disinfectant - Lime Fresh 200 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "salePrice": 93.1,
-          "strikeOfPrice": 98
+          "path": "ayurvedic"
         }
       ]
     },
-    {
-      "id": "lab-test",
-      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3655/3655580.png",
-      "title": "Lab Tests",
-      "path": "/lab-tests",
-      "category": [
-        {
-          "title": "ECHO",
-          "imageUrl": "",
-          "path": "/echo"
-        },
-        {
-          "title": "ECG",
-          "imageUrl": "",
-          "path": "/ecg"
-        },
-        {
-          "title": "PET Scan",
-          "imageUrl": "",
-          "path": "/pet-scan"
-        },
-        {
-          "title": "Ultersound",
-          "imageUrl": "",
-          "path": "/ultrasound"
-        }
-      ]
-    },
+
     {
       "id": "beauty",
       "imageUrl": "https://cdn-icons.flaticon.com/png/512/1703/premium/1703993.png?token=exp=1651607336~hmac=a9f18e1ece263fcc114e85784eca6f57",
       "title": "Beauty",
-      "path": "/beauty",
+      "path": "beauty",
       "carousel": [
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498134_sdvbnm.jpg",
+
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651338093_Web_Home89.jpg",
+
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
       ],
       "category": [
         {
           "imageUrl": "https://www.netmeds.com/images/category/v1/3784/thumb/skin_care_3.jpg",
           "title": "Skin Care",
-          "path": "/skin-care",
-          "products": [
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12746/dabur_gulabari_premium_rose_water_250_ml_0_2.jpg",
-              "title": "Dabur Gulabari Premium Rose Water 250 ml",
-              "seller": "Dabur India Ltd",
-              "salePrice": 84
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/800494/candid_cream_50gm_0.jpg",
-              "title": "Candid Cream 50gm",
-              "seller": "Glenmark Pharmaceuticals Ltd",
-              "salePrice": 153.7
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408827/boro_plus_healthy_skin_antiseptic_cream_40_ml_0.jpg",
-              "title": "Boro Plus Healthy Skin Antiseptic Cream 40 ml",
-              "seller": "Emami Ltd",
-              "salePrice": 75
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409293/acne_star_gel_15_gm_0.jpg",
-              "title": "Acne Star Gel 15 gm",
-              "seller": "Mankind Pharma Pvt Ltd",
-              "salePrice": 76,
-              "strikeOfPrice": 80
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853511/boroline_antiseptic_ayurvedic_cream_20_gm_0_0.jpg",
-              "title": "Boroline Antiseptic Ayurvedic Cream 20 gm",
-              "seller": "G D Pharmaceuticals Ltd.",
-              "salePrice": 40
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/108961/renu_fresh_multi_purpose_solution_500_ml_0_1.jpg",
-              "title": "Renu Fresh Multi Purpose Solution 500 ml",
-              "seller": "Bausch & Lomb India Private Limited",
-              "salePrice": 519.2,
-              "strikeOfPrice": 590
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853514/boroline_antiseptic_ayurvedic_cream_40_gm_0.jpg",
-              "title": "Boroline Antiseptic Ayurvedic Cream 40 gm",
-              "seller": "G D Pharmaceuticals Ltd.",
-              "salePrice": 75
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/100276/fair_lovely_advanced_multi_vitamin_face_cream_25_gm_0_1.jpg",
-              "title": "Glow & Lovely Advanced Multi Vitamin Face Cream 25 gm",
-              "seller": "Hindustan Unilever Ltd",
-              "salePrice": 58
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411868/lacto_calamine_oil_balance_for_oily_skin_lotion_120_ml_0_3.jpg",
-              "title": "Lacto Calamine Oil Balance for Oily Skin Lotion 120 ml",
-              "seller": "Piramal Healthcare Ltd",
-              "salePrice": 194.92,
-              "strikeOfPrice": 220
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/410717/vicco_turmeric_skin_cream_70_gm_0.jpg",
-              "title": "Vicco Turmeric Skin Cream 70 gm",
-              "seller": "Vicco Laboratories",
-              "salePrice": 245
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/410718/vicco_turmeric_skin_cream_50_gm_0_1.jpg",
-              "title": "Vicco Turmeric Skin Cream 50 gm",
-              "seller": "Vicco Laboratories",
-              "salePrice": 198
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12745/dabur_gulabari_premium_rose_water_120_ml_0_2.jpg",
-              "title": "Dabur Gulabari Premium Rose Water 120 ml",
-              "seller": "Dabur India Ltd",
-              "salePrice": 49
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/827253/mankind_acnestar_gel_22_gm_0.jpg",
-              "title": "Mankind Acnestar Gel 22 gm",
-              "seller": "Mankind Pharma Pvt Ltd",
-              "salePrice": 104.5,
-              "strikeOfPrice": 110
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/410263/patanjali_saundarya_alovera_kesar_chandan_gel_60_ml_0.jpg",
-              "title": "Patanjali Saundarya Alovera Kesar Chandan Gel 60 ml",
-              "seller": "Patanjali Ayurved Ltd",
-              "salePrice": 55
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853599/glow_lovely_advanced_multi_vitamin_face_cream_50_gm_0_1.jpg",
-              "title": "Glow & Lovely Advanced Multi Vitamin Face Cream 50 gm",
-              "seller": "Hindustan Unilever Ltd",
-              "salePrice": 110
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405059/lacto_calamine_oil_balance_combination_to_normal_skin_lotion_120_ml_0_2.jpg",
-              "title": "Lacto Calamine Oil Balance Combination to Normal Skin Lotion 120 ml",
-              "seller": "Piramal Healthcare Ltd",
-              "salePrice": 198,
-              "strikeOfPrice": 220
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/327036/elovera_cream_150gm_0.jpg",
-              "title": "Elovera Cream 150gm",
-              "seller": "Glenmark Pharmaceuticals Ltd",
-              "salePrice": 360
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13603/nivea_soft_light_moisturiser_25_ml_0.jpg",
-              "title": "Nivea Soft Light Moisturiser 25 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 42.75,
-              "strikeOfPrice": 45
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408979/biotrue_multi_purpose_solution_300_ml_0.jpg",
-              "title": "Biotrue Multi Purpose Solution 300 ml",
-              "seller": "Bausch & Lomb India Private Limited",
-              "salePrice": 515.2,
-              "strikeOfPrice": 560
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/108959/renu_fresh_multi_purpose_solution_120_ml_0.jpg",
-              "title": "Renu Fresh Multi Purpose Solution 120 ml",
-              "seller": "Bausch & Lomb India Private Limited",
-              "salePrice": 220.8,
-              "strikeOfPrice": 240
-            }
-          ]
+          "path": "skinCare"
         },
         {
           "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405219/dabur_amla_hair_oil_450_ml_0.jpg",
           "title": "Hair",
-          "path": "/hair",
-          "products": [
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/362506/scalpe_plus_anti_dandruff_shampoo_75_ml_0_1.jpg",
-              "title": "Scalpe Plus Anti Dandruff Shampoo 75 ml",
-              "seller": "Glenmark Pharmaceuticals Ltd",
-              "salePrice": 208,
-              "strikeOfPrice": 260
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/404896/indulekha_bringha_oil_100_ml_0.jpg",
-              "title": "Indulekha Bringha Oil 100 ml",
-              "seller": "Hindustan Unilever Ltd",
-              "salePrice": 388.8,
-              "strikeOfPrice": 432
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/326043/keratone_oil_100ml_0.jpg",
-              "title": "Dabur Keratone Oil 100 ml",
-              "seller": "Fem Care Pharma Ltd",
-              "salePrice": 178,
-              "strikeOfPrice": 200
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12740/dabur_amla_hair_oil_275_ml_0_1.jpg",
-              "title": "Dabur Amla Hair Oil 275 ml",
-              "seller": "Dabur India Ltd",
-              "salePrice": 138
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405219/dabur_amla_hair_oil_450_ml_0.jpg",
-              "title": "Dabur Amla Hair Oil 450 ml",
-              "seller": "Dabur India Ltd",
-              "salePrice": 209
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853021/ducray_anaphase_anti_hair_loss_complement_shampoo_100_ml_0_3.jpg",
-              "title": "Ducray Anaphase+ Anti-Hair Loss Complement Shampoo 100 ml",
-              "seller": "Abbott Healthcare Pvt. Ltd.",
-              "salePrice": 647.8,
-              "strikeOfPrice": 790
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12751/dabur_almond_hair_oil_50_ml_0.jpg",
-              "title": "Dabur Almond Hair Oil 50 ml",
-              "seller": "Dabur India Ltd",
-              "salePrice": 37
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/21058/sebamed_everyday_shampoo_200ml_0.jpg",
-              "title": "SEBAMED EVERYDAY Shampoo 200ml",
-              "seller": "Usv Private Ltd",
-              "salePrice": 557.07,
-              "strikeOfPrice": 599
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12721/dabur_amla_hair_oil_45_ml_0.jpg",
-              "title": "Dabur Amla Hair Oil 45 ml",
-              "seller": "Dabur India Ltd",
-              "salePrice": 20
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405954/patanjali_kesh_kanti_hair_cleanser_natural_200_ml_0.jpg",
-              "title": "Patanjali Kesh Kanti Hair Cleanser - Natural 200 ml",
-              "seller": "Patanjali Ayurved Ltd",
-              "salePrice": 75
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405938/patanjali_kesh_kanti_hair_cleanser_milk_protein_200_ml_0.jpg",
-              "title": "Patanjali Kesh Kanti Hair Cleanser - Milk Protein 200 ml",
-              "seller": "Patanjali Ayurved Ltd",
-              "salePrice": 95
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12739/dabur_amla_hair_oil_180_ml_0.jpg",
-              "title": "Dabur Amla Hair Oil 180 ml",
-              "seller": "Dabur India Ltd",
-              "salePrice": 90
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405129/bajaj_almond_drops_hair_oil_50_ml_0_1.jpg",
-              "title": "Bajaj Almond Drops Hair Oil 50 ml",
-              "seller": "Bajaj Consumer Care Ltd",
-              "salePrice": 37
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405945/patanjali_kesh_kanti_hair_cleanser_anti_dandruff_200_ml_0_1.jpg",
-              "title": "Patanjali Kesh Kanti Hair Cleanser - Anti Dandruff 200 ml",
-              "seller": "Patanjali Ayurved Ltd",
-              "salePrice": 110
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411866/bontress_hair_revitalising_shampoo_150ml_0.jpg",
-              "title": "Bontress Hair Revitalising Shampoo 150ml",
-              "seller": "Glenmark Pharmaceuticals Ltd",
-              "salePrice": 690
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405128/bajaj_almond_drops_hair_oil_300_ml_0.jpg",
-              "title": "Bajaj Almond Drops Hair Oil 300 ml",
-              "seller": "Bajaj Consumer Care Ltd",
-              "salePrice": 195
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407394/himalaya_protein_hair_cream_extra_nourishment_100_ml_0.jpg",
-              "title": "Himalaya Protein Hair Cream - Extra Nourishment 100 ml",
-              "seller": "The Himalaya Drug Company",
-              "salePrice": 84.6,
-              "strikeOfPrice": 90
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405957/patanjali_kesh_kanti_hair_cleanser_shikakai_200_ml_0.jpg",
-              "title": "Patanjali Kesh Kanti Hair Cleanser - Shikakai 200 ml",
-              "seller": "Patanjali Ayurved Ltd",
-              "salePrice": 95
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13514/navratna_ayurvedic_cool_oil_100_ml_0.jpg",
-              "title": "Navratna Ayurvedic Cool Oil 100 ml",
-              "seller": "Emami Ltd",
-              "salePrice": 80
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405126/bajaj_almond_drops_hair_oil_100_ml_0.jpg",
-              "title": "Bajaj Almond Drops Hair Oil 100 ml",
-              "seller": "Bajaj Consumer Care Ltd",
-              "salePrice": 70
-            }
-          ]
+          "path": "hair"
         },
         {
           "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853620/lakme_eyeconic_black_kajal_0_35_gm_0.jpg",
           "title": "Make-Up",
-          "path": "/make-up",
-          "products": []
+          "path": "makeUp"
         },
         {
           "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13451/nestle_lactogen_stage_2_6_months_powder_400_gm_refill_pack_0.jpg",
           "title": "Mom & Baby",
-          "path": "/mom-baby",
-          "products": [
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13454/nestle_nan_pro_1_upto_6_months_powder_400_gm_refill_pack_0_0.jpg",
-              "title": "Nestle Nan Pro 1 (Upto 6 Months) Powder 400 gm (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 690
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13449/nestle_lactogen_stage_1_upto_6_months_powder_400_gm_refill_pack_0_1.jpg",
-              "title": "Nestle Lactogen Stage 1 (Upto 6 Months) Powder 400 gm (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 375
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13457/nestle_nan_pro_2_6_months_powder_400_gm_refill_pack_0.jpg",
-              "title": "Nestle Nan Pro 2 (6 Months+) Powder 400 gm (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 660
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13470/nestle_cerelac_stage_4_12_months_powder_300_gm_multigrain_fruits_refill_pack_0.jpg",
-              "title": "Nestle Cerelac Stage 4 (12 Months+) Powder 300 gm- Multigrain & Fruits (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 279
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13451/nestle_lactogen_stage_2_6_months_powder_400_gm_refill_pack_0.jpg",
-              "title": "Nestle Lactogen Stage 2 (6 Months+) Powder 400 gm (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 360
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15041/whisper_choice_ultra_sanitary_pads_xl_6_s_0.jpg",
-              "title": "Whisper Choice Ultra Sanitary Pads (XL) 6's",
-              "seller": "Procter & Gamble",
-              "salePrice": 45
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411958/similac_iq_stage_2_after_6_months_400_gm_powder_tin_0_2.jpg",
-              "title": "Similac IQ+ Stage 2 (After 6 Months) 400 gm Powder Tin",
-              "seller": "Abbott Healthcare Pvt Ltd",
-              "salePrice": 700
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801217/vicks_baby_rub_25_ml_0.jpg",
-              "title": "Vicks Baby Rub 25 ml",
-              "seller": "Procter & Gamble",
-              "salePrice": 105
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/410889/nestle_nan_excella_pro_2_6_months_powder_400_gm_refill_pack_0_0.jpg",
-              "title": "Nestle Nan Excella Pro 2 (6 Months+) Powder 400 gm (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 760
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/111908/vwash_plus_expert_intimate_hygiene_wash_100_ml_0_1.jpg",
-              "title": "VWash Plus Expert Intimate Hygiene Wash 100 ml",
-              "seller": "Hindustan Unilever Ltd",
-              "salePrice": 162,
-              "strikeOfPrice": 180
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13450/nestle_lactogen_stage_1_upto_6_months_powder_400_gm_tin_0_1.jpg",
-              "title": "Nestle Lactogen Stage 1 (Upto 6 Months) Powder 400 gm (Tin)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 390
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13471/nestle_cerelac_stage_4_12_months_powder_300_gm_multigrain_dal_veg_refill_pack_0_1.jpg",
-              "title": "Nestle Cerelac Stage 4 (12 Months+) Powder 300 gm - Multigrain Dal Veg (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 279
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13476/nestle_nestum_stage_3_10_24_months_powder_300_gm_rice_fruits_refill_pack_0_1.jpg",
-              "title": "Nestle Nestum Stage 3 (10-24 Months) Powder 300 gm - Rice Fruits (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 195
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822028/whisper_choice_wings_sanitary_pads_7s_0_0.jpg",
-              "title": "Whisper Choice Wings Sanitary Pads 7's",
-              "seller": "Procter & Gamble",
-              "salePrice": 30.4,
-              "strikeOfPrice": 32
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/857348/nestle_cerelac_stage_5_18_months_powder_300_gm_5_grains_fruits_refill_pack_0.jpg",
-              "title": "Nestle Cerelac Stage 5 (18 months+) Powder 300 gm - 5 Grains & Fruits (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 288
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801428/stayfree_secure_cottony_soft_wings_sanitary_napkin_xl_6_s_0.jpg",
-              "title": "Stayfree Secure Cottony with Wings Sanitary Pads (XL) 6's",
-              "seller": "Johnson & Johnson Pvt Ltd",
-              "salePrice": 35.15,
-              "strikeOfPrice": 37
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412293/nestle_nan_lo_lac_upto_24_months_powder_200_gm_refill_pack_0.jpg",
-              "title": "Nestle Nan Lo-Lac (Upto 24 months) Powder 200 gm (Refill Pack)",
-              "seller": "Nestle India Ltd",
-              "salePrice": 265
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/111909/vwash_plus_expert_intimate_hygiene_wash_200_ml_0_2.jpg",
-              "title": "VWash Plus Expert Intimate Hygiene Wash 200 ml",
-              "seller": "Hindustan Unilever Ltd",
-              "salePrice": 269.89,
-              "strikeOfPrice": 324
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/14626/similac_isomil_soy_infant_formula_400_gm_tin_0_3.jpg",
-              "title": "Similac Isomil Soy Infant Formula 400 gm - Tin",
-              "seller": "Abbott Healthcare Pvt Ltd",
-              "salePrice": 550
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412464/whisper_choice_wings_sanitary_pad_20s_0_1.jpg",
-              "title": "Whisper Choice Wings Sanitary Pad 20's",
-              "seller": "Procter & Gamble",
-              "salePrice": 85.5,
-              "strikeOfPrice": 90
-            }
-          ]
+          "path": "momAndBaby"
         },
         {
           "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801482/nivea_men_fresh_ocean_deodorant_spray_150_ml_0.jpg",
           "title": "Fragrances",
-          "path": "/fragrances",
-          "products": [
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411251/nivea_men_roll_on_deodorant_fresh_active_25_ml_0.jpg",
-              "title": "Nivea Men Roll On Deodorant - Fresh Active 25 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 79.2,
-              "strikeOfPrice": 99
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411253/nivea_whitening_roll_on_25_ml_0.jpg",
-              "title": "Nivea Roll-On Deodorant - Whitening Smooth Skin 25 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 79.2,
-              "strikeOfPrice": 99
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/850990/kamasutra_deodorant_spark_150_ml_0.jpg",
-              "title": "Kamasutra Deodorant - Spark 150 ml",
-              "seller": "Raymond Consumer Care Private Limited",
-              "salePrice": 178.5,
-              "strikeOfPrice": 210
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409767/nivea_men_fresh_active_deodorant_150_ml_0.jpg",
-              "title": "Nivea Men Fresh Active Deodorant 150 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 180,
-              "strikeOfPrice": 225
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13596/nivea_men_fresh_power_deodorant_150_ml_0.jpg",
-              "title": "Nivea Men Fresh Power Deodorant 150 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 163.18,
-              "strikeOfPrice": 199
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/820357/nivea_men_deep_impact_deodorant_freshness_150_ml_0.jpg",
-              "title": "Nivea Men Deep Impact Deodorant - Freshness 150 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 168,
-              "strikeOfPrice": 210
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801482/nivea_men_fresh_ocean_deodorant_spray_150_ml_0.jpg",
-              "title": "Nivea Men Fresh Ocean Deodorant Spray 150 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 180,
-              "strikeOfPrice": 225
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13198/axe_gold_temptation_deodorant_150_ml_0.jpg",
-              "title": "AXE Gold Temptation Deodorant 150 ml",
-              "seller": "Hindustan Unilever Ltd",
-              "salePrice": 210
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13643/nivea_pearl_beauty_deodorant_150_ml_0.jpg",
-              "title": "Nivea Pearl & Beauty Deodorant 150 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 180,
-              "strikeOfPrice": 225
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412559/nivea_protect_care_roll_on_25_ml_0.jpg",
-              "title": "Nivea Protect & Care Roll On 25 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 83.16,
-              "strikeOfPrice": 99
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/825339/nivea_pearl_beauty_roll_on_50_ml_0_1.jpg",
-              "title": "Nivea Pearl & Beauty Roll On 50 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 175.12,
-              "strikeOfPrice": 199
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13935/old_spice_original_deodorant_spray_150_ml_0.jpg",
-              "title": "Old Spice Original Deodorant Spray 150 ml",
-              "seller": "Procter & Gamble",
-              "salePrice": 199
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853632/rexona_men_sport_defence_underarm_odour_protection_roll_on_50_ml_0.jpg",
-              "title": "Rexona Men Sport Defence Underarm Odour Protection Roll On 50 ml",
-              "seller": "Hindustan Unilever Ltd",
-              "salePrice": 145
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412197/nivea_protect_care_roll_on_50_ml_0_3.jpg",
-              "title": "Nivea Protect & Care Roll On 50 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 169.15,
-              "strikeOfPrice": 199
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411250/nivea_pearl_beauty_roll_on_25_ml_0.jpg",
-              "title": "Nivea Pearl & Beauty Roll On 25 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 79.2,
-              "strikeOfPrice": 99
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/411252/nivea_men_roll_on_deodorant_cool_kick_25_ml_0.jpg",
-              "title": "Nivea Men Roll On Deodorant - Cool Kick 25 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 83.16,
-              "strikeOfPrice": 99
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412398/set_wet_cool_avatar_deo_spray_150_ml_0.jpg",
-              "title": "Set Wet Cool Avatar Deo Spray 150 ml",
-              "seller": "Marico Ltd",
-              "salePrice": 149
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15324/axe_pulse_deodorant_150_ml_0.jpg",
-              "title": "AXE Pulse Deodorant 150 ml",
-              "seller": "Hindustan Unilever Ltd",
-              "salePrice": 210
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412183/wild_stone_deodorant_ultra_sensual_150_ml_0_1.jpg",
-              "title": "Wild Stone Deodorant - Ultra Sensual 150 ml",
-              "seller": "Mcnroe Consumer Products Pvt Ltd",
-              "salePrice": 199
-            },
-            {
-              "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/823197/nivea_men_deep_impact_roll_on_deodorant_freshness_50_ml_0.jpg",
-              "title": "Nivea Men Deep Impact Roll On Deodorant - Freshness 50 ml",
-              "seller": "Nivea India Pvt Ltd",
-              "salePrice": 169.15,
-              "strikeOfPrice": 199
-            }
-          ]
+          "path": "fragrances"
         },
         {
           "imageUrl": "https://www.netmeds.com/images/category/v1/3002/thumb/razors_cartridges_2.jpg",
           "title": "Men's Grooming",
-          "path": "/men_s-grooming",
-          "products": []
-        }
-      ]
-    },
-    {
-      "id": "health-center",
-      "imageUrl": "https://cdn-icons.flaticon.com/png/512/3257/premium/3257946.png?token=exp=1651580398~hmac=c18d843963c051b4c06833dbd189974d",
-      "title": "Health Corner",
-      "path": "/health-care",
-      "category": [
-        {
-          "title": "Health Library",
-          "imageUrl": "",
-          "path": "/health-library"
-        },
-        {
-          "title": "Patients Alike",
-          "imageUrl": "",
-          "path": "/patients-alike"
-        },
-        {
-          "title": "Corona Awareness",
-          "imageUrl": "",
-          "path": "/corona-awareness"
-        },
-        {
-          "title": "Consult with Exports",
-          "imageUrl": "",
-          "path": "/consult-with-experts"
+          "path": "men_sGrooming"
         }
       ]
     }
+  ],
+
+  "carousel": [
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498134_sdvbnm.jpg",
+
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651338093_Web_Home89.jpg",
+
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
   ],
   "homeCategory": [
     {
@@ -1186,93 +1397,7 @@
       "title": "Covid Essentials"
     }
   ],
-  "beautyCategory": [
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/481/thumb/ayush_1.jpg",
-      "title": "Ayush"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/v1/3085/thumb/mom_baby_1.jpg",
-      "title": "Mom & Baby"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/665/thumb/devices_1.jpg",
-      "title": "Devices"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/665/thumb/devices_1.jpg",
-      "title": "Devices"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    }
-  ],
-  "BrandCategory": [
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/481/thumb/ayush_1.jpg",
-      "title": "Ayush"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/v1/3085/thumb/mom_baby_1.jpg",
-      "title": "Mom & Baby"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/665/thumb/devices_1.jpg",
-      "title": "Devices"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/481/thumb/ayush_1.jpg",
-      "title": "Ayush"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/v1/3085/thumb/mom_baby_1.jpg",
-      "title": "Mom & Baby"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/665/thumb/devices_1.jpg",
-      "title": "Devices"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/665/thumb/devices_1.jpg",
-      "title": "Devices"
-    },
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    }
-  ],
+
   "AuthDetails": [
     {
       "firstName": "Gautam ",
@@ -1280,19 +1405,12 @@
       "email": "gautamgohil@gmail.com",
       "id": 1,
       "mobileNumber": 9824240421,
-      "cart": [
-        1,
-        2,
-        3,
-        4
-      ]
+      "cart": [1, 2, 3, 4]
     },
     {
       "email": "example@gmail.com",
       "mobileNumber": "5555555555",
-      "cart": [
-        1
-      ],
+      "cart": [1],
       "firstName": "Rahul",
       "lastName": "Chavda",
       "id": 2
@@ -1348,9 +1466,7 @@
     {
       "email": "fffffffffffffff",
       "mobileNumber": "3333333333",
-      "cart": [
-        0
-      ],
+      "cart": [0],
       "firstName": "fffffffffff",
       "lastName": "fffffffffffffff",
       "id": 10
