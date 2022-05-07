@@ -28,12 +28,11 @@ const PayPrefer = styled.div`
   }
   .statusCardStyle{
     position:fixed;
-    top:-15px;
+    top:-55px;
     right:0px;
     z-index:200;
     height:100vh;
     border-radius:0px;
-    // scrollable:none;
   }
 `;
 const PaymetPM = styled.div`
@@ -170,9 +169,62 @@ const PatTS = styled.div`
 `;
 
 const CardDiv =styled.div`
+  width:300px;
   position:relative;
   float:right;
+  text-align:left;
+  font-size:13px;
+  .pText{
+    width:100%;
+    border: 0;
+    text-indent: 0.7vw;
+    flex-grow: 1;
+    &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        color: #e4dede;
+        font-size: 1.9vh;
+      }
+}
+`
+const ExpDiv = styled.div`
+    display:flex;
+    justifyContent:space-around;
 
+    .pExp{
+        width:60px;
+        border: 0;
+        text-indent: 0.7vw;
+        flex-grow: 1;
+        &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            color: black;
+            font-size: 16px;
+          }
+    }
+`
+const InpCvv =styled.input`
+    width:100px;
+    border: 0;
+    text-indent: 0.7vw;
+    flex-grow: 1;
+    &:focus {
+        outline: none;
+    }
+`
+const PayBtn = styled.button`
+    width:100%;
+    height:40px;
+    margin-top:15px;
+    border:none;
+    background-color:#24aeb1;
+    border-radius:5px;
+    color:#fff;
+    font-size:15px;
+    cursor: pointer;
 `
 
 
@@ -420,7 +472,29 @@ const Payment = () => {
                 <div >
                   {statusCard ?(
                     <CardDiv>
-                      <Card/>
+                       <p style={{color:"rgba(21,27,57,.6)"}}>ENTER CARD DETAILS</p>
+        <div>
+          <p>CARD NUMBER</p>
+          <input type="text" name="" id="" className="pText" style={{borderBottom:"1px solid black"}} />
+        </div>
+        <ExpDiv>
+          <div>
+            <p>EXPIRY DATE</p>
+            <div style={{display:"flex",justifyContent:"space-between"}}>
+                <input type="text" name="" id="" className="pExp" style={{borderBottom:"1px solid black"}} placeholder="MM" />
+                <input type="text" name="" id="" className="pExp" style={{borderBottom:"1px solid black",marginLeft:"15px"}} placeholder="YY" />
+            </div>
+          </div>
+          <div style={{marginLeft:"20px"}}>
+            <p>CVV</p>
+            <InpCvv type="text" name="" id="" style={{borderBottom:"1px solid black"}}></InpCvv>
+          </div>
+        </ExpDiv>
+        <div>
+            <p>NAME ON CARD</p>
+            <input type="text" name="" id="" className="pText" style={{borderBottom:"1px solid black"}} />
+        </div>
+        <div><PayBtn>PAY</PayBtn></div>
                     </CardDiv>
                   ):(
                     <p style={{ marginBottom: "8px" }} onClick={handleCard}>ADD NEW CARD</p>
