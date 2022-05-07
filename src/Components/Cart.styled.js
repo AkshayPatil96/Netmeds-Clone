@@ -3,33 +3,37 @@ import styled from "styled-components"
 export const Cardmain=styled.div`
 background-color: whitesmoke;
 width:100%;
-margin-top:100px;
+/* opacity:0.33; */
+margin-top:10px;
 height:1000px`
 
+
  export const Carddiv = styled.div`
-  width:65%;
+  width:73%;
   height:500px;
   margin:auto;
-  border:1px solid red;
+  /* border:1px solid red; */
   display:flex
 `
 export const CardProduct = styled.div`
  width:65%;
  height:500px;
- border:1px solid black;
+ 
+ /* border:1px solid black; */
  border-radius:5px `
 
  export const CardTotal = styled.div`
  width:32%;
  height:500px;
- border:1px solid black;
+ /* border:1px solid black; */
  border-radius:5px;
  margin-left:30px `
 
  export const ApplyPromo = styled.div`
   background-color:white;
   width:100%;
-  height:150px;
+  height:auto;
+  padding-bottom:10px;
   border-radius:10px
  `
  export const P= styled.p`
@@ -38,7 +42,9 @@ export const CardProduct = styled.div`
   padding-top:10px;
   padding-left:15px;
   color:gray;
-  font-size:14px`
+  font-size:14px;
+  `
+  
 
   export const Total = styled.div`
   background-color:white;
@@ -68,4 +74,40 @@ export const CardProduct = styled.div`
   width:150px;
   margin-top:10px;
   border:none;
+<<<<<<< Updated upstream
   border-radius:10px`
+=======
+  border-radius:10px
+
+  `
+  export const Product = styled.div`
+   background-color:white;
+   margin-top:20px;
+   width:100%;
+   height:auto;
+   border-radius:10px`
+   export const Productt = styled.div`
+   background-color:white;
+   margin-top:20px;
+   width:100%;
+   height:250px;
+   border-radius:10px`
+
+
+   export const P1 = styled.p`
+  
+  padding-top:20px; 
+  padding-left:25px;
+  color:gray;
+
+  font-size:14px
+   `
+    export  const Add = styled.div`
+    position:fixed;
+    margin-top:-130px;
+    background-color:white;
+    width:400px;
+     right:0;
+     /* z-index: 1; */
+     height:100%`
+>>>>>>> Stashed changes
