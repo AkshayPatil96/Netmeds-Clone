@@ -45,10 +45,6 @@ export const CategoryDiv = styled.div`
     }
 `;
 
-export const SliderDiv = styled.div`
-    margin: 4% 2%;
-`;
-
 // export const Cate = styled(Link)`
 export const Cate = styled.div`
     display: flex;
@@ -56,21 +52,30 @@ export const Cate = styled.div`
     flex-wrap: wrap;
     gap: 2rem;
     margin: 5%;
-`;
+    `;
 
 export const Card = styled.div`
-    display: flex;
-    justify-content: space-between;
     width: 30%;
-    padding: 8px;
-    align-items: center;
-    background: #fff;
     border-radius: 5px;
-    cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+    
+    .linked {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 8px;
+        color: #181e3c;
+        text-decoration: none;
+        align-items: center;
+        border-radius: 5px;
+        background: #fff;
+        cursor: pointer;
+    }
+    
     .poster {
         display: flex;
+        flex-wrap: wrap;
         text-align: left;
     }
 

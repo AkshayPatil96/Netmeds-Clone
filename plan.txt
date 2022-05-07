@@ -35,5 +35,6 @@
 	3.Display Products
 	
 	
-	
+	open Json server by typing following command in terminal
+	===>> json-server --watch src/Assests/Data/Net_Med_Data.json --port 8080 <<===
 

@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
 import Styled from "styled-components";
+import { getProducts } from "../Redux/Category/action";
 
 const SortDiv = Styled.div`
   display: flex;
   justify-content:space-between;
   align-items:center;
-  padding: 3% 1%;
+  margin: 0 3%;
+  padding: 0% 1%;
 `;
 
 const SortNumber = Styled.div`
@@ -15,10 +19,8 @@ const SortNumber = Styled.div`
 
 const SortFlex = Styled.div`
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   padding:1%;
-  /* width:40%; */
   
   .btn {
     padding: 5px 20px;
@@ -27,7 +29,6 @@ const SortFlex = Styled.div`
     text-align: center;
     width: 110px;
     height 25px;
-    /* border: 1px solid #151b39; */
     border-radius: 5px;
     background:#fff;
     cursor: pointer;
@@ -43,24 +44,33 @@ const SortFlex = Styled.div`
   }
 `;
 
-const SortBar = () => {
+const SortBar = (props) => {
+    const { category, product } = useParams();
+    const dispatch = useDispatch();
+
+    const { productData } = useSelector((state) => state.products);
+
+    useEffect(() => {
+        dispatch(getProducts(category, product));
+    }, [category, product]);
+
     return (
         <>
             <SortDiv>
                 <SortNumber>
                     <p className="sortnum">
-                        Showing <strong> 20 </strong> of <strong> 40 </strong>{" "}
-                        Items
+                        Showing <strong> {props.pageCount} </strong> of
+                        <strong> {props.total} </strong> Items
                     </p>
                 </SortNumber>
                 <SortFlex>
                     <div>
-                        <label class="label">Sort by:</label>
+                        <label className="label">Sort by:</label>
                     </div>
-                    <button class="btn">Popularity</button>
-                    <button class="btn">High to Low</button>
-                    <button class="btn">Low to High</button>
-                    <button class="btn">Discount</button>
+                    <button className="btn">Popularity</button>
+                    <button className="btn">High to Low</button>
+                    <button className="btn">Low to High</button>
+                    <button className="btn">Discount</button>
                 </SortFlex>
             </SortDiv>
         </>

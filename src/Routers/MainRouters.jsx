@@ -6,6 +6,7 @@ import ProductView from "../Components/ProductView";
 import CategoryPage from "../Pages/CategoryPage";
 import Home from "../Pages/Home";
 import Labtest from "../Pages/Labtest";
+import Product from "../Pages/Product";
 
 const MainRouters = () => {
     return (
@@ -15,7 +16,8 @@ const MainRouters = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/:category" element={<CategoryPage />} />
-                <Route path="/:category" element={<Labtest />} />
+                {/* <Route path="/:category" element={<Labtest />} /> */}
+                <Route path="/:category/:product" element={<Product />} />
                 {/* <Route path="products/:category" element={<HomeCategory />} /> */}
                 {/* <Route path="/:id" element={<ProductView />} /> */}
             </Routes>
