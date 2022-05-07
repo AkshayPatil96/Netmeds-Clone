@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -134,6 +134,35 @@ const PatTS = styled.div`
 `;
 
 const Payment = () => {
+  const [statusA, setStatusA] = useState(false);
+  const [statusP, setStatusP] = useState(false);
+  const [statusG, setStatusG] = useState(false);
+  const [statusC, setStatusC] = useState(false);
+
+  const handlePayA = () => {
+    setStatusA(true);
+    setStatusP(false);
+    setStatusC(false);
+    setStatusG(false);
+  };
+  const handlePayP = () => {
+    setStatusA(false);
+    setStatusP(true);
+    setStatusC(false);
+    setStatusG(false);
+  };
+  const handlePayG = () => {
+    setStatusG(true);
+    setStatusP(false);
+    setStatusC(false);
+    setStatusA(false);
+  };
+  const handlePayC = () => {
+    setStatusC(true);
+    setStatusP(false);
+    setStatusA(false);
+    setStatusG(false);
+  };
   return (
     <div>
       <Wrapper>
@@ -217,7 +246,30 @@ const Payment = () => {
                   <label>Amazon Pay</label>
                 </div>
                 <div>
-                  <input type="radio" name="" className="inpRadio" />
+                  {statusA ? (
+                    <div>
+                      <input
+                        type="radio"
+                        value="amazon"
+                        name="pay"
+                        className="inpRadio"
+                        onClick={handlePayA}
+                      />
+                      <div>
+                        <button>
+                          Pay <span>Rs.114.00</span>
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    <input
+                      type="radio"
+                      value="amazon"
+                      name="pay"
+                      className="inpRadio"
+                      onClick={handlePayA}
+                    />
+                  )}
                 </div>
               </PaymetPDiv>
             </PaymetWallet>
@@ -233,7 +285,30 @@ const Payment = () => {
                   <label>PhonePe</label>
                 </div>
                 <div>
-                  <input type="radio" name="" className="inpRadio" />
+                  {statusP ? (
+                    <div>
+                      <input
+                        type="radio"
+                        value="phonePay"
+                        name="pay"
+                        className="inpRadio"
+                        onClick={handlePayP}
+                      />
+                      <div>
+                        <button>
+                          Pay <span>Rs.114.00</span>
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    <input
+                      type="radio"
+                      value="phonePay"
+                      name="pay"
+                      className="inpRadio"
+                      onClick={handlePayP}
+                    />
+                  )}
                 </div>
               </PaymetPDiv>
             </PaymetWallet>
@@ -250,7 +325,30 @@ const Payment = () => {
                   <label>Google Pay</label>
                 </div>
                 <div>
-                  <input type="radio" name="" className="inpRadio" />
+                  {statusG ? (
+                    <div>
+                      <input
+                        type="radio"
+                        value="gpay"
+                        name="pay"
+                        className="inpRadio"
+                        onClick={handlePayG}
+                      />
+                      <div>
+                        <button>
+                          Pay <span>Rs.114.00</span>
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    <input
+                      type="radio"
+                      value="gPay"
+                      name="pay"
+                      className="inpRadio"
+                      onClick={handlePayG}
+                    />
+                  )}
                 </div>
               </PaymetPDiv>
             </PaymetWallet>
@@ -286,7 +384,20 @@ const Payment = () => {
                   </p>
                 </div>
                 <div>
-                  <input type="radio" name="" className="inpRadio" />
+                  {
+                    statusC ?(
+                      <div>
+                         <input type="radio"  value="gpay" name="pay" className="inpRadio" onClick={handlePayC}/>
+                        <div>
+                        <button>Pay <span>Rs.114.00</span></button>
+                        </div>
+                      </div>
+                    ):<input
+                    type="radio"
+                    value="cod"
+                    name="pay"
+                    className="inpRadio" onClick={handlePayC}/>
+                  }
                 </div>
               </PaymetGDiv>
             </PaymetCod>
@@ -324,14 +435,13 @@ const Payment = () => {
                 <p>TOTAL SAVINGS RS.163.12</p>
               </PatTS>
             </div>
-            <div style={{marginTop:"35px",fontStyle:"italic"}}>
-              <p style={{fontSize:"10px"}}>
+            <div style={{ marginTop: "35px", fontStyle: "italic" }}>
+              <p style={{ fontSize: "10px" }}>
                 Netmeds is a technology platform to facilitate transaction of
                 business. The products and services are offered for sale by the
                 sellers. The user authorizes the delivery personnel to be his
-                agent for delivery of the goods. For details read 
-                <Link to="/">Terms &
-                Conditions</Link>
+                agent for delivery of the goods. For details read
+                <Link to="/">Terms & Conditions</Link>
               </p>
             </div>
           </PatyDetail>
