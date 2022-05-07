@@ -475,24 +475,24 @@ const Payment = () => {
                        <p style={{color:"rgba(21,27,57,.6)"}}>ENTER CARD DETAILS</p>
         <div>
           <p>CARD NUMBER</p>
-          <input type="text" name="" id="" className="pText" style={{borderBottom:"1px solid black"}} />
+          <input type="text" name="" id="" className="pText" style={{borderBottom:"2px solid #e4dede"}} />
         </div>
         <ExpDiv>
           <div>
             <p>EXPIRY DATE</p>
             <div style={{display:"flex",justifyContent:"space-between"}}>
-                <input type="text" name="" id="" className="pExp" style={{borderBottom:"1px solid black"}} placeholder="MM" />
-                <input type="text" name="" id="" className="pExp" style={{borderBottom:"1px solid black",marginLeft:"15px"}} placeholder="YY" />
+                <input type="text" name="" id="" className="pExp" style={{borderBottom:"2px solid #e4dede"}} placeholder="MM" />
+                <input type="text" name="" id="" className="pExp" style={{borderBottom:"2px solid #e4dede",marginLeft:"15px"}} placeholder="YY" />
             </div>
           </div>
           <div style={{marginLeft:"20px"}}>
             <p>CVV</p>
-            <InpCvv type="text" name="" id="" style={{borderBottom:"1px solid black"}}></InpCvv>
+            <InpCvv type="text" name="" id="" style={{borderBottom:"2px solid #e4dede"}}></InpCvv>
           </div>
         </ExpDiv>
         <div>
             <p>NAME ON CARD</p>
-            <input type="text" name="" id="" className="pText" style={{borderBottom:"1px solid black"}} />
+            <input type="text" name="" id="" className="pText" style={{borderBottom:"2px solid #e4dede"}} />
         </div>
         <div><PayBtn>PAY</PayBtn></div>
                     </CardDiv>
