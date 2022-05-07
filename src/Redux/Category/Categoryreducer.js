@@ -1,11 +1,21 @@
-import { FAILURE_METHOD, REQUEST_METHOD, SUCCESS_METHOD } from "./actionType";
+import {
+    FAILURE_METHOD,
+    REQUEST_METHOD,
+    SUCCESS_CATEGORY_METHOD,
+    SUCCESS_FILTER_METHOD,
+    SUCCESS_PRODUCT_METHOD,
+    SUCCESS_SINGLE_PRODUCT_METHOD,
+} from "./actionType";
 
 const initState = {
     data: [],
+    productData: [],
+    singleData: [],
     isLoading: false,
     isError: false,
-    filterData: [],
-    products: [],
+    filteredBrandData: [],
+    filteredSellerData: [],
+    pageNum: 1,
 };
 
 const reducer = (state = initState, { type, payload }) => {
@@ -16,13 +26,39 @@ const reducer = (state = initState, { type, payload }) => {
                 isLoading: true,
                 isError: false,
             };
-        case SUCCESS_METHOD:
+
+        case SUCCESS_CATEGORY_METHOD:
             return {
                 ...state,
                 isLoading: false,
                 isError: false,
                 data: payload,
             };
+
+        case SUCCESS_PRODUCT_METHOD:
+            return {
+                ...state,
+                isLoading: false,
+                isError: false,
+                productData: payload,
+            };
+
+        case SUCCESS_FILTER_METHOD:
+            return {
+                ...state,
+                isLoading: false,
+                isError: false,
+                filteredBrandData: payload,
+            };
+
+        case SUCCESS_SINGLE_PRODUCT_METHOD:
+            return {
+                ...state,
+                isLoading: false,
+                isError: false,
+                singleData: payload,
+            };
+
         case FAILURE_METHOD:
             return {
                 ...state,

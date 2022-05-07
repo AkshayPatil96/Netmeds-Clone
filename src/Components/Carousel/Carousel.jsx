@@ -4,7 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { data, NextBtn, PreviousBtn } from "./Data";
 import styled from "styled-components";
-import { SliderDiv } from "../Product.styled";
+// import { SliderDiv } from "../Product.styled";
+import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
 
 // const SliderDiv = styled.div`
 //     margin: 4% 2%;
@@ -13,7 +15,7 @@ import { SliderDiv } from "../Product.styled";
 const Carousel = () => {
     return (
         <>
-            <SliderDiv className="carousel">
+            {/* <SliderDiv className="carousel"> */}
                 <Slider
                     autoplay
                     autoplaySpeed={5000}
@@ -30,7 +32,7 @@ const Carousel = () => {
                         </div>
                     ))}
                 </Slider>
-            </SliderDiv>
+            {/* </SliderDiv> */}
         </>
     );
 };

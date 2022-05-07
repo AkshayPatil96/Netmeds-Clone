@@ -22,15 +22,10 @@ const Product = () => {
                     <ProductSideBar />
                 </div>
                 <div>
-                    <div
-                        style={{
-                            margin: "0 1% 5% 1%",
-                        }}
-                    >
+                    <div>
                         <Carousel />
                     </div>
                     <MultiItem heading="Category" />
-                    <SortBar />
                     <ProductView />
                 </div>
             </MainProdDiv>
