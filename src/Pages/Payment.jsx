@@ -46,12 +46,23 @@ const PaymetPDiv = styled.div`
     font-size: 12px;
   }
   .inpRadio {
+    float:right;
     width: 18px;
     height: 18px;
   }
   p {
     padding: 0px 40px;
     font-size: 12px;
+  }
+  button{
+    width:200px;
+    height:40px;
+    margin-top:10px;
+    border:none;
+    background-color:#24aeb1;
+    border-radius:5px;
+    color:#fff;
+    font:15px bold;
   }
 `;
 const PaymetGDiv = styled.div`
@@ -68,12 +79,23 @@ const PaymetGDiv = styled.div`
     font-size: 12px;
   }
   .inpRadio {
+    float:right;
     width: 18px;
     height: 18px;
   }
   p {
     padding: 0px 40px;
     font-size: 12px;
+  }
+  button{
+    width:200px;
+    height:40px;
+    margin-top:10px;
+    border:none;
+    background-color:#24aeb1;
+    border-radius:5px;
+    color:#fff;
+    font:15px bold;
   }
 `;
 const PaymetWallet = styled.div`
@@ -257,7 +279,7 @@ const Payment = () => {
                       />
                       <div>
                         <button>
-                          Pay <span>Rs.114.00</span>
+                          PAY <span>RS.114.00</span>{/*data */}
                         </button>
                       </div>
                     </div>
@@ -336,7 +358,7 @@ const Payment = () => {
                       />
                       <div>
                         <button>
-                          Pay <span>Rs.114.00</span>
+                          PAY <span>RS.114.00</span>{/*data */}
                         </button>
                       </div>
                     </div>
@@ -389,7 +411,7 @@ const Payment = () => {
                       <div>
                          <input type="radio"  value="gpay" name="pay" className="inpRadio" onClick={handlePayC}/>
                         <div>
-                        <button>Pay <span>Rs.114.00</span></button>
+                        <button>PAY <span>RS.114.00</span>{/*data */}</button>
                         </div>
                       </div>
                     ):<input
@@ -402,6 +424,7 @@ const Payment = () => {
               </PaymetGDiv>
             </PaymetCod>
           </PayPrefer>
+
 
           {/*Payment detail  */}
           <PatyDetail>
