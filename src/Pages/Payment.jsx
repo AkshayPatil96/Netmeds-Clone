@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Card from "./Card";
 
 const Wrapper = styled.div`
   width: 65%;
@@ -24,6 +25,15 @@ const PayPrefer = styled.div`
     width: 30px;
     height: 30px;
     margin-right: 10px;
+  }
+  .statusCardStyle{
+    position:fixed;
+    top:-15px;
+    right:0px;
+    z-index:200;
+    height:100vh;
+    border-radius:0px;
+    // scrollable:none;
   }
 `;
 const PaymetPM = styled.div`
@@ -49,6 +59,7 @@ const PaymetPDiv = styled.div`
     float:right;
     width: 18px;
     height: 18px;
+    cursor: pointer;
   }
   p {
     padding: 0px 40px;
@@ -63,6 +74,7 @@ const PaymetPDiv = styled.div`
     border-radius:5px;
     color:#fff;
     font:15px bold;
+    cursor: pointer;
   }
 `;
 const PaymetGDiv = styled.div`
@@ -82,6 +94,7 @@ const PaymetGDiv = styled.div`
     float:right;
     width: 18px;
     height: 18px;
+    cursor: pointer;
   }
   p {
     padding: 0px 40px;
@@ -94,6 +107,7 @@ const PaymetGDiv = styled.div`
     border:none;
     background-color:#24aeb1;
     border-radius:5px;
+    cursor: pointer;
     color:#fff;
     font:15px bold;
   }
@@ -123,7 +137,7 @@ const PatyDetail = styled.div`
   padding: 20px 9px;
   position: sticky;
   top: 0;
-  z-index: 1020;
+  z-index: 100;
   font-size: 14px;
   line-height: 2;
   height: 180px;
@@ -155,11 +169,19 @@ const PatTS = styled.div`
   }
 `;
 
+const CardDiv =styled.div`
+  position:relative;
+  float:right;
+
+`
+
+
 const Payment = () => {
   const [statusA, setStatusA] = useState(false);
   const [statusP, setStatusP] = useState(false);
   const [statusG, setStatusG] = useState(false);
   const [statusC, setStatusC] = useState(false);
+  const [statusCard, setStatusCard] = useState(false);
 
   const handlePayA = () => {
     setStatusA(true);
@@ -185,9 +207,12 @@ const Payment = () => {
     setStatusA(false);
     setStatusG(false);
   };
+  const handleCard=()=>{
+    setStatusCard(true)
+  }
   return (
     <div>
-      <Wrapper>
+      <Wrapper onDoubleClick={()=>{setStatusCard(false)}}>
         <div className="payHead">
           <div>
             <h2>Payment Details</h2>
@@ -374,10 +399,14 @@ const Payment = () => {
                 </div>
               </PaymetPDiv>
             </PaymetWallet>
+
             {/*Credit and debit */}
-            <PaymetWallet>
+            
+            <PaymetWallet className={statusCard ? "statusCardStyle" : ""} >
               <p style={{ fontSize: "11px", fontWeight: "650" }}>
-                CREDIT & DEBIT CARDS
+                {
+                  statusCard?"":"CREDIT & DEBIT CARDS"
+                }
               </p>
               <hr style={{ margin: "22px 0" }} />
               <div
@@ -388,7 +417,16 @@ const Payment = () => {
                   cursor: "pointer",
                 }}
               >
-                <p style={{ marginBottom: "8px" }}>ADD NEW CARD</p>
+                <div >
+                  {statusCard ?(
+                    <CardDiv>
+                      <Card/>
+                    </CardDiv>
+                  ):(
+                    <p style={{ marginBottom: "8px" }} onClick={handleCard}>ADD NEW CARD</p>
+                  )}
+            
+                </div>
               </div>
             </PaymetWallet>
             {/*Cod */}
@@ -411,7 +449,7 @@ const Payment = () => {
                       <div>
                          <input type="radio"  value="gpay" name="pay" className="inpRadio" onClick={handlePayC}/>
                         <div>
-                        <button>PAY <span>RS.114.00</span>{/*data */}</button>
+                        <button style={{width:"auto"}}>PAY <span>RS.114.00</span> ON DELIVERY{/*data */}</button>
                         </div>
                       </div>
                     ):<input
@@ -464,7 +502,7 @@ const Payment = () => {
                 business. The products and services are offered for sale by the
                 sellers. The user authorizes the delivery personnel to be his
                 agent for delivery of the goods. For details read
-                <Link to="/">Terms & Conditions</Link>
+                <Link to="/"> Terms & Conditions</Link>
               </p>
             </div>
           </PatyDetail>
