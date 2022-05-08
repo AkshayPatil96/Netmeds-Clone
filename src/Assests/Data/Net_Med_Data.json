@@ -9,7 +9,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 93.5,
-      "strikeOfPrice": 110.0
+      "strikeOfPrice": 110
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 293.25,
-      "strikeOfPrice": 345.0
+      "strikeOfPrice": 345
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 467.5,
-      "strikeOfPrice": 550.0
+      "strikeOfPrice": 550
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 33.27,
-      "strikeOfPrice": 50.0
+      "strikeOfPrice": 50
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 263.5,
-      "strikeOfPrice": 310.0
+      "strikeOfPrice": 310
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 194.6,
-      "strikeOfPrice": 220.0
+      "strikeOfPrice": 220
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 331.41,
-      "strikeOfPrice": 380.0
+      "strikeOfPrice": 380
     },
     {
       "id": 8,
@@ -85,8 +85,8 @@
       "brand": "Revital",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 102.0,
-      "strikeOfPrice": 120.0
+      "salePrice": 102,
+      "strikeOfPrice": 120
     },
     {
       "id": 9,
@@ -97,7 +97,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 127.5,
-      "strikeOfPrice": 150.0
+      "strikeOfPrice": 150
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 116.16,
-      "strikeOfPrice": 150.0
+      "strikeOfPrice": 150
     },
     {
       "id": 11,
@@ -119,7 +119,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 300.3,
-      "strikeOfPrice": 390.0
+      "strikeOfPrice": 390
     },
     {
       "id": 12,
@@ -130,7 +130,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 173.7,
-      "strikeOfPrice": 193.0
+      "strikeOfPrice": 193
     },
     {
       "id": 13,
@@ -141,7 +141,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 173.7,
-      "strikeOfPrice": 193.0
+      "strikeOfPrice": 193
     },
     {
       "id": 14,
@@ -151,8 +151,8 @@
       "brand": "Dettol",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 25.0,
-      "strikeOfPrice": 50.0
+      "salePrice": 25,
+      "strikeOfPrice": 50
     },
     {
       "id": 15,
@@ -163,7 +163,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 93.1,
-      "strikeOfPrice": 98.0
+      "strikeOfPrice": 98
     },
     {
       "id": 16,
@@ -173,8 +173,8 @@
       "brand": "Savlon",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 48.0,
-      "strikeOfPrice": 70.0
+      "salePrice": 48,
+      "strikeOfPrice": 70
     },
     {
       "id": 17,
@@ -184,8 +184,8 @@
       "brand": "HealthVit",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 946.0,
-      "strikeOfPrice": 1100.0
+      "salePrice": 946,
+      "strikeOfPrice": 1100
     },
     {
       "id": 18,
@@ -196,7 +196,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 93.1,
-      "strikeOfPrice": 98.0
+      "strikeOfPrice": 98
     },
     {
       "id": 19,
@@ -207,7 +207,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 438.97,
-      "strikeOfPrice": 699.0
+      "strikeOfPrice": 699
     },
     {
       "id": 20,
@@ -218,7 +218,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 438.97,
-      "strikeOfPrice": 699.0
+      "strikeOfPrice": 699
     },
     {
       "id": 21,
@@ -228,8 +228,8 @@
       "brand": "HealthVit",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 450.0,
-      "strikeOfPrice": 500.0
+      "salePrice": 450,
+      "strikeOfPrice": 500
     },
     {
       "id": 22,
@@ -240,7 +240,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 330.84,
-      "strikeOfPrice": 499.0
+      "strikeOfPrice": 499
     },
     {
       "id": 23,
@@ -251,7 +251,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 807.3,
-      "strikeOfPrice": 1170.0
+      "strikeOfPrice": 1170
     },
     {
       "id": 24,
@@ -262,7 +262,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 111.6,
-      "strikeOfPrice": 180.0
+      "strikeOfPrice": 180
     },
     {
       "id": 25,
@@ -272,8 +272,8 @@
       "brand": "HealthVit",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 360.0,
-      "strikeOfPrice": 400.0
+      "salePrice": 360,
+      "strikeOfPrice": 400
     },
     {
       "id": 26,
@@ -284,7 +284,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 160.01,
-      "strikeOfPrice": 773.0
+      "strikeOfPrice": 773
     },
     {
       "id": 27,
@@ -294,8 +294,8 @@
       "brand": "HealthVit",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 473.0,
-      "strikeOfPrice": 550.0
+      "salePrice": 473,
+      "strikeOfPrice": 550
     },
     {
       "id": 28,
@@ -305,8 +305,8 @@
       "brand": "HealthVit",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 688.0,
-      "strikeOfPrice": 800.0
+      "salePrice": 688,
+      "strikeOfPrice": 800
     },
     {
       "id": 29,
@@ -317,7 +317,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 418.8,
-      "strikeOfPrice": 600.0
+      "strikeOfPrice": 600
     },
     {
       "id": 30,
@@ -328,7 +328,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 714.45,
-      "strikeOfPrice": 1299.0
+      "strikeOfPrice": 1299
     },
     {
       "id": 31,
@@ -338,8 +338,8 @@
       "brand": "HealthVit",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 258.0,
-      "strikeOfPrice": 300.0
+      "salePrice": 258,
+      "strikeOfPrice": 300
     },
     {
       "id": 32,
@@ -349,8 +349,8 @@
       "brand": "HealthVit",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 516.0,
-      "strikeOfPrice": 600.0
+      "salePrice": 516,
+      "strikeOfPrice": 600
     },
     {
       "id": 33,
@@ -360,8 +360,8 @@
       "brand": "Sahyog",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 249.0,
-      "strikeOfPrice": 300.0
+      "salePrice": 249,
+      "strikeOfPrice": 300
     },
     {
       "id": 34,
@@ -371,7 +371,7 @@
       "brand": "Savlon",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 95.0
+      "salePrice": 95
     },
     {
       "id": 35,
@@ -382,7 +382,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 900.9,
-      "strikeOfPrice": 1170.0
+      "strikeOfPrice": 1170
     },
     {
       "id": 36,
@@ -392,8 +392,8 @@
       "brand": "Savlon",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 69.0,
-      "strikeOfPrice": 80.0
+      "salePrice": 69,
+      "strikeOfPrice": 80
     },
     {
       "id": 37,
@@ -403,8 +403,8 @@
       "brand": "HealthVit",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 602.0,
-      "strikeOfPrice": 700.0
+      "salePrice": 602,
+      "strikeOfPrice": 700
     },
     {
       "id": 38,
@@ -415,7 +415,7 @@
       "category": "wellness",
       "type": "covidEssentials",
       "salePrice": 288.88,
-      "strikeOfPrice": 399.0
+      "strikeOfPrice": 399
     },
     {
       "id": 39,
@@ -425,8 +425,8 @@
       "brand": "Omron",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 1904.0,
-      "strikeOfPrice": 2380.0
+      "salePrice": 1904,
+      "strikeOfPrice": 2380
     },
     {
       "id": 40,
@@ -436,8 +436,8 @@
       "brand": "Choicemmed",
       "category": "wellness",
       "type": "covidEssentials",
-      "salePrice": 900.0,
-      "strikeOfPrice": 3750.0
+      "salePrice": 900,
+      "strikeOfPrice": 3750
     },
     {
       "id": 41,
@@ -448,7 +448,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 79.2,
-      "strikeOfPrice": 99.0
+      "strikeOfPrice": 99
     },
     {
       "id": 42,
@@ -459,7 +459,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 79.2,
-      "strikeOfPrice": 99.0
+      "strikeOfPrice": 99
     },
     {
       "id": 43,
@@ -470,7 +470,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 178.5,
-      "strikeOfPrice": 210.0
+      "strikeOfPrice": 210
     },
     {
       "id": 44,
@@ -480,8 +480,8 @@
       "brand": "Nivea",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 180.0,
-      "strikeOfPrice": 225.0
+      "salePrice": 180,
+      "strikeOfPrice": 225
     },
     {
       "id": 45,
@@ -492,7 +492,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 163.18,
-      "strikeOfPrice": 199.0
+      "strikeOfPrice": 199
     },
     {
       "id": 46,
@@ -502,8 +502,8 @@
       "brand": "Nivea",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 168.0,
-      "strikeOfPrice": 210.0
+      "salePrice": 168,
+      "strikeOfPrice": 210
     },
     {
       "id": 47,
@@ -513,8 +513,8 @@
       "brand": "Nivea",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 180.0,
-      "strikeOfPrice": 225.0
+      "salePrice": 180,
+      "strikeOfPrice": 225
     },
     {
       "id": 48,
@@ -524,7 +524,7 @@
       "brand": "AXE",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 210.0
+      "salePrice": 210
     },
     {
       "id": 49,
@@ -534,8 +534,8 @@
       "brand": "Nivea",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 180.0,
-      "strikeOfPrice": 225.0
+      "salePrice": 180,
+      "strikeOfPrice": 225
     },
     {
       "id": 50,
@@ -546,7 +546,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 83.16,
-      "strikeOfPrice": 99.0
+      "strikeOfPrice": 99
     },
     {
       "id": 51,
@@ -557,7 +557,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 175.12,
-      "strikeOfPrice": 199.0
+      "strikeOfPrice": 199
     },
     {
       "id": 52,
@@ -567,7 +567,7 @@
       "brand": "Old",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 199.0
+      "salePrice": 199
     },
     {
       "id": 53,
@@ -577,7 +577,7 @@
       "brand": "Rexona",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 145.0
+      "salePrice": 145
     },
     {
       "id": 54,
@@ -588,7 +588,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 169.15,
-      "strikeOfPrice": 199.0
+      "strikeOfPrice": 199
     },
     {
       "id": 55,
@@ -599,7 +599,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 79.2,
-      "strikeOfPrice": 99.0
+      "strikeOfPrice": 99
     },
     {
       "id": 56,
@@ -610,7 +610,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 83.16,
-      "strikeOfPrice": 99.0
+      "strikeOfPrice": 99
     },
     {
       "id": 57,
@@ -620,7 +620,7 @@
       "brand": "Set",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 149.0
+      "salePrice": 149
     },
     {
       "id": 58,
@@ -630,7 +630,7 @@
       "brand": "AXE",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 210.0
+      "salePrice": 210
     },
     {
       "id": 59,
@@ -640,7 +640,7 @@
       "brand": "Wild",
       "category": "beauty",
       "type": "fragrance",
-      "salePrice": 199.0
+      "salePrice": 199
     },
     {
       "id": 60,
@@ -651,7 +651,7 @@
       "category": "beauty",
       "type": "fragrance",
       "salePrice": 169.15,
-      "strikeOfPrice": 199.0
+      "strikeOfPrice": 199
     },
     {
       "id": 61,
@@ -661,8 +661,8 @@
       "brand": "Scalpe",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 208.0,
-      "strikeOfPrice": 260.0
+      "salePrice": 208,
+      "strikeOfPrice": 260
     },
     {
       "id": 62,
@@ -673,7 +673,7 @@
       "category": "beauty",
       "type": "hair",
       "salePrice": 388.8,
-      "strikeOfPrice": 432.0
+      "strikeOfPrice": 432
     },
     {
       "id": 63,
@@ -683,8 +683,8 @@
       "brand": "Dabur",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 178.0,
-      "strikeOfPrice": 200.0
+      "salePrice": 178,
+      "strikeOfPrice": 200
     },
     {
       "id": 64,
@@ -694,7 +694,7 @@
       "brand": "Dabur",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 138.0
+      "salePrice": 138
     },
     {
       "id": 65,
@@ -704,7 +704,7 @@
       "brand": "Dabur",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 209.0
+      "salePrice": 209
     },
     {
       "id": 66,
@@ -715,7 +715,7 @@
       "category": "beauty",
       "type": "hair",
       "salePrice": 647.8,
-      "strikeOfPrice": 790.0
+      "strikeOfPrice": 790
     },
     {
       "id": 67,
@@ -725,7 +725,7 @@
       "brand": "Dabur",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 37.0
+      "salePrice": 37
     },
     {
       "id": 68,
@@ -736,7 +736,7 @@
       "category": "beauty",
       "type": "hair",
       "salePrice": 557.07,
-      "strikeOfPrice": 599.0
+      "strikeOfPrice": 599
     },
     {
       "id": 69,
@@ -746,7 +746,7 @@
       "brand": "Dabur",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 20.0
+      "salePrice": 20
     },
     {
       "id": 70,
@@ -756,7 +756,7 @@
       "brand": "Patanjali",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 75.0
+      "salePrice": 75
     },
     {
       "id": 71,
@@ -766,7 +766,7 @@
       "brand": "Patanjali",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 95.0
+      "salePrice": 95
     },
     {
       "id": 72,
@@ -776,7 +776,7 @@
       "brand": "Dabur",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 90.0
+      "salePrice": 90
     },
     {
       "id": 73,
@@ -786,7 +786,7 @@
       "brand": "Bajaj",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 37.0
+      "salePrice": 37
     },
     {
       "id": 74,
@@ -796,7 +796,7 @@
       "brand": "Patanjali",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 110.0
+      "salePrice": 110
     },
     {
       "id": 75,
@@ -806,7 +806,7 @@
       "brand": "Bontress",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 690.0
+      "salePrice": 690
     },
     {
       "id": 76,
@@ -816,7 +816,7 @@
       "brand": "Bajaj",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 195.0
+      "salePrice": 195
     },
     {
       "id": 77,
@@ -827,7 +827,7 @@
       "category": "beauty",
       "type": "hair",
       "salePrice": 84.6,
-      "strikeOfPrice": 90.0
+      "strikeOfPrice": 90
     },
     {
       "id": 78,
@@ -837,7 +837,7 @@
       "brand": "Patanjali",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 95.0
+      "salePrice": 95
     },
     {
       "id": 79,
@@ -847,7 +847,7 @@
       "brand": "Navratna",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 80.0
+      "salePrice": 80
     },
     {
       "id": 80,
@@ -857,7 +857,7 @@
       "brand": "Bajaj",
       "category": "beauty",
       "type": "hair",
-      "salePrice": 70.0
+      "salePrice": 70
     },
     {
       "id": 81,
@@ -867,7 +867,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 690.0
+      "salePrice": 690
     },
     {
       "id": 82,
@@ -877,7 +877,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 375.0
+      "salePrice": 375
     },
     {
       "id": 83,
@@ -887,7 +887,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 660.0
+      "salePrice": 660
     },
     {
       "id": 84,
@@ -897,7 +897,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 279.0
+      "salePrice": 279
     },
     {
       "id": 85,
@@ -907,7 +907,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 360.0
+      "salePrice": 360
     },
     {
       "id": 86,
@@ -917,7 +917,7 @@
       "brand": "Whisper",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 45.0
+      "salePrice": 45
     },
     {
       "id": 87,
@@ -927,7 +927,7 @@
       "brand": "Similac",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 700.0
+      "salePrice": 700
     },
     {
       "id": 88,
@@ -937,7 +937,7 @@
       "brand": "Vicks",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 105.0
+      "salePrice": 105
     },
     {
       "id": 89,
@@ -947,7 +947,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 760.0
+      "salePrice": 760
     },
     {
       "id": 90,
@@ -957,8 +957,8 @@
       "brand": "VWash",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 162.0,
-      "strikeOfPrice": 180.0
+      "salePrice": 162,
+      "strikeOfPrice": 180
     },
     {
       "id": 91,
@@ -968,7 +968,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 390.0
+      "salePrice": 390
     },
     {
       "id": 92,
@@ -978,7 +978,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 279.0
+      "salePrice": 279
     },
     {
       "id": 93,
@@ -988,7 +988,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 195.0
+      "salePrice": 195
     },
     {
       "id": 94,
@@ -999,7 +999,7 @@
       "category": "beauty",
       "type": "momAndBaby",
       "salePrice": 30.4,
-      "strikeOfPrice": 32.0
+      "strikeOfPrice": 32
     },
     {
       "id": 95,
@@ -1009,7 +1009,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 288.0
+      "salePrice": 288
     },
     {
       "id": 96,
@@ -1020,7 +1020,7 @@
       "category": "beauty",
       "type": "momAndBaby",
       "salePrice": 35.15,
-      "strikeOfPrice": 37.0
+      "strikeOfPrice": 37
     },
     {
       "id": 97,
@@ -1030,7 +1030,7 @@
       "brand": "Nestle",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 265.0
+      "salePrice": 265
     },
     {
       "id": 98,
@@ -1041,7 +1041,7 @@
       "category": "beauty",
       "type": "momAndBaby",
       "salePrice": 269.89,
-      "strikeOfPrice": 324.0
+      "strikeOfPrice": 324
     },
     {
       "id": 99,
@@ -1051,7 +1051,7 @@
       "brand": "Similac",
       "category": "beauty",
       "type": "momAndBaby",
-      "salePrice": 550.0
+      "salePrice": 550
     },
     {
       "id": 100,
@@ -1062,7 +1062,7 @@
       "category": "beauty",
       "type": "momAndBaby",
       "salePrice": 85.5,
-      "strikeOfPrice": 90.0
+      "strikeOfPrice": 90
     },
     {
       "id": 101,
@@ -1072,7 +1072,7 @@
       "brand": "Dabur",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 84.0
+      "salePrice": 84
     },
     {
       "id": 102,
@@ -1092,7 +1092,7 @@
       "brand": "Boro",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 75.0
+      "salePrice": 75
     },
     {
       "id": 104,
@@ -1102,8 +1102,8 @@
       "brand": "Acne",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 76.0,
-      "strikeOfPrice": 80.0
+      "salePrice": 76,
+      "strikeOfPrice": 80
     },
     {
       "id": 105,
@@ -1113,7 +1113,7 @@
       "brand": "Boroline",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 40.0
+      "salePrice": 40
     },
     {
       "id": 106,
@@ -1124,7 +1124,7 @@
       "category": "beauty",
       "type": "skinCare",
       "salePrice": 519.2,
-      "strikeOfPrice": 590.0
+      "strikeOfPrice": 590
     },
     {
       "id": 107,
@@ -1134,7 +1134,7 @@
       "brand": "Boroline",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 75.0
+      "salePrice": 75
     },
     {
       "id": 108,
@@ -1144,7 +1144,7 @@
       "brand": "Glow",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 58.0
+      "salePrice": 58
     },
     {
       "id": 109,
@@ -1155,7 +1155,7 @@
       "category": "beauty",
       "type": "skinCare",
       "salePrice": 194.92,
-      "strikeOfPrice": 220.0
+      "strikeOfPrice": 220
     },
     {
       "id": 110,
@@ -1165,7 +1165,7 @@
       "brand": "Vicco",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 245.0
+      "salePrice": 245
     },
     {
       "id": 111,
@@ -1175,7 +1175,7 @@
       "brand": "Vicco",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 198.0
+      "salePrice": 198
     },
     {
       "id": 112,
@@ -1185,7 +1185,7 @@
       "brand": "Dabur",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 49.0
+      "salePrice": 49
     },
     {
       "id": 113,
@@ -1196,7 +1196,7 @@
       "category": "beauty",
       "type": "skinCare",
       "salePrice": 104.5,
-      "strikeOfPrice": 110.0
+      "strikeOfPrice": 110
     },
     {
       "id": 114,
@@ -1206,7 +1206,7 @@
       "brand": "Patanjali",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 55.0
+      "salePrice": 55
     },
     {
       "id": 115,
@@ -1216,7 +1216,7 @@
       "brand": "Glow",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 110.0
+      "salePrice": 110
     },
     {
       "id": 116,
@@ -1226,8 +1226,8 @@
       "brand": "Lacto",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 198.0,
-      "strikeOfPrice": 220.0
+      "salePrice": 198,
+      "strikeOfPrice": 220
     },
     {
       "id": 117,
@@ -1237,7 +1237,7 @@
       "brand": "Elovera",
       "category": "beauty",
       "type": "skinCare",
-      "salePrice": 360.0
+      "salePrice": 360
     },
     {
       "id": 118,
@@ -1248,7 +1248,7 @@
       "category": "beauty",
       "type": "skinCare",
       "salePrice": 42.75,
-      "strikeOfPrice": 45.0
+      "strikeOfPrice": 45
     },
     {
       "id": 119,
@@ -1259,7 +1259,7 @@
       "category": "beauty",
       "type": "skinCare",
       "salePrice": 515.2,
-      "strikeOfPrice": 560.0
+      "strikeOfPrice": 560
     },
     {
       "id": 120,
@@ -1270,10 +1270,9 @@
       "category": "beauty",
       "type": "skinCare",
       "salePrice": 220.8,
-      "strikeOfPrice": 240.0
+      "strikeOfPrice": 240
     }
   ],
-
   "categories": [
     {
       "id": "wellness",
@@ -1281,11 +1280,9 @@
       "title": "Wellness",
       "path": "wellness",
       "carousel": [
-        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498134_sdvbnm.jpg",
-
-        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651338093_Web_Home89.jpg",
-
-        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
+        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1623762113_puric-wellness-web.jpg",
+        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1645554707_Guide-1680px-x-320_Web.png",
+        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651818887_Wellness_Web.jpg"
       ],
       "category": [
         {
@@ -1294,25 +1291,21 @@
           "title": "Covid Essentials",
           "path": "covidEssentials"
         },
-
         {
           "imageUrl": "https://www.netmeds.com/images/category/v1/3251/thumb/sexual_wellness_2.jpg",
           "title": "Sexual Wellness",
           "path": "sexualWellness"
         },
-
         {
           "imageUrl": "https://www.netmeds.com/images/category/3222/thumb/vitamins_and_supplements_1.jpg",
           "title": "Vitamins And Supplements",
           "path": "vitaminsAndSuppliments"
         },
-
         {
           "imageUrl": "https://www.netmeds.com/images/category/491/thumb/homeopathy_1.jpg",
           "title": "Homeopathy",
           "path": "homeopathy"
         },
-
         {
           "imageUrl": "https://www.netmeds.com/images/category/482/thumb/ayurvedic_1.jpg",
           "title": "Ayurvedic",
@@ -1320,7 +1313,6 @@
         }
       ]
     },
-
     {
       "id": "beauty",
       "imageUrl": "https://cdn-icons.flaticon.com/png/512/1703/premium/1703993.png?token=exp=1651607336~hmac=a9f18e1ece263fcc114e85784eca6f57",
@@ -1328,9 +1320,7 @@
       "path": "beauty",
       "carousel": [
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498134_sdvbnm.jpg",
-
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651338093_Web_Home89.jpg",
-
         "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
       ],
       "category": [
@@ -1367,12 +1357,9 @@
       ]
     }
   ],
-
   "carousel": [
     "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498134_sdvbnm.jpg",
-
     "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651338093_Web_Home89.jpg",
-
     "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
   ],
   "homeCategory": [
@@ -1397,7 +1384,6 @@
       "title": "Covid Essentials"
     }
   ],
-
   "AuthDetails": [
     {
       "firstName": "Gautam ",
@@ -1405,12 +1391,18 @@
       "email": "gautamgohil@gmail.com",
       "id": 1,
       "mobileNumber": 9824240421,
-      "cart": [1, 2, 3, 4]
+      "cart": [
+        1,
+        2,
+        3
+      ]
     },
     {
       "email": "example@gmail.com",
       "mobileNumber": "5555555555",
-      "cart": [1],
+      "cart": [
+        1
+      ],
       "firstName": "Rahul",
       "lastName": "Chavda",
       "id": 2
@@ -1466,7 +1458,9 @@
     {
       "email": "fffffffffffffff",
       "mobileNumber": "3333333333",
-      "cart": [0],
+      "cart": [
+        0
+      ],
       "firstName": "fffffffffff",
       "lastName": "fffffffffffffff",
       "id": 10
@@ -1502,75 +1496,23 @@
       "firstName": "Rahul",
       "lastName": "Chavda",
       "id": 14
-    }
-  ],
-
-  "Limited_Deal_Wellness": [
-    {
-      "id": 1,
-      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-      "title": "Revital H Capsule 10'S",
-      "seller": "Sun Pharmaceutical Industries Ltd",
-      "brand": "Revital",
-      "category": "wellness",
-      "type": "covidEssentials",
-      "salePrice": 93.5,
-      "strikeOfPrice": 110.0
     },
     {
-      "id": 2,
-      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-      "title": "Revital H Woman Tablet 30'S",
-      "seller": "Sun Pharmaceutical Industries Ltd",
-      "brand": "Revital",
-      "category": "wellness",
-      "type": "covidEssentials",
-      "salePrice": 293.25,
-      "strikeOfPrice": 345.0
+      "email": "akshayr.patil96@gmail.com",
+      "mobileNumber": "9561062000",
+      "cart": [],
+      "firstName": "Akshay",
+      "lastName": "Patil",
+      "id": 15
     },
     {
-      "id": 3,
-      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
-      "title": "Revital H Capsule 60'S",
-      "seller": "Sun Pharmaceutical Industries Ltd",
-      "brand": "Revital",
-      "category": "wellness",
-      "type": "covidEssentials",
-      "salePrice": 467.5,
-      "strikeOfPrice": 550.0
+      "id": 16
     },
     {
-      "id": 4,
-      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
-      "title": "Dettol Antiseptic Liquid 60 ml",
-      "seller": "Reckitt Benckiser India Ltd",
-      "brand": "Dettol",
-      "category": "wellness",
-      "type": "covidEssentials",
-      "salePrice": 33.27,
-      "strikeOfPrice": 50.0
+      "id": 17
     },
     {
-      "id": 5,
-      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
-      "title": "Revital H Capsule 30'S",
-      "seller": "Sun Pharmaceutical Industries Ltd",
-      "brand": "Revital",
-      "category": "wellness",
-      "type": "covidEssentials",
-      "salePrice": 263.5,
-      "strikeOfPrice": 310.0
-    },
-    {
-      "id": 6,
-      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/835057/dettol_antiseptic_liquid_550_ml_0.jpg",
-      "title": "Dettol Antiseptic Liquid 550 ml",
-      "seller": "Reckitt Benckiser India Ltd",
-      "brand": "Dettol",
-      "category": "wellness",
-      "type": "covidEssentials",
-      "salePrice": 194.6,
-      "strikeOfPrice": 220.0
+      "id": 18
     }
   ]
 }
