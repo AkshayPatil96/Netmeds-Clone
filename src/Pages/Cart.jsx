@@ -19,9 +19,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { data, NextBtn, PreviousBtn } from "../Components/Carousel/Data";
+import { useSelector } from "react-redux";
 import "../Components/Carts.css";
 
 const Cart = () => {
+  const { user } = useSelector((state) => state.isAuth);
+  console.log(user.cart);
+
   const [totals, setTotal] = useState(0);
   const [isChecked, setIsChecked] = useState(false);
   const [promotoggle, setPromotoggle] = useState(false);
@@ -46,6 +50,7 @@ const Cart = () => {
             <CardProducts
               totals={totals}
               setTotal={setTotal}
+              user={user.cart}
               discount={discount}
               setdiscount={setdiscount}
             />

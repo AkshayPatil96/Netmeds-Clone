@@ -391,7 +391,7 @@ export const Navbar = () => {
   const [pincode, setPincode] = useState();
 
   const { token, user } = useSelector((state) => state.isAuth);
-  // console.log(token);
+  // console.log(user);
 
   useEffect(() => {
     if (localToken) {
@@ -399,7 +399,7 @@ export const Navbar = () => {
     } else {
       return;
     }
-  }, []);
+  }, [dispatch]);
 
   // console.log(user);
 

@@ -9,7 +9,8 @@ import Login from "../Pages/Account/Login";
 import ReqAuth from "./ReqAuth";
 import Account from "../Pages/Account/Account";
 import Product from "../Pages/Product";
-import Single from "../Pages/Single";
+import Cart from "../Pages/Cart";
+
 const MainRouters = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const MainRouters = () => {
         <Route path="products/:category" element={<HomeCategory />} />
         <Route path="/:category/:product" element={<Product />} />
         <Route path="/:category/:product/:brand" element={<Product />} />
-        <Route path="/product/:id" element={<Single />} />
+        {/* <Route path="/product/:id" element={<Single />} /> */}
         {/* Gautam's Code below */}
         {/* <Route
           path="/cart"

@@ -1,8 +1,9 @@
+import { faCarTunnel } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
-import { toCart } from "../Redux/Auth/action";
+import { toCart, deleteProduct } from "../Redux/Auth/action";
 
 export const Card = styled.div`
   border-radius: 10px;
@@ -201,26 +202,41 @@ const ProductCard = (props) => {
   const [count, setCount] = useState(0);
   const [authCount, setAuthCount] = useState(false);
   const { user } = useSelector((state) => state.isAuth);
-  console.log("user: ", user);
+  // console.log("user: ", user);
 
   const dispatch = useDispatch();
 
   const addToCart = () => {
     setAuthCount(true);
     // console.log();
-    dispatch(toCart(props.id));
+    dispatch(toCart(props.id, user.id));
+
     setCount(1);
+    // console.log(props);
   };
 
   const handleChange = (value) => {
     let answer = count + value;
+
     if (answer > 0) {
       setAuthCount(true);
     } else {
+      let cart = user.cart;
+
+      let newData = cart.filter((el) => {
+        return el.id != props.id;
+      });
+      dispatch(deleteProduct(newData, user.id));
+      //console.log(newData);
+
       setAuthCount(false);
     }
-    setCount(count + value);
-    // console.log(count);
+
+    setCount((prev) => {
+      let qty = prev + value;
+
+      return qty;
+    });
   };
 
   const discountPrice = Math.ceil(

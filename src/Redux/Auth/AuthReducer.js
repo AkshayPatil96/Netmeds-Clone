@@ -1,4 +1,10 @@
-import { ADD_NEW_USER, GET_USER, LOGOUT_USER } from "./actionType";
+import {
+  ADD_NEW_USER,
+  GET_USER,
+  LOGOUT_USER,
+  ADD_TO_CART,
+  DELETE_PRODUCT,
+} from "./actionType";
 const initState = {
   isError: false,
   isLoading: false,
@@ -25,6 +31,24 @@ export const authReducer = (state = initState, action) => {
     case LOGOUT_USER:
       return {
         ...initState,
+      };
+
+    case ADD_TO_CART:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          cart: [...state.user.cart, action.payload],
+        },
+      };
+
+    case DELETE_PRODUCT:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          cart: [...action.payload],
+        },
       };
     default:
       return state;

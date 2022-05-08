@@ -1,4 +1,10 @@
-import { ADD_NEW_USER, ADD_TO_CART, GET_USER, LOGOUT_USER } from "./actionType";
+import {
+  ADD_NEW_USER,
+  ADD_TO_CART,
+  GET_USER,
+  LOGOUT_USER,
+  DELETE_PRODUCT,
+} from "./actionType";
 import axios from "axios";
 
 //Check Func
@@ -70,9 +76,51 @@ const addToCart = (payload) => ({
   payload,
 });
 
-export const toCart = (id) => async (dispatch) => {
+//Add to cart
+let userData;
+export const toCart = (id, mobile) => async (dispatch) => {
   try {
     let res = await axios.get(`http://localhost:8080/data/${id}`);
     let data = await res.data;
-  } catch (error) {}
+
+    let user = await axios.get(`http://localhost:8080/AuthDetails/${mobile}`);
+    userData = await user.data;
+    console.log("userData", userData);
+    data.qunt = 1;
+    let patch = await fetch(`http://localhost:8080/AuthDetails/${mobile}`, {
+      method: "PATCH",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        cart: [...userData.cart, data],
+      }),
+    });
+
+    dispatch(addToCart(data));
+  } catch (error) {
+    console.log(error);
+  }
 };
+
+//deleting the product
+const deleteType = (payload) => ({
+  type: DELETE_PRODUCT,
+  payload,
+});
+
+export const deleteProduct = (data, id) => async (dispatch) => {
+  dispatch(deleteType(data));
+
+  try {
+    let patch = await fetch(`http://localhost:8080/AuthDetails/${id}`, {
+      method: "PATCH",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        cart: [...data],
+      }),
+    });
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+const checkCart = async (id) => {};
