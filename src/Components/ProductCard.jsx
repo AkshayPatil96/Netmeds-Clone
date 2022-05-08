@@ -238,7 +238,7 @@ const ProductCard = (props) => {
   };
 
   const discountPrice = Math.ceil(
-    ((props.strikeOfPrice - props.salePrice) / props.strikeOfPrice) * 100
+      ((props.strikeOfPrice - props.salePrice) / props.strikeOfPrice) * 100
   );
 
   return (

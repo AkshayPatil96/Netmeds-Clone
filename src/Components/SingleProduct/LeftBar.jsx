@@ -1,14 +1,32 @@
-import React from 'react'
-import styles from './Rightbar.module.css'
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
+import { getSingleProduct } from "../../Redux/Category/action";
+import styles from "./Rightbar.module.css";
 
 const LeftBar = () => {
-  return (
-      <>
-        <div className={styles.LeftBar}>
-            <img src="https://www.netmeds.com/images/product-v1/600x600/113742/revital_h_capsule_10_s_0.jpg" height={'510px'} width={'480px'} alt="" />
-        </div>
-      </>
-  )
-}
+    const { id } = useParams();
+    const dispatch = useDispatch();
 
-export default LeftBar
+    const { singleData } = useSelector((state) => state.products);
+    console.log("singleData: ", singleData);
+
+    useEffect(() => {
+        dispatch(getSingleProduct(id));
+    }, [id]);
+
+    return (
+        <>
+            <div className={styles.LeftBar}>
+                <img
+                    src={singleData.imageUrl}
+                    height={"510px"}
+                    width={"480px"}
+                    alt={singleData.title}
+                />
+            </div>
+        </>
+    );
+};
+
+export default LeftBar;

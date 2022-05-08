@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { useParams } from 'react-router-dom'
 import Details from '../Components/SingleProduct/Details'
 import LeftBar from '../Components/SingleProduct/LeftBar'
 import Rightbar from '../Components/SingleProduct/Rightbar'
+import { getSingleProduct } from '../Redux/Category/action'
 
 const MainProductBar = () => {
+  const { id } = useParams();
+  const dispatch = useDispatch();
+
+  const { singleData } = useSelector((state) => state.products);
+  console.log("singleData: ", singleData);
+
+  useEffect(() => {
+      dispatch(getSingleProduct(id));
+  }, [id]);
+
   return (
     <div>
         <div style={{display:'flex'}}>
