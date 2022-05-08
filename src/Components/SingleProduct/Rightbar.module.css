@@ -1,0 +1,80 @@
+.BtnDiv{
+    display: flex;
+    /* justify-content: center; */
+    
+}
+.btn1{
+    background: #f6f6f7;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 0 5px;
+    font-size: 12px;
+    font-family: Lato;
+    color: #6f7284;
+    max-width: 78%;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.btn2{
+    background: #f6f6f7;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 0 5px;
+    font-size: 12px;
+    font-family: Lato;
+    color: #6f7284;
+    max-width: 78%;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.priceTag{
+    display: flex;
+}
+.ProductMainDiv{
+    margin: auto;
+}
+.AddBtn{
+    background: #24aeb1;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 33px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 124px;
+    
+}
+.OfferDiv{
+    background-color: #f3f3f3;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+.ListItem{
+    font-size: 14px;
+    color: #58595b;
+    font-weight: 400;
+    line-height: 21px;
+    margin: auto;
+}
+.DetailsPage{
+    background-color: #f3f3f3;
+}
+.LineBox{
+    height: 0.00025px;
+    border: 2px solid #f3f3f3;
+    margin-top: 10px;
+}
+.LeftBar{
+    border: none;
+}

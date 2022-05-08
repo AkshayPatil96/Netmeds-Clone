@@ -4,8 +4,9 @@ import styled from "styled-components";
 
 import styles from "./Medicine.module.css";
 
+import VariantButtonGroup from './SearchBar'
+
 const Title = styled.h2`
-  font-family: "Lato", sans-serif;
   color: #151b39;
 `;
 const Text = styled.p`
@@ -30,6 +31,7 @@ const AllMedicines = () => {
       >
         Find Your Prescription Medicines
       </h1>
+      <VariantButtonGroup/>
       <div className={styles.med_div}>
         <div className={styles.col}>
           <Title>A</Title>
