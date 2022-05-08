@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import SubMenu, { DropdownLink, SidebarLabel, SidebarLink } from "./SubMenu";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
     getCategory,
@@ -66,6 +66,7 @@ const SidebarTitle = styled.div`
     }
 
     .btn {
+        margin: 4%;
         border: none;
         background: #fff;
         text-decoration: underline;
@@ -85,18 +86,22 @@ const ProductSideBar = () => {
     // console.log("displayData: ", displayData);
     // console.log("productData: ", productData);
 
+    const navigate = useNavigate();
+
     useEffect(() => {
+        dispatch(getCategory(category));
         dispatch(getCategory(category));
         dispatch(getProducts(category, product));
         // dispatch(getFilteredProducts(category, product, brand));
     }, [category, product]);
 
-    useEffect(() => {
-        dispatch(showData(category, product));
-    }, [category, product]);
+    // useEffect(() => {
+    //     dispatch(showData(category, product));
+    // }, [category, product]);
     // console.log("myData: ", myData);
 
     const handleReset = () => {
+        dispatch(getProducts(category, product));
         // setMyData(displayData);
     };
 
@@ -115,13 +120,9 @@ const ProductSideBar = () => {
         return manufacturers.indexOf(c) === index;
     });
 
-    const changeBrand = () => {};
-
-    const changeManufacturer = () => {};
-
-    useEffect(() => {
-        dispatch(showData(category, product));
-    }, [category, product]);
+    // useEffect(() => {
+    //     // dispatch(showData(category, product));
+    // }, [category, product]);
 
     // console.log("displayData: ", displayData);
     return (
@@ -138,9 +139,11 @@ const ProductSideBar = () => {
             <SidebarNav>
                 <SidebarTitle>
                     <h3 className="cate">Filter</h3>
-                    <Link to={`/${category}/${product}`} className="reset">
-                        <button className="btn">Reset</button>
-                    </Link>
+                    {/* <Link to={`/${category}/${product}`} className="reset"> */}
+                    <button onClick={handleReset} className="btn">
+                        Reset
+                    </button>
+                    {/* </Link> */}
                 </SidebarTitle>
                 <SidebarWrap>
                     <SidebarLink>
