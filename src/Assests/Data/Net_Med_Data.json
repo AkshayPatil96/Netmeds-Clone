@@ -1393,61 +1393,6 @@
       "mobileNumber": 9824240421,
       "cart": [
         {
-          "id": 2,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-          "title": "Revital H Woman Tablet 30'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 293.25,
-          "strikeOfPrice": 345
-        },
-        {
-          "id": 1,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-          "title": "Revital H Capsule 10'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 93.5,
-          "strikeOfPrice": 110
-        },
-        {
-          "id": 1,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-          "title": "Revital H Capsule 10'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 93.5,
-          "strikeOfPrice": 110
-        },
-        {
-          "id": 1,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-          "title": "Revital H Capsule 10'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 93.5,
-          "strikeOfPrice": 110
-        },
-        {
-          "id": 2,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-          "title": "Revital H Woman Tablet 30'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 293.25,
-          "strikeOfPrice": 345
-        },
-        {
           "id": 7,
           "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
           "title": "Dettol Antiseptic Liquid 1 ltr",
@@ -1555,7 +1500,9 @@
     {
       "email": "fffffffffffffff",
       "mobileNumber": "3333333333",
-      "cart": [0],
+      "cart": [
+        0
+      ],
       "firstName": "fffffffffff",
       "lastName": "fffffffffffffff",
       "id": 10

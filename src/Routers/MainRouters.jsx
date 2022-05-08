@@ -10,6 +10,7 @@ import ReqAuth from "./ReqAuth";
 import Account from "../Pages/Account/Account";
 import Product from "../Pages/Product";
 import Cart from "../Pages/Cart";
+import MainProductBar from "../Pages/MainProductBar";
 
 const MainRouters = () => {
   return (
@@ -22,7 +23,7 @@ const MainRouters = () => {
         <Route path="products/:category" element={<HomeCategory />} />
         <Route path="/:category/:product" element={<Product />} />
         <Route path="/:category/:product/:brand" element={<Product />} />
-        {/* <Route path="/product/:id" element={<Single />} /> */}
+        <Route path="/product/:id" element={<MainProductBar />} />
         {/* Gautam's Code below */}
         {/* <Route
           path="/cart"

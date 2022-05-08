@@ -8,15 +8,17 @@ const Single = () => {
   const dispatch = useDispatch();
 
   const { singleData } = useSelector((state) => state.products);
-  console.log('singleData: ', singleData);
+  console.log("singleData: ", singleData);
 
   useEffect(() => {
-      dispatch(getSingleProduct(id));
+    dispatch(getSingleProduct(id));
   }, [id]);
-  return <div>
+  return (
+    <div>
       <h1>{singleData.title}</h1>
-    <img src={singleData.imageUrl} alt="" />
-  </div>;
+      <img src={singleData.imageUrl} alt="" />
+    </div>
+  );
 };
 
 export default Single;
