@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import ProductSideBar from "../Components/ProductSideBar";
 import ProductView from "../Components/ProductView";
-import Carousel from "../Components/Carousel/Carousel";
-import SortBar from "../Components/SortBar";
 import MultiItem from "../Components/Carousel/MultiItem";
+import { useDispatch, useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
+import { getFilteredManufacturers, getFilteredProducts } from "../Redux/Category/action";
 
 const MainProdDiv = styled.div`
     display: grid;
@@ -15,6 +16,17 @@ const MainProdDiv = styled.div`
 `;
 
 const Product = () => {
+    // const { category, product, brand } = useParams();
+    // const dispatch = useDispatch();
+    // const { filteredBrandData } = useSelector((state) => state.products);
+    // const { filteredSellerData } = useSelector((state) => state.products);
+    // console.log('filteredSellerData: ', filteredSellerData);
+    // useEffect(() => {
+    // //   dispatch(getCategory(category));
+    // //   dispatch(getProducts(category, product));
+    // dispatch(getFilteredManufacturers(category, product, brand));
+    //   dispatch(getFilteredProducts(category, product, brand));
+    // }, [category, product, brand]);
     return (
         <>
             <MainProdDiv>
@@ -22,10 +34,7 @@ const Product = () => {
                     <ProductSideBar />
                 </div>
                 <div>
-                    <div>
-                        <Carousel />
-                    </div>
-                    <MultiItem heading="Category" />
+                    {/* <MultiItem heading="Category" /> */}
                     <ProductView />
                 </div>
             </MainProdDiv>
