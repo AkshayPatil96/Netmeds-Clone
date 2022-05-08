@@ -1,4 +1,4 @@
-import { ADD_NEW_USER, GET_USER, LOGOUT_USER } from "./actionType";
+import { ADD_NEW_USER, ADD_TO_CART, GET_USER, LOGOUT_USER } from "./actionType";
 import axios from "axios";
 
 //Check Func
@@ -61,4 +61,24 @@ const logutType = () => ({
 
 export const logoutUser = () => async (dispatch) => {
   dispatch(logutType());
+};
+
+// add to cart
+
+const addToCart = (payload) => ({
+  type: ADD_TO_CART,
+  payload,
+});
+
+export const toCart = (payload, mobile) => async (dispatch) => {
+  try {
+    let res = await axios.patch(
+      `http://localhost:8080/AuthDetails?mobileNumber=${mobile}`,
+      {
+        qty: payload,
+      }
+    );
+    let data = await res.data;
+    console.log("data: ", data);
+  } catch (error) {}
 };
