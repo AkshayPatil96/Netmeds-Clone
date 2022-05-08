@@ -1391,7 +1391,7 @@
       "email": "gautamgohil@gmail.com",
       "id": 1,
       "mobileNumber": 9824240421,
-      "cart": [1, 2, 3]
+      "cart": [{ "product": "n" }]
     },
     {
       "email": "example@gmail.com",

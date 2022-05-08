@@ -70,15 +70,9 @@ const addToCart = (payload) => ({
   payload,
 });
 
-export const toCart = (payload, mobile) => async (dispatch) => {
+export const toCart = (id) => async (dispatch) => {
   try {
-    let res = await axios.patch(
-      `http://localhost:8080/AuthDetails?mobileNumber=${mobile}`,
-      {
-        qty: payload,
-      }
-    );
+    let res = await axios.get(`http://localhost:8080/data/${id}`);
     let data = await res.data;
-    console.log("data: ", data);
   } catch (error) {}
 };

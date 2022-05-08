@@ -197,15 +197,18 @@ const BUTTON = styled.div`
 
 const ProductCard = (props) => {
   const { id } = useParams();
+
   const [count, setCount] = useState(0);
   const [authCount, setAuthCount] = useState(false);
   const { user } = useSelector((state) => state.isAuth);
-  // console.log('user: ', user);
+  console.log("user: ", user);
 
   const dispatch = useDispatch();
 
   const addToCart = () => {
     setAuthCount(true);
+    // console.log();
+    dispatch(toCart(props.id));
     setCount(1);
   };
 
@@ -217,8 +220,7 @@ const ProductCard = (props) => {
       setAuthCount(false);
     }
     setCount(count + value);
-    console.log(count);
-    dispatch(toCart(count, user.mobileNumber));
+    // console.log(count);
   };
 
   const discountPrice = Math.ceil(
