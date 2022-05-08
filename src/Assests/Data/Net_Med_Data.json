@@ -1555,9 +1555,7 @@
     {
       "email": "fffffffffffffff",
       "mobileNumber": "3333333333",
-      "cart": [
-        0
-      ],
+      "cart": [0],
       "firstName": "fffffffffff",
       "lastName": "fffffffffffffff",
       "id": 10
@@ -1610,14 +1608,6 @@
     },
     {
       "id": 18
-    },
-    {
-      "email": "Bansi Gandi",
-      "mobileNumber": "7676767676",
-      "cart": [],
-      "firstName": "Gu vari",
-      "lastName": "66",
-      "id": 19
     }
   ]
 }

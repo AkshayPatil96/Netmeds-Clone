@@ -1,89 +1,89 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
-import Styled from "styled-components";
-import { getProducts } from "../Redux/Category/action";
+import React, { useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-const SortDiv = Styled.div`
-  display: flex;
-  justify-content:space-between;
-  align-items:center;
-  margin: 2%;
-  padding: 0% 1%;
+export const SidebarLink = styled.div`
+    display: flex;
+    color: #777777;
+    align-items: center;
+    padding: 12px 10px;
+    margin: 0 1%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    border-left: 4px solid #fff;
+    border-bottom: 1px solid #b4b4b484;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    &:hover {
+        background: #91909090;
+        border-left: 4px solid #747373;
+        color: #181e3c;
+        cursor: pointer;
+    }
 `;
 
-const SortNumber = Styled.div`
-  color: #151b39;
-  line-height:25px;
-  `;
-
-const SortFlex = Styled.div`
-  display: flex;
-  align-items: center;
-  padding:1%;
-  
-  .btn {
-    padding: 5px 20px;
-    margin: 0 0 0 5px;
-    font-size: 12px;
-    text-align: center;
-    width: 110px;
-    height 25px;
-    border-radius: 5px;
-    background:#fff;
-    cursor: pointer;
-    color: #24aeb1;
-    border: 1px solid #24aeb1;
-  }
-  
-  .btn:hover {
-    background: #24aeb1;
-    color: #fff;
-    border: 1px solid #24aeb1;
-
-  }
+export const SidebarLabel = styled.span`
+    margin-left: 16px;
+    color: ${(props) => (props.primary ? "#181e3c" : "#77777")};
+    font-weight: ${(props) => (props.primary ? "bolder" : "400")};
 `;
 
-const SortBar = ({ handleL2H, pageCount, total, handleH2L }) => {
-  const { category, product } = useParams();
-  const dispatch = useDispatch();
+export const DropdownLink = styled(Link)`
+    background: #fff;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #777777;
+    font-size: 14px;
+    border-left: 4px solid #fff;
+    /* border: 1px solid; */
 
-  const { productData } = useSelector((state) => state.products);
+    &:hover {
+        background: #c4c4c490;
+        border-left: 4px solid #969696;
+        cursor: pointer;
+        color: #181e3c;
+    }
 
-  // const handleH2L = () => {
-  //   productData.sort((a, b) => b.salePrice - a.salePrice);
-  //   console.log("productData: ", productData);
-  // };
+    &:last-child {
+        margin-bottom: 3%;
+    }
+`;
 
-  useEffect(() => {
-    dispatch(getProducts(category, product));
-  }, [category, product]);
+const SubMenu = (items) => {
+    const { category, product } = useParams();
 
-  return (
-    <>
-      <SortDiv>
-        <SortNumber>
-          <p className="sortnum">
-            Showing <strong> {pageCount} </strong> of
-            <strong> {total} </strong> Items
-          </p>
-        </SortNumber>
-        <SortFlex>
-          <div>
-            <label className="label">Sort by:</label>
-          </div>
-          <button className="btn">Popularity</button>
-          <button onClick={handleH2L} className="btn">
-            High to Low
-          </button>
-          <button onClick={handleL2H} className="btn">
-            Low to High
-          </button>
-          <button className="btn">Discount</button>
-        </SortFlex>
-      </SortDiv>
-    </>
-  );
+    const item = items.items;
+
+    // console.log("item: ", item);
+    const [categories, setCategories] = useState(false);
+
+    const showCategories = () => setCategories(!categories);
+
+    return (
+        <>
+            <Link
+                to={`/${category}/${item.path}`}
+                className="link"
+                style={{
+                    textDecoration: "none",
+                    color: "#181e3c",
+                }}
+            >
+                <SidebarLink onClick={item.categories && showCategories}>
+                    <FontAwesomeIcon icon={faChevronRight} className="arrow" />
+                    <SidebarLabel>{item.title}</SidebarLabel>
+                </SidebarLink>
+            </Link>
+        </>
+    );
 };
 
-export default SortBar;
+export default SubMenu;

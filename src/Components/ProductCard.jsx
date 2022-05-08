@@ -1,5 +1,4 @@
-import { faCarTunnel } from "@fortawesome/free-solid-svg-icons";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
@@ -30,7 +29,7 @@ export const Card = styled.div`
     font-weight: bold;
     height: 38px;
     color: #181e3c;
-    margin-bottom: 1%;
+    margin-bottom: 0 1% 0;
     font-size: 16px;
     padding: 0 0.5rem 0 0.7rem;
     text-align: start;
@@ -107,9 +106,8 @@ const Price = styled.div`
 
 const BUTTON = styled.div`
   margin: 3% 5%;
-  /* border: 1px solid; */
 
-  button {
+  .btn-1 {
     width: 100%;
     color: #fff;
     cursor: pointer;
@@ -126,9 +124,30 @@ const BUTTON = styled.div`
     line-height: 35px;
   }
 
-  .btn-7 {
+  .center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .btn-7 span {
+
+  .btn-2 {
+    width: 25%;
+    height: 32px;
+    /* color: #fff; */
+    /* cursor: pointer; */
+    padding: 0;
+    transition: all 0.3s ease;
+    position: relative;
+    font-size: 12px;
+    outline: none;
+    /* background: linear-gradient(0deg, #24aeb1, #359b9c); */
+    border: none;
+    /* border: 1px solid red; */
+    line-height: 35px;
+  }
+
+  .btn-1 span {
     position: relative;
     display: flex;
     justify-content: center;
@@ -137,8 +156,8 @@ const BUTTON = styled.div`
     height: 100%;
   }
 
-  .btn-7:before,
-  .btn-7:after {
+  .btn-1:before,
+  .btn-1:after {
     position: absolute;
     content: "";
     right: 0;
@@ -149,27 +168,27 @@ const BUTTON = styled.div`
       7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
   }
-  .btn-7:before {
+  .btn-1:before {
     height: 0%;
     width: 2px;
   }
-  .btn-7:after {
+  .btn-1:after {
     width: 0%;
     height: 2px;
   }
-  .btn-7:hover {
+  .btn-1:hover {
     color: #24aeb1;
     font-weight: bold;
     background: transparent;
   }
-  .btn-7:hover:before {
+  .btn-1:hover:before {
     height: 100%;
   }
-  .btn-7:hover:after {
+  .btn-1:hover:after {
     width: 100%;
   }
-  .btn-7 span:before,
-  .btn-7 span:after {
+  .btn-1 span:before,
+  .btn-1 span:after {
     position: absolute;
     content: "";
     left: 0;
@@ -180,18 +199,18 @@ const BUTTON = styled.div`
       7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
   }
-  .btn-7 span:before {
+  .btn-1 span:before {
     width: 2px;
     height: 0%;
   }
-  .btn-7 span:after {
+  .btn-1 span:after {
     height: 2px;
     width: 0%;
   }
-  .btn-7 span:hover:before {
+  .btn-1 span:hover:before {
     height: 100%;
   }
-  .btn-7 span:hover:after {
+  .btn-1 span:hover:after {
     width: 100%;
   }
 `;
@@ -204,40 +223,34 @@ const ProductCard = (props) => {
   const { user } = useSelector((state) => state.isAuth);
   // console.log("user: ", user);
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   const addToCart = () => {
     setAuthCount(true);
-    // console.log();
-    dispatch(toCart(props.id, user.id));
-
-    setCount(1);
-    // console.log(props);
+    // setCount(1);
   };
 
-  const handleChange = (value) => {
-    let answer = count + value;
-
-    if (answer > 0) {
-      setAuthCount(true);
-    } else {
-      let cart = user.cart;
-
-      let newData = cart.filter((el) => {
-        return el.id != props.id;
-      });
-      dispatch(deleteProduct(newData, user.id));
-      //console.log(newData);
-
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      // console.log("This will run after 1 second!");
       setAuthCount(false);
-    }
+    }, 3000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [authCount]);
 
-    setCount((prev) => {
-      let qty = prev + value;
-
-      return qty;
-    });
-  };
+  // const handleChange = (value) => {
+  //   let answer = count + value;
+  //   if (answer > 0) {
+  //     setAuthCount(true);
+  //   } else {
+  //     setAuthCount(false);
+  //   }
+  //   setCount(count + value);
+  //   console.log(count);
+  //   dispatch(toCart(count, user.mobileNumber));
+  // };
 
   const discountPrice = Math.ceil(
     ((props.strikeOfPrice - props.salePrice) / props.strikeOfPrice) * 100
@@ -311,19 +324,31 @@ const ProductCard = (props) => {
         )}
         {!authCount ? (
           <BUTTON onClick={addToCart}>
-            <button className="btn-7">
+            <button className="btn-1">
               <span>ADD TO CART</span>
             </button>
           </BUTTON>
         ) : (
           <div className="counter">
-            <span className="minus" onClick={() => handleChange(-1)}>
+            <BUTTON>
+              {/* <button disabled="disabled" className="btn-2">
+                                ADDED TO CART
+                            </button> */}
+              <div className="center">
+                <img
+                  className="btn-2"
+                  src="https://img.icons8.com/color/2x/shopping-cart--v2.gif"
+                  alt="added to cart"
+                />
+              </div>
+            </BUTTON>
+            {/* <span className="minus" onClick={() => handleChange(-1)}>
               -
             </span>
             <span className="count">{count}</span>
             <span className="plus" onClick={() => handleChange(+1)}>
               +
-            </span>
+            </span> */}
           </div>
         )}
       </Card>
