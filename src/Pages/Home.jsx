@@ -7,58 +7,55 @@ import ProductView from "../Components/ProductView";
 import Footer from "../Components/Footer";
 
 const Home = () => {
-    const [homeCategory, setHomeCategory] = useState([]);
+  const [homeCategory, setHomeCategory] = useState([]);
 
-    let wellnessCate = data.homeCategory;
+  let wellnessCate = data.homeCategory;
 
-    const categoryData = () => {
-        setHomeCategory({ ...wellnessCate });
-    };
+  const categoryData = () => {
+    setHomeCategory({ ...wellnessCate });
+  };
 
-    useEffect(() => {
-        categoryData();
-    }, []);
+  useEffect(() => {
+    categoryData();
+  }, []);
 
-    return (
-        <>
-            {/* Slider */}
+  return (
+    <>
+      {/* Slider */}
 
-            <Carousel />
+      <Carousel />
 
-            {/* Categories */}
+      {/* Categories */}
 
-            <HomeCategory />
+      <HomeCategory />
 
-            {/* Sub-Category */}
+      {/* Sub-Category */}
 
-            <MultiItem heading="Categories in Focus" />
+      <MultiItem heading="Categories in Focus" />
 
-            {/* Multi Product Slider for Top Brands */}
+      {/* Multi Product Slider for Top Brands */}
 
-            {/* <MultiItem
+      {/* <MultiItem
                 gradBgColor="#ef4281"
                 heading="Expolre Beauty"
                 view="View All"
                 headingColor="#fff"
             /> */}
 
-            {/* Multi Product Slider for Top Brands */}
+      {/* Multi Product Slider for Top Brands */}
 
-            {/* <MultiItem
+      {/* <MultiItem
                 gradBgColor="#8b9096"
                 heading="Top Brands"
                 view="View All"
                 headingColor="#fff"
             /> */}
 
-            {/* Footer */}
+      {/* Footer */}
 
-            <Footer />
-        </>
-    );
+      <Footer />
+    </>
+  );
 };
 
 export default Home;
-
-
-
