@@ -1415,6 +1415,54 @@
           "salePrice": 173.7,
           "strikeOfPrice": 193,
           "qunt": 1
+        },
+        {
+          "id": 113,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/827253/mankind_acnestar_gel_22_gm_0.jpg",
+          "title": "Mankind Acnestar Gel 22 gm",
+          "seller": "Mankind Pharma Pvt Ltd",
+          "brand": "Mankind",
+          "category": "beauty",
+          "type": "skinCare",
+          "salePrice": 104.5,
+          "strikeOfPrice": 110,
+          "qunt": 1
+        },
+        {
+          "id": 104,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409293/acne_star_gel_15_gm_0.jpg",
+          "title": "Acne Star Gel 15 gm",
+          "seller": "Mankind Pharma Pvt Ltd",
+          "brand": "Acne",
+          "category": "beauty",
+          "type": "skinCare",
+          "salePrice": 76,
+          "strikeOfPrice": 80,
+          "qunt": 1
+        },
+        {
+          "id": 1,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
+          "title": "Revital H Capsule 10'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Revital",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 93.5,
+          "strikeOfPrice": 110,
+          "qunt": 1
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
+          "title": "Revital H Woman Tablet 30'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Revital",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 293.25,
+          "strikeOfPrice": 345,
+          "qunt": 1
         }
       ]
     },
