@@ -45,11 +45,12 @@
 
 .carousel {
   margin-bottom: 3%;
+  /* border:1px solid; */
+  text-decoration: none;
 }
 
 .heading {
-  /* border:1px solid; */
-  margin: 1.5% 1%;
+  margin: 1% 1% 2% 1%
 }
 
 .headingFlex {

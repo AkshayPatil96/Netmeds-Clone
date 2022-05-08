@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -167,7 +167,7 @@ const PatTS = styled.div`
   }
 `;
 
-const CardDiv = styled.div`
+const CardDiv = styled.form`
   width: 300px;
   position: relative;
   float: right;
@@ -214,7 +214,7 @@ const InpCvv = styled.input`
     outline: none;
   }
 `;
-const PayBtn = styled.button`
+const PayBtn = styled.input`
   width: 100%;
   height: 40px;
   margin-top: 15px;
@@ -232,6 +232,7 @@ const Payment = () => {
   const [statusG, setStatusG] = useState(false);
   const [statusC, setStatusC] = useState(false);
   const [statusCard, setStatusCard] = useState(false);
+  const navigate = useNavigate()
 
   const handlePayA = () => {
     setStatusA(true);
@@ -260,6 +261,12 @@ const Payment = () => {
   const handleCard = () => {
     setStatusCard(true);
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/delhivery")
+  };
+
   return (
     <div>
       <Wrapper
@@ -376,6 +383,7 @@ const Payment = () => {
               </PaymetPDiv>
             </PaymetWallet>
             {/*Other payment */}
+
             <PaymetWallet>
               <p>OTHER PAYMENTS</p>
               <PaymetPDiv>
@@ -416,6 +424,7 @@ const Payment = () => {
             </PaymetWallet>
 
             {/*UPI */}
+
             <PaymetWallet>
               <p>UPI</p>
               <PaymetPDiv>
@@ -473,7 +482,7 @@ const Payment = () => {
               >
                 <div>
                   {statusCard ? (
-                    <CardDiv>
+                    <CardDiv onSubmit={handleSubmit}>
                       <p style={{ color: "rgba(21,27,57,.6)" }}>
                         ENTER CARD DETAILS
                       </p>
@@ -485,6 +494,7 @@ const Payment = () => {
                           id=""
                           className="pText"
                           style={{ borderBottom: "2px solid #e4dede" }}
+                          required
                         />
                       </div>
                       <ExpDiv>
@@ -503,6 +513,7 @@ const Payment = () => {
                               className="pExp"
                               style={{ borderBottom: "2px solid #e4dede" }}
                               placeholder="MM"
+                              required
                             />
                             <input
                               type="text"
@@ -514,6 +525,7 @@ const Payment = () => {
                                 marginLeft: "15px",
                               }}
                               placeholder="YY"
+                              required
                             />
                           </div>
                         </div>
@@ -522,8 +534,8 @@ const Payment = () => {
                           <InpCvv
                             type="text"
                             name=""
-                            id=""
                             style={{ borderBottom: "2px solid #e4dede" }}
+                            required
                           ></InpCvv>
                         </div>
                       </ExpDiv>
@@ -535,10 +547,11 @@ const Payment = () => {
                           id=""
                           className="pText"
                           style={{ borderBottom: "2px solid #e4dede" }}
+                          required
                         />
                       </div>
                       <div>
-                        <PayBtn>PAY</PayBtn>
+                        <PayBtn type="submit" value="PAY" />
                       </div>
                     </CardDiv>
                   ) : (
@@ -574,8 +587,9 @@ const Payment = () => {
                         onClick={handlePayC}
                       />
                       <div>
-                        <button style={{ width: "auto" }}>
+                        <button style={{ width: "auto" }} onClick={()=>navigate("/delhivery")}>
                           PAY <span>RS.114.00</span> ON DELIVERY{/*data */}
+                          
                         </button>
                       </div>
                     </div>

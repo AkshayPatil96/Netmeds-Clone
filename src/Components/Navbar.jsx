@@ -18,7 +18,7 @@ import { useDispatch } from "react-redux";
 let localToken = localStorage.getItem("token") || "";
 let localUser = JSON.parse(localStorage.getItem("user"));
 
-console.log(localToken);
+// console.log(localToken);
 const NavContainer = styled.nav`
   /* height: 9.85vh; */
   height: 90px;
@@ -391,7 +391,7 @@ export const Navbar = () => {
   const [pincode, setPincode] = useState();
 
   const { token, user } = useSelector((state) => state.isAuth);
-  console.log(token);
+  // console.log(token);
 
   useEffect(() => {
     if (localToken) {
@@ -401,7 +401,7 @@ export const Navbar = () => {
     }
   }, []);
 
-  console.log(user);
+  // console.log(user);
 
   const getLocation = () => {};
   return (

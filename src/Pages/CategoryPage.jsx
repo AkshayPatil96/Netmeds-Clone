@@ -1,23 +1,17 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getCategory } from "../Redux/Category/action";
-import Carousel from "../Components/Carousel/Carousel";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
 import { useParams } from "react-router-dom";
 import { NextBtn, PreviousBtn } from "../Components/Carousel/Data";
 import styles from "../Components/Carousel/carousel.module.css";
 import ShowMultiItems from "../Components/Carousel/ShowMultiItems";
 import Slider from "react-slick/lib/slider";
-import ProductView from "../Components/ProductView";
 import { CategoryDiv, SliderDiv } from "../Components/Product.styled";
 import ProductCard from "../Components/ProductCard";
 import Footer from "../Components/Footer";
 import Labtest from "./Labtest";
 import AllMedicine from "./AllMedicine";
+import Carousel from "../Components/Carousel/Carousel";
 
 const carouselProperties = {
   prevArrow: <PreviousBtn />,
@@ -53,10 +47,9 @@ const carouselProperties = {
 
 const CategoryPage = () => {
   const { category } = useParams();
-  // console.log("category: ", category);
   const { isLoading, isError, data } = useSelector((state) => state.products);
 
-  console.log("products: ", data);
+  // console.log("products: ", data);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -71,27 +64,7 @@ const CategoryPage = () => {
         <AllMedicine />
       ) : (
         <>
-          <div>
-            {/* <Carousel /> */}
-            {/* Carousel */}
-            <Slider
-              autoplay
-              autoplaySpeed={5000}
-              dots
-              initialSlide={2}
-              infinite
-              prevArrow={<PreviousBtn />}
-              nextArrow={<NextBtn />}
-              dotsClass="slick-dots"
-            >
-              {data.carousel &&
-                data.carousel.map((item, index) => {
-                  <div key={index}>
-                    <img src={item} alt="" style={{ width: "100%" }} />
-                  </div>;
-                })}
-            </Slider>
-          </div>
+          {/* <h1>Hello!</h1> */}
 
           {isLoading ? (
             <h1>Loading...</h1>
@@ -99,6 +72,29 @@ const CategoryPage = () => {
             <h1>Something went wrong while fetching data</h1>
           ) : (
             <>
+              <div
+                style={{
+                  margin: "5% 3% 0 3%",
+                }}
+              >
+                <Slider
+                  autoplay
+                  autoplaySpeed={5000}
+                  dots
+                  initialSlide={2}
+                  infinite
+                  prevArrow={<PreviousBtn />}
+                  nextArrow={<NextBtn />}
+                  dotsClass="slick-dots"
+                >
+                  {data.carousel &&
+                    data.carousel.map((item, index) => (
+                      <div key={index}>
+                        <img src={item} alt="" style={{ width: "100%" }} />
+                      </div>
+                    ))}
+                </Slider>
+              </div>
               <div>
                 <div className={styles.carousel}>
                   <div className={styles.headingFlex}>

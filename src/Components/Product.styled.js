@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const CategoryDiv = styled.div`
-    margin: 2% 3%;
+    /* margin: 1% 0%; */
     padding: 1%;
     background: #fff;
     border-radius: 10px;
@@ -107,4 +107,12 @@ export const Card = styled.div`
         color: #9d9fa2;
         font-size: 10px;
     }
+`;
+
+export const MainProdDiv = styled.div`
+  display: grid;
+  grid-template-columns: 20% 75%;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 5% 0;
 `;

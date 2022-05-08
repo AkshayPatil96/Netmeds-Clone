@@ -8,7 +8,7 @@ const SortDiv = Styled.div`
   display: flex;
   justify-content:space-between;
   align-items:center;
-  margin: 0 3%;
+  margin: 2%;
   padding: 0% 1%;
 `;
 
@@ -44,37 +44,46 @@ const SortFlex = Styled.div`
   }
 `;
 
-const SortBar = (props) => {
-    const { category, product } = useParams();
-    const dispatch = useDispatch();
+const SortBar = ({ handleL2H, pageCount, total, handleH2L }) => {
+  const { category, product } = useParams();
+  const dispatch = useDispatch();
 
-    const { productData } = useSelector((state) => state.products);
+  const { productData } = useSelector((state) => state.products);
 
-    useEffect(() => {
-        dispatch(getProducts(category, product));
-    }, [category, product]);
+  // const handleH2L = () => {
+  //   productData.sort((a, b) => b.salePrice - a.salePrice);
+  //   console.log("productData: ", productData);
+  // };
 
-    return (
-        <>
-            <SortDiv>
-                <SortNumber>
-                    <p className="sortnum">
-                        Showing <strong> {props.pageCount} </strong> of
-                        <strong> {props.total} </strong> Items
-                    </p>
-                </SortNumber>
-                <SortFlex>
-                    <div>
-                        <label className="label">Sort by:</label>
-                    </div>
-                    <button className="btn">Popularity</button>
-                    <button className="btn">High to Low</button>
-                    <button className="btn">Low to High</button>
-                    <button className="btn">Discount</button>
-                </SortFlex>
-            </SortDiv>
-        </>
-    );
+  useEffect(() => {
+    dispatch(getProducts(category, product));
+  }, [category, product]);
+
+  return (
+    <>
+      <SortDiv>
+        <SortNumber>
+          <p className="sortnum">
+            Showing <strong> {pageCount} </strong> of
+            <strong> {total} </strong> Items
+          </p>
+        </SortNumber>
+        <SortFlex>
+          <div>
+            <label className="label">Sort by:</label>
+          </div>
+          <button className="btn">Popularity</button>
+          <button onClick={handleH2L} className="btn">
+            High to Low
+          </button>
+          <button onClick={handleL2H} className="btn">
+            Low to High
+          </button>
+          <button className="btn">Discount</button>
+        </SortFlex>
+      </SortDiv>
+    </>
+  );
 };
 
 export default SortBar;
