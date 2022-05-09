@@ -23,7 +23,7 @@ const addNewUserType = (userData, token) => ({
 
 export const addNewUser = (userData, token) => async (dispatch) => {
   try {
-    let res = await axios.post("http://localhost:8080/AuthDetails", userData);
+    let res = await axios.post("https://netmedsbackend.herokuapp.com/AuthDetails", userData);
     let data = await res.data;
 
     dispatch(addNewUserType(data, token));
@@ -50,7 +50,7 @@ const getUser = (token, userData) => ({
 export const getData = (token, mobile) => async (dispatch) => {
   try {
     let res = await axios.get(
-      `http://localhost:8080/AuthDetails?mobileNumber=${mobile}`
+      `https://netmedsbackend.herokuapp.com/AuthDetails?mobileNumber=${mobile}`
     );
     let data = await res.data;
 
@@ -80,14 +80,14 @@ const addToCart = (payload) => ({
 let userData;
 export const toCart = (id, mobile) => async (dispatch) => {
   try {
-    let res = await axios.get(`http://localhost:8080/data/${id}`);
+    let res = await axios.get(`https://netmedsbackend.herokuapp.com/data/${id}`);
     let data = await res.data;
 
-    let user = await axios.get(`http://localhost:8080/AuthDetails/${mobile}`);
+    let user = await axios.get(`https://netmedsbackend.herokuapp.com/AuthDetails/${mobile}`);
     userData = await user.data;
     console.log("userData", userData);
     data.qunt = 1;
-    let patch = await fetch(`http://localhost:8080/AuthDetails/${mobile}`, {
+    let patch = await fetch(`https://netmedsbackend.herokuapp.com/AuthDetails/${mobile}`, {
       method: "PATCH",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
@@ -111,7 +111,7 @@ export const deleteProduct = (data, id) => async (dispatch) => {
   dispatch(deleteType(data));
 
   try {
-    let patch = await fetch(`http://localhost:8080/AuthDetails/${id}`, {
+    let patch = await fetch(`https://netmedsbackend.herokuapp.com/AuthDetails/${id}`, {
       method: "PATCH",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
