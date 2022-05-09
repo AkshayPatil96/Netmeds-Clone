@@ -16,6 +16,7 @@ import {
   Add,
   Product,
 } from "../Components/Cart.styled";
+import { Link } from "react-router-dom";
 import CardProducts from "../Components/CartProducts";
 import "../Components/Carts.css";
 
@@ -386,7 +387,9 @@ const Order = () => {
                   </h3>
                 </div>
                 <div>
-                  <Button>Pay</Button>
+                  <Button>
+                    <Link to="/payment">Pay</Link>
+                  </Button>
                 </div>
               </TotalSub>
               <p

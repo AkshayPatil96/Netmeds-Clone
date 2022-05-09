@@ -2553,54 +2553,6 @@
       "mobileNumber": 9824240421,
       "cart": [
         {
-          "id": 7,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
-          "title": "Dettol Antiseptic Liquid 1 ltr",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 331.41,
-          "strikeOfPrice": 380,
-          "qty": 1
-        },
-        {
-          "id": 12,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15116/dettol_disinfectant_lime_fresh_500_ml_0_1.jpg",
-          "title": "Dettol Disinfectant - Lime Fresh 500 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 173.7,
-          "strikeOfPrice": 193,
-          "qunt": 1
-        },
-        {
-          "id": 113,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/827253/mankind_acnestar_gel_22_gm_0.jpg",
-          "title": "Mankind Acnestar Gel 22 gm",
-          "seller": "Mankind Pharma Pvt Ltd",
-          "brand": "Mankind",
-          "category": "beauty",
-          "type": "skinCare",
-          "salePrice": 104.5,
-          "strikeOfPrice": 110,
-          "qunt": 1
-        },
-        {
-          "id": 104,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409293/acne_star_gel_15_gm_0.jpg",
-          "title": "Acne Star Gel 15 gm",
-          "seller": "Mankind Pharma Pvt Ltd",
-          "brand": "Acne",
-          "category": "beauty",
-          "type": "skinCare",
-          "salePrice": 76,
-          "strikeOfPrice": 80,
-          "qunt": 1
-        },
-        {
           "id": 1,
           "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
           "title": "Revital H Capsule 10'S",
@@ -2627,37 +2579,6 @@
       ]
     },
     {
-      "email": "example@gmail.com",
-      "mobileNumber": "5555555555",
-      "cart": [
-        {
-          "id": 2,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-          "title": "Revital H Woman Tablet 30'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 293.25,
-          "strikeOfPrice": 345
-        },
-        {
-          "id": 3,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
-          "title": "Revital H Capsule 60'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 467.5,
-          "strikeOfPrice": 550
-        }
-      ],
-      "firstName": "Rahul",
-      "lastName": "Chavda",
-      "id": 2
-    },
-    {
       "email": "dddffe",
       "mobileNumber": "7777777777",
       "cart": [],
@@ -2674,120 +2595,52 @@
       "id": 4
     },
     {
-      "AVJ6FQd9Oo": "",
-      "id": 5
+      "id": 4,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
+      "title": "Dettol Antiseptic Liquid 60 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 33.27,
+      "strikeOfPrice": 50,
+      "qunt": 1
     },
     {
-      "tSQwy_ALHI": "",
-      "id": 6
+      "id": 3,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
+      "title": "Revital H Capsule 60'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 467.5,
+      "strikeOfPrice": 550,
+      "qunt": 1
     },
     {
-      "email": "example@gmail.com",
-      "mobileNumber": "4444444444",
-      "cart": [],
-      "firstName": "Rahul",
-      "lastName": "Chavda",
-      "id": 7
+      "id": 2,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
+      "title": "Revital H Woman Tablet 30'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 293.25,
+      "strikeOfPrice": 345,
+      "qunt": 1
     },
     {
-      "email": "example@gmail.com",
-      "mobileNumber": "2222222222",
-      "cart": [],
-      "firstName": "ssssdf",
-      "lastName": "Chavda",
-      "id": 8
-    },
-    {
-      "email": "hhhhhhhhhhhh",
-      "mobileNumber": "6666666666",
-      "cart": [],
-      "firstName": "hhhhhhhhhhh",
-      "lastName": "hhhhhhhhhhh",
-      "id": 9
-    },
-    {
-      "email": "fffffffffffffff",
-      "mobileNumber": "3333333333",
-      "cart": [
-        0
-      ],
-      "firstName": "fffffffffff",
-      "lastName": "fffffffffffffff",
-      "id": 10
-    },
-    {
-      "email": "gautamgohil0@gmail.com",
-      "mobileNumber": "8888888888",
-      "cart": [],
-      "firstName": "Gautam",
-      "lastName": "Gohil",
-      "id": 11
-    },
-    {
-      "email": "gautamgohil0@gmail.com",
-      "mobileNumber": "1213113123",
-      "cart": [],
-      "firstName": "Gautam",
-      "lastName": "Gohil",
-      "id": 12
-    },
-    {
-      "email": "gautamgohil0@gmail.com",
-      "mobileNumber": "1212121212",
-      "cart": [],
-      "firstName": "kkkkkkkkk",
-      "lastName": "Gohil",
-      "id": 13
-    },
-    {
-      "email": "example@gmail.com",
-      "mobileNumber": "8585858588",
-      "cart": [],
-      "firstName": "Rahul",
-      "lastName": "Chavda",
-      "id": 14
-    },
-    {
-      "email": "akshayr.patil96@gmail.com",
-      "mobileNumber": "9561062000",
-      "cart": [
-        {
-          "id": 2,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-          "title": "Revital H Woman Tablet 30'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 293.25,
-          "strikeOfPrice": 345,
-          "qunt": 1
-        },
-        {
-          "id": 1,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-          "title": "Revital H Capsule 10'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 93.5,
-          "strikeOfPrice": 110,
-          "qunt": 1
-        }
-      ],
-      "firstName": "Akshay",
-      "lastName": "Patil",
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
+      "id": 1,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
+      "title": "Revital H Capsule 10'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 93.5,
+      "strikeOfPrice": 110,
+      "qunt": 1
     }
   ]
 }

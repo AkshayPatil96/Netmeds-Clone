@@ -13,11 +13,13 @@ import {
   Product,
   P1,
 } from "../Components/Cart.styled";
+import { Link } from "react-router-dom";
 import Carousel from "../Components/Carousel/Carousel";
 import CardProducts from "../Components/CartProducts";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import { data, NextBtn, PreviousBtn } from "../Components/Carousel/Data";
 import { useSelector } from "react-redux";
 import "../Components/Carts.css";
@@ -268,7 +270,9 @@ const Cart = () => {
                 </h3>
               </div>
               <div>
-                <Button>PROCEED</Button>
+                <Button>
+                  <Link to="/order">PROCEED</Link>
+                </Button>
               </div>
             </TotalSub>
             <p

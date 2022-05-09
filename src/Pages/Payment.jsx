@@ -225,14 +225,15 @@ const PayBtn = styled.input`
   font-size: 15px;
   cursor: pointer;
 `;
-
+let total = localStorage.getItem("totalPay");
+console.log(total);
 const Payment = () => {
   const [statusA, setStatusA] = useState(false);
   const [statusP, setStatusP] = useState(false);
   const [statusG, setStatusG] = useState(false);
   const [statusC, setStatusC] = useState(false);
   const [statusCard, setStatusCard] = useState(false);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handlePayA = () => {
     setStatusA(true);
@@ -264,7 +265,7 @@ const Payment = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/delhivery")
+    navigate("/delhivery");
   };
 
   return (
@@ -365,7 +366,7 @@ const Payment = () => {
                       />
                       <div>
                         <button>
-                          PAY <span>RS.114.00</span>
+                          PAY <span>RS.{total}</span>
                           {/*data */}
                         </button>
                       </div>
@@ -406,7 +407,7 @@ const Payment = () => {
                       />
                       <div>
                         <button>
-                          Pay <span>Rs.114.00</span>
+                          Pay <span>Rs.{total}</span>
                         </button>
                       </div>
                     </div>
@@ -447,7 +448,7 @@ const Payment = () => {
                       />
                       <div>
                         <button>
-                          PAY <span>RS.114.00</span>
+                          PAY <span>RS.{total}</span>
                           {/*data */}
                         </button>
                       </div>
@@ -551,7 +552,7 @@ const Payment = () => {
                         />
                       </div>
                       <div>
-                        <PayBtn type="submit" value="PAY" />
+                        <PayBtn type="submit" value="PAY" onClick={()=>navigate("/delhivery")} />
                       </div>
                     </CardDiv>
                   ) : (
@@ -587,9 +588,11 @@ const Payment = () => {
                         onClick={handlePayC}
                       />
                       <div>
-                        <button style={{ width: "auto" }} onClick={()=>navigate("/delhivery")}>
-                          PAY <span>RS.114.00</span> ON DELIVERY{/*data */}
-                          
+                        <button
+                          style={{ width: "auto" }}
+                          onClick={() => navigate("/delhivery")}
+                        >
+                          PAY <span>RS.{total}</span> ON DELIVERY{/*data */}
                         </button>
                       </div>
                     </div>
@@ -623,7 +626,7 @@ const Payment = () => {
               <div>
                 <PayT>
                   <span>MRP Total</span>
-                  <span>Rs.1,234.00</span>
+                  <span>Rs.{total}</span>
                   {/* //Data of price */}
                 </PayT>
                 <PayT>
@@ -632,7 +635,7 @@ const Payment = () => {
                 </PayT>
                 <PayS>
                   <span>Total Amount*</span>
-                  <span>Rs.1070.88</span>
+                  <span>Rs.{total}</span>
                 </PayS>
               </div>
               <PatTS>

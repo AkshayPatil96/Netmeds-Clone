@@ -1,13 +1,19 @@
+
+import axios from "axios";
 import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
+
+let total = localStorage.getItem("totalPay") || "";
 
 const CardProducts = (props) => {
   const [product, setProduct] = useState([]);
   const [qunts, setQunt] = useState(0);
-  const { totals, setTotal, discount, setdiscount, user } = props;
+  const { totals, setTotal, discount, setdiscount } = props;
+  const { user } = useSelector((state) => state.isAuth);
   console.log(totals, "sagar");
   console.log(user);
   function remove(index) {
-    let products = product.filter(function (el, i) {
+    let products = product.cart.filter(function (el, i) {
       return i !== index;
     });
     setProduct([...products]);
@@ -22,10 +28,11 @@ const CardProducts = (props) => {
   }
   function Total() {
     let total = product.reduce(function (acc, elem, index) {
-      let myString = parseInt(elem.sale_Price * elem.qunt);
+      let myString = parseInt(elem.salePrice * elem.qunt);
       return acc + myString;
     }, 0);
     console.log(total);
+    localStorage.setItem("totalPay", total);
     setTotal(total);
   }
 
@@ -39,10 +46,13 @@ const CardProducts = (props) => {
 
   const Todoserver = async () => {
     try {
-      let response = await fetch("http://localhost:8080/Limited_Deal_Wellness");
-      let data = await response.json();
-      console.log(data);
-      setProduct(data);
+      let response = await axios.get(
+        `http://localhost:8080/AuthDetails/${user.id}`
+      );
+      let data = await response.data;
+      console.log(data.cart);
+
+      setProduct([...data.cart]);
     } catch (e) {
       console.log(e);
     }
@@ -59,7 +69,7 @@ const CardProducts = (props) => {
   return (
     <>
       <div>
-        {user.map((item, index) => {
+        {product.map((item, index) => {
           return (
             <>
               <div
@@ -71,7 +81,7 @@ const CardProducts = (props) => {
               >
                 <img
                   style={{ width: "50px", height: "50px" }}
-                  src={item.image}
+                  src={item.imageUrl}
                   alt=""
                 />
                 <div style={{ width: "100%" }}>
@@ -93,14 +103,14 @@ const CardProducts = (props) => {
                       fontSize: "14px",
                     }}
                   >
-                    {item.sellers}
+                    {item.seller}
                   </p>
-                  {console.log(item.sellers)}
+                  {console.log(item.seller)}
                   <div
                     style={{ display: "flex", justifyContent: "space-between" }}
                   >
                     {" "}
-                    <h4 style={{ color: "red" }}>{`Rs ${item.sale_Price}`}</h4>
+                    <h4 style={{ color: "red" }}>{`Rs ${item.salePrice}`}</h4>
                     <label>
                       QTY:
                       <select
