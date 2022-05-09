@@ -6,6 +6,7 @@ import {
     SUCCESS_CATEGORY_METHOD,
     SUCCESS_DISCOUNT_METHOD,
     SUCCESS_FILTER_METHOD,
+    SUCCESS_HOME_DATA_METHOD,
     SUCCESS_MANUFACTURER_METHOD,
     SUCCESS_PRODUCT_METHOD,
     SUCCESS_SINGLE_PRODUCT_METHOD,
@@ -25,6 +26,11 @@ const successCategory = (payload) => ({
 
 const successProduct = (payload) => ({
     type: SUCCESS_PRODUCT_METHOD,
+    payload,
+});
+
+const successHomepage = (payload) => ({
+    type: SUCCESS_HOME_DATA_METHOD,
     payload,
 });
 
@@ -93,6 +99,19 @@ const getProducts = (category, product) => async (dispatch) => {
         );
         let data = await response.data;
         dispatch(successProduct(data));
+    } catch (error) {
+        dispatch(failure());
+    }
+};
+
+const getHomeData = () => async (dispatch) => {
+    dispatch(request());
+    try {
+        let response = await axios.get(
+            `http://localhost:8080/homepage`
+        );
+        let data = await response.data;
+        dispatch(successHomepage(data));
     } catch (error) {
         dispatch(failure());
     }
@@ -197,6 +216,7 @@ const getSingleProduct = (id) => async (dispatch) => {
 export {
     getCategory,
     getProducts,
+    getHomeData,
     sortingH2L,
     sortingL2H,
     discountData,

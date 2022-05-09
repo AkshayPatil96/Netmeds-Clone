@@ -18,12 +18,13 @@ const Card = styled.div`
     /* border: 1px solid; */
     text-decoration: none;
   }
-
+  
   .title {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    color: #142431;
     text-overflow: ellipsis;
     font-weight: bold;
     height: 38px;
