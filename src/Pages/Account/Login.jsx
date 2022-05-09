@@ -6,6 +6,7 @@ import { nanoid } from "nanoid";
 import { addNewUser, loginExisitingUser } from "../../Redux/Auth/action.js";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+
 let token = localStorage.getItem("token") || "";
 
 let userLocalData = JSON.parse(localStorage.getItem("user")) || {};

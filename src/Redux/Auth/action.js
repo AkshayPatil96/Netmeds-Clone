@@ -4,10 +4,6 @@ import {
   GET_USER,
   LOGOUT_USER,
   DELETE_PRODUCT,
-  AUTH_ERROR,
-  AUTH_SUCCESS,
-  AUTH_ERROR,
-  AUTH_REQUEST,
 } from "./actionType";
 import axios from "axios";
 
@@ -15,10 +11,6 @@ import axios from "axios";
 // const checkUser = () =>{
 
 // }
-
-const authRqst = () => ({
-  type: AUTH_REQUEST,
-});
 
 //Adding new user
 const addNewUserType = (userData, token) => ({
