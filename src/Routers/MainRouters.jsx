@@ -11,7 +11,8 @@ import Account from "../Pages/Account/Account";
 import Product from "../Pages/Product";
 import Cart from "../Pages/Cart";
 import MainProductBar from "../Pages/MainProductBar";
-
+import Order from "../Pages/Order";
+import Payment from "../Pages/Payment";
 const MainRouters = () => {
   return (
     <>
@@ -20,19 +21,19 @@ const MainRouters = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:category" element={<CategoryPage />} />
-        <Route path="products/:category" element={<HomeCategory />} />
+        <Route path="/:category" element={<HomeCategory />} />
         <Route path="/:category/:product" element={<Product />} />
         <Route path="/:category/:product/:brand" element={<Product />} />
         <Route path="/product/:id" element={<MainProductBar />} />
         {/* Gautam's Code below */}
-        {/* <Route
+        <Route
           path="/cart"
           element={
             <ReqAuth>
               <Cart />
             </ReqAuth>
           }
-        /> */}
+        />
         <Route
           path="/customer/account"
           element={
@@ -41,6 +42,8 @@ const MainRouters = () => {
             </ReqAuth>
           }
         />
+        <Route path="/order" element={<Order />} />
+        <Route path="/payment" element={<Payment />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </>

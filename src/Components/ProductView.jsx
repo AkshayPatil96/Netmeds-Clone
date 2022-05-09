@@ -38,13 +38,6 @@ const ProductView = () => {
   const firstPage = lastPage - itemsPerPage;
   const currentPageData = displayProducts.slice(firstPage, lastPage);
 
-  useEffect(() => {
-    dispatch(getProducts(category, product));
-    //     dispatch(getFilteredManufacturers(category, product, brand));
-    //     dispatch(getFilteredProducts(category, product, brand));
-    //
-  }, [dispatch]);
-
   const handlePage = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
@@ -90,6 +83,12 @@ const ProductView = () => {
     let me = dispatch(discountData(category, product));
     console.log("me: ", me);
   };
+
+  useEffect(() => {
+    dispatch(getProducts(category, product));
+    // dispatch(getFilteredManufacturers(category, product, brand));
+    // dispatch(getFilteredProducts(category, product, brand));
+  }, []);
 
   return (
     <>

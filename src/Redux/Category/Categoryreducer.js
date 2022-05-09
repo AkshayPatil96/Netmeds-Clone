@@ -5,6 +5,7 @@ import {
     SUCCESS_CATEGORY_METHOD,
     SUCCESS_DISCOUNT_METHOD,
     SUCCESS_FILTER_METHOD,
+    SUCCESS_HOME_DATA_METHOD,
     SUCCESS_MANUFACTURER_METHOD,
     SUCCESS_PRODUCT_METHOD,
     SUCCESS_SINGLE_PRODUCT_METHOD,
@@ -21,6 +22,7 @@ const initState = {
     isError: false,
     filteredBrandData: [],
     filteredSellerData: [],
+    homepage: [],
     DataH2L: [],
     DataL2H: [],
 };
@@ -48,6 +50,14 @@ const reducer = (state = initState, { type, payload }) => {
                 isLoading: false,
                 isError: false,
                 productData: payload,
+            };
+
+        case SUCCESS_HOME_DATA_METHOD:
+            return {
+                ...state,
+                isLoading: false,
+                isError: false,
+                homepage: payload,
             };
 
         case SUCCESS_APPEND_METHOD:

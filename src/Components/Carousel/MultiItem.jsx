@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ShowMultiItems from "./ShowMultiItems";
 import styles from "./carousel.module.css";
-import data from "../../Assests/Data/Net_Med_Data.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faChevronLeft,
@@ -43,53 +42,39 @@ const NextBtn = (props) => {
     );
 };
 
-const carouselProperties = {
-    prevArrow: <PreviousBtn />,
-    nextArrow: <NextBtn />,
-    slidesToShow: 5,
-    slidesToScroll: 2,
-    centerPadding: "170px",
-    responsive: [
-        {
-            breakpoint: 426,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            },
-        },
-        {
-            breakpoint: 769,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-            },
-        },
-        {
-            breakpoint: 1025,
-            settings: {
-                slidesToShow: 4,
-                slidesToScroll: 2,
-            },
-        },
-    ],
-};
-
 const MultiItem = (props) => {
-    // console.log('incomingData: ', incomingData);
-    const [homeCategory, setHomeCategory] = useState([]);
-    
-
-    // const fetchData = incomingData;
-    // console.log("fetchData: ", fetchData);
-
-    let wellnessCate = data.homeCategory;
-    const categoryData = () => {
-        setHomeCategory(wellnessCate);
+    const carouselProperties = {
+        prevArrow: <PreviousBtn />,
+        nextArrow: <NextBtn />,
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerPadding: "170px",
+        responsive: [
+            {
+                breakpoint: 426,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                },
+            },
+        ],
     };
-
-    useEffect(() => {
-        categoryData();
-    }, []);
+    // console.log("props.data: ", props.data);
 
     return (
         <>
@@ -109,9 +94,10 @@ const MultiItem = (props) => {
                     <p>{props.view}</p>
                 </div>
                 <Slider {...carouselProperties} className={styles.slider}>
-                    {homeCategory.map((product, index) => {
-                        return <ShowMultiItems key={index} {...product} />;
-                    })}
+                    {props.data &&
+                        props.data.map((product, index) => {
+                            return <ShowMultiItems key={index} {...product} />;
+                        })}
                 </Slider>
             </div>
         </>

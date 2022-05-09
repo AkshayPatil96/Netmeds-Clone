@@ -1271,6 +1271,861 @@
       "type": "skinCare",
       "salePrice": 220.8,
       "strikeOfPrice": 240
+    },
+    {
+      "id": 121,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/826075/dr_reckeweg_r73_spondarthrin_drops_22_ml_0_0.jpg",
+      "title": "Dr. Reckeweg R73 Spondarthrin Drops 22 ml",
+      "brand": "Dr. Reckeweg",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr. Roshanlal Aggarwal & Sons P. Ltd",
+      "salePrice": 250
+    },
+    {
+      "id": 122,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/826136/dr_reckeweg_r9_jutussin_drops_22_ml_0.jpg",
+      "title": "Dr. Reckeweg R9 Jutussin Drops 22 ml",
+      "brand": "Dr. Reckeweg",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr. Roshanlal Aggarwal & Sons P. Ltd",
+      "salePrice": 250
+    },
+    {
+      "id": 123,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/821945/sbl_scalptone_tablet_25_gm_0.jpg",
+      "title": "SBL Scalptone Tablet 25 gm",
+      "brand": "SBL",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "SBL Pvt. Ltd.",
+      "salePrice": 140
+    },
+    {
+      "id": 124,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/821951/sbl_vertefine_drops_30_ml_0.jpg",
+      "title": "SBL Vertefine Drops 30 ml",
+      "brand": "SBL",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "SBL Pvt. Ltd.",
+      "salePrice": 110
+    },
+    {
+      "id": 125,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/821946/sbl_tonicard_gold_drops_30_ml_0.jpg",
+      "title": "SBL Tonicard Gold Drops 30 ml",
+      "brand": "SBL",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "SBL Pvt. Ltd.",
+      "salePrice": 175
+    },
+    {
+      "id": 126,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/826139/dr_reckeweg_r5_gastreu_drops_22_ml_0.jpg",
+      "title": "Dr. Reckeweg R5 Gastreu Drops 22 ml",
+      "brand": "Dr. Reckeweg",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr. Roshanlal Aggarwal & Sons P. Ltd",
+      "salePrice": 250
+    },
+    {
+      "id": 127,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/831005/allen_derma_plus_cream_25_gm_0.jpg",
+      "title": "Allen Derma Plus Cream 25 gm",
+      "brand": "Allen",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "M/s. Allen Homeo & Herbal Products Ltd",
+      "salePrice": 90
+    },
+    {
+      "id": 128,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/845602/dr_reckeweg_berberis_vulgaris_q_liquid_20_ml_0_0.jpg",
+      "title": "Dr. Reckeweg Berb Vulg Ø Liquid 20 ml",
+      "brand": "Dr. Reckeweg",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr. Roshanlal Aggarwal & Sons P. Ltd",
+      "salePrice": 235
+    },
+    {
+      "id": 129,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/821949/sbl_drops_no_6_for_joint_pain_30_ml_0.jpg",
+      "title": "SBL Drops No.6 for Joint Pain 30 ml",
+      "brand": "SBL",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "SBL Pvt. Ltd.",
+      "salePrice": 155
+    },
+    {
+      "id": 130,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/826096/dr_reckeweg_r51_thyreosan_drops_22_ml_0.jpg",
+      "title": "Dr. Reckeweg R51 Thyreosan Drops 22 ml",
+      "brand": "Dr. Reckeweg",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr. Roshanlal Aggarwal & Sons P. Ltd",
+      "salePrice": 250
+    },
+    {
+      "id": 131,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/826098/dr_reckeweg_r49_rhinopulsan_drops_22_ml_0.jpg",
+      "title": "Dr. Reckeweg R49 Rhinopulsan Drops 22 ml",
+      "brand": "Dr. Reckeweg",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr. Roshanlal Aggarwal & Sons P. Ltd",
+      "salePrice": 250
+    },
+    {
+      "id": 132,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/826142/dr_reckeweg_r2_aurin_drops_22_ml_0.jpg",
+      "title": "Dr. Reckeweg R2 Aurin Drops 22 ml",
+      "brand": "Dr. Reckeweg",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr. Roshanlal Aggarwal & Sons P. Ltd",
+      "salePrice": 250
+    },
+    {
+      "id": 133,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/846908/adel_4_apo_rheum_drops_20_ml_0.jpg",
+      "title": "Adel 4 Apo-Rheum Drops 20 ml",
+      "brand": "Adel",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Adelmar Pharma GMBH",
+      "salePrice": 270
+    },
+    {
+      "id": 134,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/850510/sbl_kali_phosphoricum_6x_tablet_25_gm_0.jpg",
+      "title": "SBL Kali Phosphoricum 6X Tablet 25 gm",
+      "brand": "SBL",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "SBL Pvt. Ltd.",
+      "salePrice": 95
+    },
+    {
+      "id": 135,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/831026/allen_relax_pain_killer_oil_60_ml_0.jpg",
+      "title": "Allen Relax Pain Killer Oil 60 ml",
+      "brand": "Allen",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "M/s. Allen Homeo & Herbal Products Ltd",
+      "salePrice": 110
+    },
+    {
+      "id": 136,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/831727/hapdco_laxosoft_powder_100_gm_0.jpg",
+      "title": "Hapdco Laxosoft Powder 100 gm",
+      "brand": "Hapdco",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Hahnemann Pure Drug Co.Pvt.Ltd",
+      "salePrice": 145
+    },
+    {
+      "id": 137,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/826131/dr_reckeweg_r14_quieta_drops_22_ml_0.jpg",
+      "title": "Dr. Reckeweg R14 Quieta Drops 22 ml",
+      "brand": "Dr. Reckeweg",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr. Roshanlal Aggarwal & Sons P. Ltd",
+      "salePrice": 250
+    },
+    {
+      "id": 138,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/830990/allen_a92_c_k_d_chronic_kidney_diseases_drops_30_ml_0.jpg",
+      "title": "Allen A92 C.K.D.(Chronic Kidney Diseases) Drops 30 ml",
+      "brand": "Allen",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "M/s. Allen Homeo & Herbal Products Ltd",
+      "salePrice": 160
+    },
+    {
+      "id": 139,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/835900/dr_willmar_schwabe_aesculus_pentarkan_tonic_30_ml_0.jpg",
+      "title": "Dr. Willmar Schwabe Aesculus Pentarkan Tonic 30 ml",
+      "brand": "Dr. Willmar",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Dr.Willmar Schwabe India Pvt. Ltd",
+      "salePrice": 170
+    },
+    {
+      "id": 140,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/832534/wheezal_petrolatum_w_pure_petroleum_jelly_100_gm_0.jpg",
+      "title": "Wheezal Petrolatum-W Pure Petroleum Jelly 100 gm",
+      "brand": "Wheezal",
+      "category": "wellness",
+      "type": "homeopathy",
+      "seller": "Wheezal Homeo Pharma",
+      "salePrice": 160
+    },
+    {
+      "id": 141,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15917/dabur_pudin_hara_pearls_capsule_10_s_0.jpg",
+      "title": "Dabur Pudin Hara Pearls Capsule 10's",
+      "brand": "Dabur",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Dabur India Ltd",
+      "salePrice": 19,
+      "strikeOfPrice": 20
+    },
+    {
+      "id": 142,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/341494/liv_52_tablet_100_s_0.jpg",
+      "title": "Himalaya Liv.52 Tablet 100's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 101.4,
+      "strikeOfPrice": 130
+    },
+    {
+      "id": 143,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/390287/galact_granules_200gm_0.jpg",
+      "title": "Galact Granules - Elaichi Flavour 200gm",
+      "brand": "Galact",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Emcure Pharmaceuticals Ltd",
+      "salePrice": 306.8,
+      "strikeOfPrice": 383.5
+    },
+    {
+      "id": 144,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/303384/confido_tablet_60_s_0.jpg",
+      "title": "Himalaya Confido Tablet 60's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 137.95,
+      "strikeOfPrice": 155
+    },
+    {
+      "id": 145,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/104243/liv_52_hb_capsule_10s_0_0.jpg",
+      "title": "Himalaya Liv.52 HB Capsule 10's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 124.6,
+      "strikeOfPrice": 140
+    },
+    {
+      "id": 146,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/359873/septilin_tablet_60_s_0.jpg",
+      "title": "Himalaya Septilin Tablet 60's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 135.3,
+      "strikeOfPrice": 165
+    },
+    {
+      "id": 147,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/12749/dabur_chyawanprash_awaleha_500_gm_0.jpg",
+      "title": "Dabur Chyawanprash Awaleha 500 gm",
+      "brand": "Dabur",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Dabur India Ltd",
+      "salePrice": 210
+    },
+    {
+      "id": 148,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/814310/himalaya_wellness_ashvagandha_tablet_60_s_0.jpg",
+      "title": "Himalaya Wellness Ashvagandha Tablet 60's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 165
+    },
+    {
+      "id": 149,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/317389/woodwards_gripe_water_200_ml_0.jpg",
+      "title": "Woodwards Gripe Water 200 ml",
+      "brand": "Woodwards",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Ttk Healthcare Ltd",
+      "salePrice": 66.75,
+      "strikeOfPrice": 75
+    },
+    {
+      "id": 150,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/314574/cystone_tablet_60_s_0.jpg",
+      "title": "Himalaya Cystone Tablet 60's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 133.5,
+      "strikeOfPrice": 150
+    },
+    {
+      "id": 151,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/413953/kayam_tablet_30_s_0.jpg",
+      "title": "Kayam Tablet 30's",
+      "brand": "Kayam",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Seth Brothers",
+      "salePrice": 99
+    },
+    {
+      "id": 152,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15912/dabur_honitus_herbal_cough_remedy_syrup_100_ml_0.jpg",
+      "title": "Dabur Honitus Herbal Cough Remedy Syrup 100 ml",
+      "brand": "Dabur",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Dabur India Ltd",
+      "salePrice": 103.95,
+      "strikeOfPrice": 105
+    },
+    {
+      "id": 153,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15916/dabur_pudin_hara_active_liquid_30_ml_0.jpg",
+      "title": "Dabur Pudin Hara Active Liquid 30 ml",
+      "brand": "Dabur",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Dabur India Ltd",
+      "salePrice": 52.25,
+      "strikeOfPrice": 55
+    },
+    {
+      "id": 154,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/368510/septilin_syrup_200ml_0.jpg",
+      "title": "Himalaya Septilin Syrup 200 ml",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 118.9,
+      "strikeOfPrice": 145
+    },
+    {
+      "id": 155,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15909/dabur_hingoli_tablet_90_s_0.jpg",
+      "title": "Dabur Hingoli Tablet 90's",
+      "brand": "Dabur",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Dabur India Ltd",
+      "salePrice": 28.5,
+      "strikeOfPrice": 30
+    },
+    {
+      "id": 156,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/388141/himplasia_tablet_30_s_0.jpg",
+      "title": "Himalaya Himplasia Tablet 30's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 155.75,
+      "strikeOfPrice": 175
+    },
+    {
+      "id": 157,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113667/zandu_balm_8_ml_0.jpg",
+      "title": "Zandu Balm 8 ml",
+      "brand": "Zandu Balm",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Emami Ltd",
+      "salePrice": 40
+    },
+    {
+      "id": 158,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13523/zandu_balm_25_ml_0.jpg",
+      "title": "Zandu Balm 25 ml",
+      "brand": "Zandu Balm",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: Emami Ltd",
+      "salePrice": 85
+    },
+    {
+      "id": 159,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/344892/rumalaya_forte_tablet_30_s_0.jpg",
+      "title": "Himalaya Rumalaya Forte Tablet 30's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 146.85,
+      "strikeOfPrice": 165
+    },
+    {
+      "id": 160,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/325323/speman_tablet_60_s_0.jpg",
+      "title": "Himalaya Speman Tablet 60's",
+      "brand": "Himalaya",
+      "category": "wellness",
+      "type": "ayurvedic",
+      "seller": "Mkt: The Himalaya Drug Company",
+      "salePrice": 142.4,
+      "strikeOfPrice": 160
+    },
+    {
+      "id": 161,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412270/manforce_stay_long_gel_8_gm_0_1.jpg",
+      "title": "Manforce Stay Long Gel 8 gm",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Manforce",
+      "seller": "Mkt: Mankind Pharma Pvt Ltd",
+      "salePrice": 99,
+      "strikeOfPrice": 100
+    },
+    {
+      "id": 162,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408959/climax_spray_for_men_12_gm_0_1.jpg",
+      "title": "Climax Spray for Men 12 gm",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Climax",
+      "seller": "Mkt: Midas Care Pharmaceuticals Pvt Ltd",
+      "salePrice": 179.1,
+      "strikeOfPrice": 199
+    },
+    {
+      "id": 163,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/823627/manforce_super_condoms_1500_dots_litchi_flavoured_10_s_0.jpg",
+      "title": "Manforce Super Condoms 1500 Dots - Litchi Flavoured 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Manforce",
+      "seller": "Mkt: Mankind Pharma Pvt Ltd",
+      "salePrice": 60,
+      "strikeOfPrice": 80
+    },
+    {
+      "id": 164,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409280/manforce_3_in_1_wild_condoms_chocolate_flavoured_10_s_0.jpg",
+      "title": "Manforce 3 in 1 Wild Condoms - Chocolate Flavoured 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Manforce",
+      "seller": "Mkt: Mankind Pharma Pvt Ltd",
+      "salePrice": 60,
+      "strikeOfPrice": 80
+    },
+    {
+      "id": 165,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822661/durex_condoms_extra_time_10s_0_4.jpg",
+      "title": "Durex Condoms - Extra Time 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Durex",
+      "seller": "Mkt: Reckitt Benckiser India Pvt Ltd",
+      "salePrice": 244.51,
+      "strikeOfPrice": 245
+    },
+    {
+      "id": 166,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/823629/manforce_sunny_edition_condoms_10_s_0.jpg",
+      "title": "Manforce Sunny Edition Condoms 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Manforce",
+      "seller": "Mkt: Mankind Pharma Pvt Ltd",
+      "salePrice": 67.5,
+      "strikeOfPrice": 90
+    },
+    {
+      "id": 167,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409278/manforce_3_in_1_wild_condoms_strawberry_flavoured_10_s_0.jpg",
+      "title": "Manforce 3 in 1 Wild Condoms - Strawberry Flavoured 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Manforce",
+      "seller": "Mkt: Mankind Pharma Pvt Ltd",
+      "salePrice": 60,
+      "strikeOfPrice": 80
+    },
+    {
+      "id": 168,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822654/durex_condoms_extra_thin_3s_0_3.jpg",
+      "title": "Durex Condoms - Extra Thin 3's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Durex",
+      "seller": "Mkt: Reckitt Benckiser India Ltd",
+      "salePrice": 76.92,
+      "strikeOfPrice": 77
+    },
+    {
+      "id": 169,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822655/durex_condoms_extra_thin_10s_0_4.jpg",
+      "title": "Durex Condoms - Extra Thin 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Durex",
+      "seller": "Mkt: Reckitt Benckiser India Pvt Ltd",
+      "salePrice": 244.51,
+      "strikeOfPrice": 245
+    },
+    {
+      "id": 170,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/829541/moods_condoms_choco_3s_0_1.jpg",
+      "title": "Moods Condoms - Choco 3's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Moods",
+      "seller": "Mkt: Hll Lifecare Ltd",
+      "salePrice": 28.5,
+      "strikeOfPrice": 30
+    },
+    {
+      "id": 171,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822660/durex_condoms_extra_time_3s_0_1.jpg",
+      "title": "Durex Condoms - Extra Time 3's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Durex",
+      "seller": "Mkt: Reckitt Benckiser India Pvt Ltd",
+      "salePrice": 81.92,
+      "strikeOfPrice": 82
+    },
+    {
+      "id": 172,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/823628/manforce_extra_dotted_condoms_hazelnut_flavoured_10_s_0.jpg",
+      "title": "Manforce Extra Dotted Condoms - Hazelnut Flavoured 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Manforce",
+      "seller": "Mkt: Mankind Pharma Pvt Ltd",
+      "salePrice": 60,
+      "strikeOfPrice": 80
+    },
+    {
+      "id": 173,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/803748/durex_condoms_air_10s_0_4.jpg",
+      "title": "Durex Condoms - Air 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Durex",
+      "seller": "Mkt: Reckitt Benckiser India Pvt Ltd",
+      "salePrice": 244.51,
+      "strikeOfPrice": 245
+    },
+    {
+      "id": 174,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409281/manforce_3_in_1_wild_condoms_black_grapes_flaboured_10s_0_1.jpg",
+      "title": "Manforce 3 in 1 Wild Condoms - Black Grapes Flaboured 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Manforce",
+      "seller": "Mkt: Mankind Pharma Pvt Ltd",
+      "salePrice": 60,
+      "strikeOfPrice": 80
+    },
+    {
+      "id": 175,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/823630/manforce_game_condoms_exotic_flavoured_10_s_0.jpg",
+      "title": "Manforce Game Condoms - Exotic Flavoured 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Manforce",
+      "seller": "Mkt: Mankind Pharma Pvt Ltd",
+      "salePrice": 67.5,
+      "strikeOfPrice": 90
+    },
+    {
+      "id": 176,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/822659/durex_condoms_extra_ribbed_10s_0_4.jpg",
+      "title": "Durex Condoms - Extra Ribbed 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Durex",
+      "seller": "Mkt: Reckitt Benckiser India Pvt Ltd",
+      "salePrice": 244.51,
+      "strikeOfPrice": 245
+    },
+    {
+      "id": 177,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/14492/moods_condoms_all_night_climax_delay_20s_0_1.jpg",
+      "title": "Moods Condoms All Night Climax Delay 20's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Moods",
+      "seller": "Mkt: Hll Lifecare Ltd",
+      "salePrice": 133,
+      "strikeOfPrice": 140
+    },
+    {
+      "id": 178,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/14503/moods_condoms_dotted_3s_0_1.jpg",
+      "title": "Moods Condoms Dotted 3's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Moods",
+      "seller": "Mkt: Hll Lifecare Ltd",
+      "salePrice": 28.5,
+      "strikeOfPrice": 30
+    },
+    {
+      "id": 179,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/848465/skore_notout_climax_delay_with_1500_plus_raised_dots_10_s_0.jpg",
+      "title": "Skore Notout Climax Delay with 1500 Plus Raised Dots 10's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Skore",
+      "seller": "Mkt: Ttk Healthcare Ltd",
+      "salePrice": 82.65,
+      "strikeOfPrice": 95
+    },
+    {
+      "id": 180,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/14512/moods_condoms_ultrathin_20s_0_1.jpg",
+      "title": "Moods Condoms - Ultrathin 20's",
+      "category": "wellness",
+      "type": "sexualWellness",
+      "brand": "Moods",
+      "seller": "Mkt: Hll Lifecare Ltd",
+      "salePrice": 171,
+      "strikeOfPrice": 180
+    },
+    {
+      "id": 181,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
+      "title": "Revital H Capsule 60'S",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Sun Pharmaceutical Industries Ltd",
+      "salePrice": 467.5,
+      "strikeOfPrice": 550
+    },
+    {
+      "id": 182,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
+      "title": "Revital H Capsule 30'S",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Sun Pharmaceutical Industries Ltd",
+      "salePrice": 263.5,
+      "strikeOfPrice": 310
+    },
+    {
+      "id": 183,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/851151/ostocalcium_plus_chewable_tablet_30_s_0.jpg",
+      "title": "Ostocalcium Plus Chewable Tablet 30's",
+      "brand": "Ostocalcium",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Gsk",
+      "salePrice": 152.11,
+      "strikeOfPrice": 178.95
+    },
+    {
+      "id": 184,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/325547/coq_30mg_capsule_10_s_0.jpg",
+      "title": "COQ 30mg Capsule 10'S",
+      "brand": "COQ",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Universal Nutriscience Private Limited",
+      "salePrice": 323.36,
+      "strikeOfPrice": 394.34
+    },
+    {
+      "id": 185,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/38049/garlic_pearls_capsule_100_s_0.jpg",
+      "title": "Garlic Pearls Capsule 100'S",
+      "brand": "Garlic Pearls",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Sun Pharmaceutical Industries Ltd",
+      "salePrice": 127.5,
+      "strikeOfPrice": 150
+    },
+    {
+      "id": 186,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/412011/coq_lc_tablet_10s_0_1.jpg",
+      "title": "COQ LC Tablet 10'S",
+      "brand": "COQ",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Universal Nutriscience Private Limited",
+      "salePrice": 790.48,
+      "strikeOfPrice": 964
+    },
+    {
+      "id": 187,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409597/coq_300mg_softgel_15_s_0.jpg",
+      "title": "COQ 300mg Softgel 15'S",
+      "brand": "COQ",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Universal Nutriscience Private Limited",
+      "salePrice": 1488.3,
+      "strikeOfPrice": 1815
+    },
+    {
+      "id": 188,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/839437/fast_up_charge_natural_vitamin_c_tablets_orange_flavour_20_s_0.jpg",
+      "title": "Fast&Up Charge Natural Vitamin C & Zinc Tablets - Orange Flavour 20's",
+      "brand": "Fast&Up",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Aeronutrix Sports Products Private Limited",
+      "salePrice": 300.3,
+      "strikeOfPrice": 390
+    },
+    {
+      "id": 189,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858136/inlife_vitamin_b12_tablets_60_s_0.jpg",
+      "title": "INLIFE Vitamin B12 Tablets 60's",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Inlife Pharma Private Limited",
+      "salePrice": 478.8,
+      "strikeOfPrice": 600
+    },
+    {
+      "id": 190,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/815146/healthvit_fitness_zma_zinc_magnesium_vitamin_b6_capsules_90_s_0.jpg",
+      "title": "HealthVit Fitness ZMA (Zinc,Magnesium & Vitamin B6) Capsules 90's",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: West Coast Pharmaceuticals Works Ltd",
+      "salePrice": 946,
+      "strikeOfPrice": 1100
+    },
+    {
+      "id": 191,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858137/inlife_calcium_vitamin_d3_tablets_60_s_0.jpg",
+      "title": "INLIFE Calcium Vitamin D3 Tablets 60's",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Inlife Pharma Private Limited",
+      "salePrice": 314.3,
+      "strikeOfPrice": 449
+    },
+    {
+      "id": 192,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/839438/fast_up_fortify_health_supplement_tablets_lime_lemon_flavour_10_s_0.jpg",
+      "title": "Fast&Up Fortify Calcium & Magnesium with Vitamin D3 Health Supplement Tablets - Lime & Lemon Flavour 10's",
+      "brand": "Fast&Up",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Aeronutrix Sports Products Private Limited",
+      "salePrice": 145.8,
+      "strikeOfPrice": 180
+    },
+    {
+      "id": 193,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858558/inlife_vitamin_d3_5000_iu_capsules_60_s_0.jpg",
+      "title": "INLIFE Vitamin D3 5000 IU Capsules 60's",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Inlife Pharma Private Limited",
+      "salePrice": 438.97,
+      "strikeOfPrice": 699
+    },
+    {
+      "id": 194,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858571/inlife_multivitamins_and_minerals_for_women_capsules_60_s_0.jpg",
+      "title": "INLIFE Multivitamins and Minerals for Women Capsules 60's",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Inlife Pharma Private Limited",
+      "salePrice": 438.97,
+      "strikeOfPrice": 699
+    },
+    {
+      "id": 195,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858570/inlife_multivitamins_and_minerals_for_men_capsules_60_s_0.jpg",
+      "title": "INLIFE Multivitamins and Minerals for Men Capsules 60's",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Inlife Pharma Private Limited",
+      "salePrice": 438.97,
+      "strikeOfPrice": 699
+    },
+    {
+      "id": 196,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858572/inlife_advanced_hair_skin_and_nails_capsule_60_s_0.jpg",
+      "title": "INLIFE Advanced Hair, Skin and Nails Capsule 60's",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Inlife Pharma Private Limited",
+      "salePrice": 443.86,
+      "strikeOfPrice": 699
+    },
+    {
+      "id": 197,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/842856/healthvit_cenvitan_men_multivitamin_multimineral_tablet_60s_0_3.jpg",
+      "title": "HealthVit Cenvitan Men (Multivitamin & Multimineral) Tablet 60's",
+      "brand": "HealthVit",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: West Coast Pharmaceuticals Works Ltd",
+      "salePrice": 450,
+      "strikeOfPrice": 500
+    },
+    {
+      "id": 198,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/885338/fast_up_fortify_effervescent_tablet_lime_and_lemon_flavor_pack_of_3_x_10_s_0.jpg",
+      "title": "Fast&Up Fortify Calcium & Magnesium with Vitamin D3 Effervescent Tablet - Lime & Lemon Flavour (Pack of 3 x 10's)",
+      "brand": "Fast&Up",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Aeronutrix Sports Products Private Limited",
+      "salePrice": 432,
+      "strikeOfPrice": 540
+    },
+    {
+      "id": 199,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/858143/inlife_omega_3_fish_oil_500_mg_capsules_60s_0_1.jpg",
+      "title": "INLIFE Omega 3 Fish Oil 500 mg Capsules 60's",
+      "brand": "INLIFE",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Inlife Pharma Private Limited",
+      "salePrice": 330.84,
+      "strikeOfPrice": 499
+    },
+    {
+      "id": 200,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/839440/fast_up_promega_omega_3_rich_fish_oil_softgel_60_s_0.jpg",
+      "title": "Fast&Up Promega Omega 3 Rich Fish Oil 1250 mg Softgel 60's",
+      "brand": "Fast&Up",
+      "category": "wellness",
+      "type": "vitaminsAndSuppliments",
+      "seller": "Mkt: Aeronutrix Sports Products Private Limited",
+      "salePrice": 702.9,
+      "strikeOfPrice": 990
     }
   ],
   "categories": [
@@ -1357,33 +2212,114 @@
       ]
     }
   ],
-  "carousel": [
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498134_sdvbnm.jpg",
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651338093_Web_Home89.jpg",
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
-  ],
-  "homeCategory": [
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/481/thumb/ayush_1.jpg",
-      "title": "Ayush"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/v1/3085/thumb/mom_baby_1.jpg",
-      "title": "Mom & Baby"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/665/thumb/devices_1.jpg",
-      "title": "Devices"
-    },
-    {
-      "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
-      "title": "Covid Essentials"
-    }
-  ],
+  "homepage": {
+    "carousel": [
+      "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498134_sdvbnm.jpg",
+      "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651338093_Web_Home89.jpg",
+      "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
+    ],
+    "categoryInFocus": [
+      {
+        "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
+        "title": "Covid Essentials"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/category/481/thumb/ayush_1.jpg",
+        "title": "Ayush"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/category/v1/3085/thumb/mom_baby_1.jpg",
+        "title": "Mom & Baby"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/category/665/thumb/devices_1.jpg",
+        "title": "Devices"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/category/3055/thumb/covid_essentials_1.jpg",
+        "title": "Covid Essentials"
+      }
+    ],
+    "exploreBeauty": [
+      {
+        "imageUrl": "https://www.netmeds.com/images/category/v1/3784/thumb/skin_care_3.jpg",
+        "title": "Skin Care",
+        "path": "beauty/skinCare"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405219/dabur_amla_hair_oil_450_ml_0.jpg",
+        "title": "Hair",
+        "path": "beauty/hair"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853620/lakme_eyeconic_black_kajal_0_35_gm_0.jpg",
+        "title": "Make-Up",
+        "path": "beauty/makeUp"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13451/nestle_lactogen_stage_2_6_months_powder_400_gm_refill_pack_0.jpg",
+        "title": "Mom & Baby",
+        "path": "beauty/momAndBaby"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801482/nivea_men_fresh_ocean_deodorant_spray_150_ml_0.jpg",
+        "title": "Fragrance",
+        "path": "beauty/fragrance"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/category/v1/3002/thumb/razors_cartridges_2.jpg",
+        "title": "Men's Grooming",
+        "path": "beauty/men_sGrooming"
+      }
+    ],
+    "topInBeauty": [
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/maybelline.jpg?v=10",
+        "title": "Maybelline",
+        "path": "#"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/garnier.jpg?v=10",
+        "title": "Garnier",
+        "path": "#"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/myglamm.jpg?v=10",
+        "title": "Myglamm",
+        "path": "#"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/colorbar.jpg?v=10",
+        "title": "Colorbar",
+        "path": "#"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/plum.jpg?v=10",
+        "title": "plum",
+        "path": "#"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/revlon.jpg?v=10",
+        "title": "Revlon",
+        "path": "#"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/lotus.jpg?v=10",
+        "title": "Lotus",
+        "path": "#"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/faces-canada.jpg?v=10",
+        "title": "Faces Canada",
+        "path": "#"
+      },
+      {
+        "imageUrl": "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/loreal-paris.jpg?v=10",
+        "title": "Loreal Paris",
+        "path": "#"
+      }
+    ]
+  },
   "AuthDetails": [
     {
       "firstName": "Gautam ",
@@ -1393,75 +2329,15 @@
       "mobileNumber": 9824240421,
       "cart": [
         {
-          "id": 7,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
-          "title": "Dettol Antiseptic Liquid 1 ltr",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 331.41,
-          "strikeOfPrice": 380,
-          "qty": 1
-        },
-        {
-          "id": 12,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15116/dettol_disinfectant_lime_fresh_500_ml_0_1.jpg",
-          "title": "Dettol Disinfectant - Lime Fresh 500 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 173.7,
-          "strikeOfPrice": 193,
-          "qunt": 1
-        },
-        {
-          "id": 113,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/827253/mankind_acnestar_gel_22_gm_0.jpg",
-          "title": "Mankind Acnestar Gel 22 gm",
-          "seller": "Mankind Pharma Pvt Ltd",
-          "brand": "Mankind",
-          "category": "beauty",
-          "type": "skinCare",
-          "salePrice": 104.5,
-          "strikeOfPrice": 110,
-          "qunt": 1
-        },
-        {
-          "id": 104,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/409293/acne_star_gel_15_gm_0.jpg",
-          "title": "Acne Star Gel 15 gm",
-          "seller": "Mankind Pharma Pvt Ltd",
-          "brand": "Acne",
-          "category": "beauty",
-          "type": "skinCare",
-          "salePrice": 76,
-          "strikeOfPrice": 80,
-          "qunt": 1
-        },
-        {
-          "id": 4,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
-          "title": "Dettol Antiseptic Liquid 60 ml",
-          "seller": "Reckitt Benckiser India Ltd",
-          "brand": "Dettol",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 33.27,
-          "strikeOfPrice": 50,
-          "qunt": 1
-        },
-        {
-          "id": 3,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
-          "title": "Revital H Capsule 60'S",
+          "id": 1,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
+          "title": "Revital H Capsule 10'S",
           "seller": "Sun Pharmaceutical Industries Ltd",
           "brand": "Revital",
           "category": "wellness",
           "type": "covidEssentials",
-          "salePrice": 467.5,
-          "strikeOfPrice": 550,
+          "salePrice": 93.5,
+          "strikeOfPrice": 110,
           "qunt": 1
         },
         {
@@ -1475,51 +2351,8 @@
           "salePrice": 293.25,
           "strikeOfPrice": 345,
           "qunt": 1
-        },
-        {
-          "id": 1,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-          "title": "Revital H Capsule 10'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 93.5,
-          "strikeOfPrice": 110,
-          "qunt": 1
         }
       ]
-    },
-    {
-      "email": "example@gmail.com",
-      "mobileNumber": "5555555555",
-      "cart": [
-        {
-          "id": 2,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-          "title": "Revital H Woman Tablet 30'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 293.25,
-          "strikeOfPrice": 345
-        },
-        {
-          "id": 3,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
-          "title": "Revital H Capsule 60'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 467.5,
-          "strikeOfPrice": 550
-        }
-      ],
-      "firstName": "Rahul",
-      "lastName": "Chavda",
-      "id": 2
     },
     {
       "email": "dddffe",
@@ -1538,95 +2371,52 @@
       "id": 4
     },
     {
-      "AVJ6FQd9Oo": "",
-      "id": 5
+      "id": 4,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
+      "title": "Dettol Antiseptic Liquid 60 ml",
+      "seller": "Reckitt Benckiser India Ltd",
+      "brand": "Dettol",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 33.27,
+      "strikeOfPrice": 50,
+      "qunt": 1
     },
     {
-      "tSQwy_ALHI": "",
-      "id": 6
+      "id": 3,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
+      "title": "Revital H Capsule 60'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 467.5,
+      "strikeOfPrice": 550,
+      "qunt": 1
     },
     {
-      "email": "example@gmail.com",
-      "mobileNumber": "4444444444",
-      "cart": [],
-      "firstName": "Rahul",
-      "lastName": "Chavda",
-      "id": 7
+      "id": 2,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
+      "title": "Revital H Woman Tablet 30'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 293.25,
+      "strikeOfPrice": 345,
+      "qunt": 1
     },
     {
-      "email": "example@gmail.com",
-      "mobileNumber": "2222222222",
-      "cart": [],
-      "firstName": "ssssdf",
-      "lastName": "Chavda",
-      "id": 8
-    },
-    {
-      "email": "hhhhhhhhhhhh",
-      "mobileNumber": "6666666666",
-      "cart": [],
-      "firstName": "hhhhhhhhhhh",
-      "lastName": "hhhhhhhhhhh",
-      "id": 9
-    },
-    {
-      "email": "fffffffffffffff",
-      "mobileNumber": "3333333333",
-      "cart": [
-        0
-      ],
-      "firstName": "fffffffffff",
-      "lastName": "fffffffffffffff",
-      "id": 10
-    },
-    {
-      "email": "gautamgohil0@gmail.com",
-      "mobileNumber": "8888888888",
-      "cart": [],
-      "firstName": "Gautam",
-      "lastName": "Gohil",
-      "id": 11
-    },
-    {
-      "email": "gautamgohil0@gmail.com",
-      "mobileNumber": "1213113123",
-      "cart": [],
-      "firstName": "Gautam",
-      "lastName": "Gohil",
-      "id": 12
-    },
-    {
-      "email": "gautamgohil0@gmail.com",
-      "mobileNumber": "1212121212",
-      "cart": [],
-      "firstName": "kkkkkkkkk",
-      "lastName": "Gohil",
-      "id": 13
-    },
-    {
-      "email": "example@gmail.com",
-      "mobileNumber": "8585858588",
-      "cart": [],
-      "firstName": "Rahul",
-      "lastName": "Chavda",
-      "id": 14
-    },
-    {
-      "email": "akshayr.patil96@gmail.com",
-      "mobileNumber": "9561062000",
-      "cart": [],
-      "firstName": "Akshay",
-      "lastName": "Patil",
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
+      "id": 1,
+      "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
+      "title": "Revital H Capsule 10'S",
+      "seller": "Sun Pharmaceutical Industries Ltd",
+      "brand": "Revital",
+      "category": "wellness",
+      "type": "covidEssentials",
+      "salePrice": 93.5,
+      "strikeOfPrice": 110,
+      "qunt": 1
     }
   ]
 }

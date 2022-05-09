@@ -2,60 +2,70 @@ import React, { useEffect, useState } from "react";
 import Carousel from "../Components/Carousel/Carousel";
 import MultiItem from "../Components/Carousel/MultiItem";
 import HomeCategory from "../Components/HomeCategory";
-import data from "../Assests/Data/Net_Med_Data.json";
 import ProductView from "../Components/ProductView";
 import Footer from "../Components/Footer";
+import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { getCategory, getHomeData } from "../Redux/Category/action";
 
 const Home = () => {
-  const [homeCategory, setHomeCategory] = useState([]);
+    const { category } = useParams();
+    const { isLoading, isError, homepage } = useSelector(
+        (state) => state.products
+    );
+    console.log("homepage: ", homepage.categoryInFocus);
 
-  let wellnessCate = data.homeCategory;
+    // console.log("products: ", data);
+    const dispatch = useDispatch();
 
-  const categoryData = () => {
-    setHomeCategory({ ...wellnessCate });
-  };
+    useEffect(() => {
+        dispatch(getHomeData());
+    }, []);
 
-  useEffect(() => {
-    categoryData();
-  }, []);
+    return (
+        <>
+            {/* Slider */}
 
-  return (
-    <>
-      {/* Slider */}
+            <Carousel />
 
-      <Carousel />
+            {/* Categories */}
 
-      {/* Categories */}
+            <HomeCategory />
 
-      <HomeCategory />
+            {/* Sub-Category */}
 
-      {/* Sub-Category */}
+            <MultiItem
+                heading="Categories in Focus"
+                data={homepage.categoryInFocus}
+                autoplay={false}
+            />
 
-      <MultiItem heading="Categories in Focus" />
+            {/* Multi Product Slider for Top Brands */}
 
-      {/* Multi Product Slider for Top Brands */}
-
-      {/* <MultiItem
+            <MultiItem
                 gradBgColor="#ef4281"
                 heading="Expolre Beauty"
                 view="View All"
                 headingColor="#fff"
-            /> */}
+                data={homepage.exploreBeauty}
+                autoplay={false}
+            />
 
-      {/* Multi Product Slider for Top Brands */}
+            {/* Multi Product Slider for Top Brands */}
 
-      {/* <MultiItem
+            <MultiItem
                 gradBgColor="#8b9096"
                 heading="Top Brands"
                 view="View All"
                 headingColor="#fff"
-            /> */}
+                data={homepage.topInBeauty}
+            />
 
-      {/* Footer */}
+            {/* Footer */}
 
-      <Footer />
-    </>
-  );
+            <Footer />
+        </>
+    );
 };
 
 export default Home;
