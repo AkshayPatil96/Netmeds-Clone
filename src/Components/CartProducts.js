@@ -1,21 +1,24 @@
-
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-
-let total = localStorage.getItem("totalPay") || "";
+import { deleteProduct } from "../Redux/Auth/action";
+import { useDispatch } from "react-redux";
+///let total = localStorage.getItem("totalPay") || "";
 
 const CardProducts = (props) => {
+  const dispatch = useDispatch();
   const [product, setProduct] = useState([]);
   const [qunts, setQunt] = useState(0);
   const { totals, setTotal, discount, setdiscount } = props;
   const { user } = useSelector((state) => state.isAuth);
   console.log(totals, "sagar");
   console.log(user);
-  function remove(index) {
-    let products = product.cart.filter(function (el, i) {
-      return i !== index;
+  function remove(id, index) {
+    console.log();
+    let products = product.filter(function (el, i) {
+      return el.id !== index;
     });
+    dispatch(deleteProduct(products, id));
     setProduct([...products]);
 
     console.log(product);
@@ -136,7 +139,7 @@ const CardProducts = (props) => {
                       }}
                     ></div>
                     <button
-                      onClick={() => remove(index)}
+                      onClick={() => remove(user.id, item.id)}
                       style={{
                         backgroundColor: "whitesmoke",
                         color: "gray",

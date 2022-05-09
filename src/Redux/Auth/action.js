@@ -118,6 +118,8 @@ export const deleteProduct = (data, id) => async (dispatch) => {
         cart: [...data],
       }),
     });
+    let removedData = await patch.json();
+    console.log(removedData);
   } catch (err) {
     console.log(err);
   }
