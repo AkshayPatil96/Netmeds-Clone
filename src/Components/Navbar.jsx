@@ -554,7 +554,7 @@ export const SubNav = () => {
             </Link>
           </li>
           <li>
-            <Link to={"#"}>
+            <Link to={"lab-test"}>
               <img
                 src="https://www.netmeds.com/assets/gloryweb/images/icons/diagnostics.svg"
                 alt=""

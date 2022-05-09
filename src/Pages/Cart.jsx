@@ -34,9 +34,9 @@ const Cart = () => {
   const [discount, setdiscount] = useState(0);
 
   console.log(discount);
-  let dis=totals * discount|| "";
+  let dis = totals * discount || "";
 
-  localStorage.setItem("discount",dis);
+  localStorage.setItem("discount", dis);
 
   const handleOnChange = () => {
     setIsChecked(!isChecked);
@@ -137,7 +137,7 @@ const Cart = () => {
                     }}
                   >
                     <input
-                      class="red-input"
+                      className="red-input"
                       type="checkbox"
                       onClick={() => setdiscount(0.25)}
                     />
@@ -260,13 +260,11 @@ const Cart = () => {
               </div>
               <div>
                 <p> Rs {totals}</p>
-                <p>-Rs { dis}</p>
+                <p>-Rs {dis}</p>
                 <p>Rs {totals - dis}</p>
               </div>
             </TotalSub>
-            <TotalSaving>
-              {`TOTAL SAVINGS  RS ${dis}`}
-            </TotalSaving>
+            <TotalSaving>{`TOTAL SAVINGS  RS ${dis}`}</TotalSaving>
             <TotalSub>
               <div>
                 <P>TOTAL AMOUNT</P>
@@ -276,7 +274,12 @@ const Cart = () => {
               </div>
               <div>
                 <Button>
-                  <Link to="/order" style={{color:"white",textDecoration:"none"}}>PROCEED</Link>
+                  <Link
+                    to="/order"
+                    style={{ color: "white", textDecoration: "none" }}
+                  >
+                    PROCEED
+                  </Link>
                 </Button>
               </div>
             </TotalSub>
