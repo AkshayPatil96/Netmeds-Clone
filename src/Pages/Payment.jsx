@@ -366,7 +366,7 @@ const Payment = () => {
                       />
                       <div>
                         <button>
-                          PAY <span>RS.114.00</span>
+                          PAY <span>RS.{total}</span>
                           {/*data */}
                         </button>
                       </div>
@@ -407,7 +407,7 @@ const Payment = () => {
                       />
                       <div>
                         <button>
-                          Pay <span>Rs.114.00</span>
+                          Pay <span>Rs.{total}</span>
                         </button>
                       </div>
                     </div>
@@ -448,7 +448,7 @@ const Payment = () => {
                       />
                       <div>
                         <button>
-                          PAY <span>RS.114.00</span>
+                          PAY <span>RS.{total}</span>
                           {/*data */}
                         </button>
                       </div>
@@ -552,7 +552,7 @@ const Payment = () => {
                         />
                       </div>
                       <div>
-                        <PayBtn type="submit" value="PAY" />
+                        <PayBtn type="submit" value="PAY" onClick={()=>navigate("/delhivery")} />
                       </div>
                     </CardDiv>
                   ) : (
@@ -592,7 +592,7 @@ const Payment = () => {
                           style={{ width: "auto" }}
                           onClick={() => navigate("/delhivery")}
                         >
-                          PAY <span>RS.114.00</span> ON DELIVERY{/*data */}
+                          PAY <span>RS.{total}</span> ON DELIVERY{/*data */}
                         </button>
                       </div>
                     </div>
@@ -635,7 +635,7 @@ const Payment = () => {
                 </PayT>
                 <PayS>
                   <span>Total Amount*</span>
-                  <span>Rs.1070.88</span>
+                  <span>Rs.{total}</span>
                 </PayS>
               </div>
               <PatTS>
