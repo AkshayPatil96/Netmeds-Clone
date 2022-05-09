@@ -85,17 +85,23 @@ const OTP = () => {
     }
   };
 
-  const veryfyUser = (e) => {
+  const veryfyUser = (e, type) => {
     e.preventDefault();
+
     let { email, mobileNumber, firstName, lastName } = userData;
 
-    if (!email || !mobileNumber || !firstName || !lastName) {
+    if (
+      (!email || !mobileNumber || !firstName || !lastName) &&
+      type === "newUser"
+    ) {
       alert("Invalid Input. Enter 123456 as your OTP");
+      console.log(1);
+      console.log(otp);
     } else {
-      if (userAuth) {
+      if (userAuth && type !== "newUser") {
         token = nanoid(10);
         userLocalData = userData;
-        setUserData({});
+        // setUserData({});
 
         if (otp.join("") == "123456") {
           console.log(otp);
@@ -110,6 +116,7 @@ const OTP = () => {
           navigate("/");
         } else {
           alert("Invalid OTP. Enter 123456 as your otp");
+          console.log(2);
         }
       } else {
         token = nanoid(10);
@@ -117,11 +124,6 @@ const OTP = () => {
 
         if (otp.join("") == "123456") {
           console.log(otp);
-
-          // let payload = {
-          //   userData: userLocalData,
-          //   token,
-          // };
 
           dispatch(addNewUser(userData, token));
           localStorage.setItem("token", token);
@@ -272,7 +274,10 @@ const OTP = () => {
                 </p>
               )}
 
-              <button onClick={veryfyUser} className="submitOTP">
+              <button
+                onClick={(e) => veryfyUser(e, "exist")}
+                className="submitOTP"
+              >
                 VERIFY
               </button>
             </div>
@@ -397,7 +402,11 @@ const OTP = () => {
                 </p>
               )}
 
-              <button type="submit" className="submitOTP" onClick={veryfyUser}>
+              <button
+                type="submit"
+                className="submitOTP"
+                onClick={(e) => veryfyUser(e, "newUser")}
+              >
                 VERIFY
               </button>
             </div>

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ExplorePlan = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default ExplorePlan
+export default ExplorePlan;

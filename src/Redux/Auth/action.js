@@ -4,6 +4,10 @@ import {
   GET_USER,
   LOGOUT_USER,
   DELETE_PRODUCT,
+  AUTH_ERROR,
+  AUTH_SUCCESS,
+  AUTH_ERROR,
+  AUTH_REQUEST,
 } from "./actionType";
 import axios from "axios";
 
@@ -11,6 +15,10 @@ import axios from "axios";
 // const checkUser = () =>{
 
 // }
+
+const authRqst = () => ({
+  type: AUTH_REQUEST,
+});
 
 //Adding new user
 const addNewUserType = (userData, token) => ({
@@ -23,7 +31,10 @@ const addNewUserType = (userData, token) => ({
 
 export const addNewUser = (userData, token) => async (dispatch) => {
   try {
-    let res = await axios.post("https://netmedsbackend.herokuapp.com/AuthDetails", userData);
+    let res = await axios.post(
+      "https://netmedsbackend.herokuapp.com/AuthDetails",
+      userData
+    );
     let data = await res.data;
 
     dispatch(addNewUserType(data, token));
@@ -80,20 +91,27 @@ const addToCart = (payload) => ({
 let userData;
 export const toCart = (id, mobile) => async (dispatch) => {
   try {
-    let res = await axios.get(`https://netmedsbackend.herokuapp.com/data/${id}`);
+    let res = await axios.get(
+      `https://netmedsbackend.herokuapp.com/data/${id}`
+    );
     let data = await res.data;
 
-    let user = await axios.get(`https://netmedsbackend.herokuapp.com/AuthDetails/${mobile}`);
+    let user = await axios.get(
+      `https://netmedsbackend.herokuapp.com/AuthDetails/${mobile}`
+    );
     userData = await user.data;
     console.log("userData", userData);
     data.qunt = 1;
-    let patch = await fetch(`https://netmedsbackend.herokuapp.com/AuthDetails/${mobile}`, {
-      method: "PATCH",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        cart: [...userData.cart, data],
-      }),
-    });
+    let patch = await fetch(
+      `https://netmedsbackend.herokuapp.com/AuthDetails/${mobile}`,
+      {
+        method: "PATCH",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          cart: [...userData.cart, data],
+        }),
+      }
+    );
 
     dispatch(addToCart(data));
   } catch (error) {
@@ -111,13 +129,16 @@ export const deleteProduct = (data, id) => async (dispatch) => {
   dispatch(deleteType(data));
 
   try {
-    let patch = await fetch(`https://netmedsbackend.herokuapp.com/AuthDetails/${id}`, {
-      method: "PATCH",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        cart: [...data],
-      }),
-    });
+    let patch = await fetch(
+      `https://netmedsbackend.herokuapp.com/AuthDetails/${id}`,
+      {
+        method: "PATCH",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          cart: [...data],
+        }),
+      }
+    );
     let removedData = await patch.json();
     console.log(removedData);
   } catch (err) {
