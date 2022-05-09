@@ -33,6 +33,11 @@ const Cart = () => {
   const [promotoggle, setPromotoggle] = useState(false);
   const [discount, setdiscount] = useState(0);
 
+  console.log(discount);
+  let dis=totals * discount
+
+  localStorage.setItem("discount",dis);
+
   const handleOnChange = () => {
     setIsChecked(!isChecked);
   };
@@ -255,12 +260,12 @@ const Cart = () => {
               </div>
               <div>
                 <p> Rs {totals}</p>
-                <p>-Rs {totals * discount}</p>
-                <p>Rs {totals - totals * discount}</p>
+                <p>-Rs { dis}</p>
+                <p>Rs {totals - dis}</p>
               </div>
             </TotalSub>
             <TotalSaving>
-              {`TOTAL SAVINGS  RS ${totals * discount}`}
+              {`TOTAL SAVINGS  RS ${dis}`}
             </TotalSaving>
             <TotalSub>
               <div>

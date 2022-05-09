@@ -2166,50 +2166,274 @@
           "title": "Ayurvedic",
           "path": "ayurvedic"
         }
+      ],
+      "mothersDayOffer": [
+        {
+          "id": 1,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
+          "title": "Revital H Capsule 10'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Revital",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 93.5,
+          "strikeOfPrice": 110
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
+          "title": "Revital H Woman Tablet 30'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Revital",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 293.25,
+          "strikeOfPrice": 345
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
+          "title": "Revital H Capsule 60'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Revital",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 467.5,
+          "strikeOfPrice": 550
+        },
+        {
+          "id": 4,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
+          "title": "Dettol Antiseptic Liquid 60 ml",
+          "seller": "Reckitt Benckiser India Ltd",
+          "brand": "Dettol",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 33.27,
+          "strikeOfPrice": 50
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
+          "title": "Revital H Capsule 30'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Revital",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 263.5,
+          "strikeOfPrice": 310
+        },
+        {
+          "id": 6,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/835057/dettol_antiseptic_liquid_550_ml_0.jpg",
+          "title": "Dettol Antiseptic Liquid 550 ml",
+          "seller": "Reckitt Benckiser India Ltd",
+          "brand": "Dettol",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 194.6,
+          "strikeOfPrice": 220
+        },
+        {
+          "id": 7,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
+          "title": "Dettol Antiseptic Liquid 1 ltr",
+          "seller": "Reckitt Benckiser India Ltd",
+          "brand": "Dettol",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 331.41,
+          "strikeOfPrice": 380
+        },
+        {
+          "id": 8,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408222/revital_h_woman_tablet_10_s_0.jpg",
+          "title": "Revital H Woman Tablet 10'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Revital",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 102,
+          "strikeOfPrice": 120
+        },
+        {
+          "id": 9,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/38049/garlic_pearls_capsule_100_s_0.jpg",
+          "title": "Garlic Pearls Capsule 100'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Garlic Pearls",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 127.5,
+          "strikeOfPrice": 150
+        },
+        {
+          "id": 10,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/886988/dettol_antiseptic_liquid_disinfectant_250_ml_0_1.jpg",
+          "title": "Dettol Antiseptic Liquid Disinfectant 250 ml",
+          "seller": "Reckitt Benckiser India Ltd",
+          "brand": "Dettol",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 116.16,
+          "strikeOfPrice": 150
+        }
       ]
     },
     {
-      "id": "beauty",
-      "imageUrl": "https://cdn-icons.flaticon.com/png/512/1703/premium/1703993.png?token=exp=1651607336~hmac=a9f18e1ece263fcc114e85784eca6f57",
-      "title": "Beauty",
-      "path": "beauty",
-      "carousel": [
-        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1649355346_WEb_Personal_Care-1000X200.png",
-        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1649490762_Category_web.jpg",
-        "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
-      ],
-      "category": [
-        {
-          "imageUrl": "https://www.netmeds.com/images/category/v1/3784/thumb/skin_care_3.jpg",
-          "title": "Skin Care",
-          "path": "skinCare"
-        },
-        {
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405219/dabur_amla_hair_oil_450_ml_0.jpg",
-          "title": "Hair",
-          "path": "hair"
-        },
-        {
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853620/lakme_eyeconic_black_kajal_0_35_gm_0.jpg",
-          "title": "Make-Up",
-          "path": "makeUp"
-        },
-        {
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13451/nestle_lactogen_stage_2_6_months_powder_400_gm_refill_pack_0.jpg",
-          "title": "Mom & Baby",
-          "path": "momAndBaby"
-        },
-        {
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801482/nivea_men_fresh_ocean_deodorant_spray_150_ml_0.jpg",
-          "title": "Fragrance",
-          "path": "fragrance"
-        },
-        {
-          "imageUrl": "https://www.netmeds.com/images/category/v1/3002/thumb/razors_cartridges_2.jpg",
-          "title": "Men's Grooming",
-          "path": "men_sGrooming"
-        }
-      ]
+        "id": "beauty",
+        "imageUrl": "https://cdn-icons.flaticon.com/png/512/1703/premium/1703993.png?token=exp=1651607336~hmac=a9f18e1ece263fcc114e85784eca6f57",
+        "title": "Beauty",
+        "path": "beauty",
+        "carousel": [
+            "https://www.netmeds.com/images/cms/aw_rbslider/slides/1649355346_WEb_Personal_Care-1000X200.png",
+            "https://www.netmeds.com/images/cms/aw_rbslider/slides/1649490762_Category_web.jpg",
+            "https://www.netmeds.com/images/cms/aw_rbslider/slides/1651498383_asdasdas.jpg"
+        ],
+        "category": [
+            {
+                "imageUrl": "https://www.netmeds.com/images/category/v1/3784/thumb/skin_care_3.jpg",
+                "title": "Skin Care",
+                "path": "skinCare"
+            },
+            {
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/405219/dabur_amla_hair_oil_450_ml_0.jpg",
+                "title": "Hair",
+                "path": "hair"
+            },
+            {
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/853620/lakme_eyeconic_black_kajal_0_35_gm_0.jpg",
+                "title": "Make-Up",
+                "path": "makeUp"
+            },
+            {
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/13451/nestle_lactogen_stage_2_6_months_powder_400_gm_refill_pack_0.jpg",
+                "title": "Mom & Baby",
+                "path": "momAndBaby"
+            },
+            {
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/801482/nivea_men_fresh_ocean_deodorant_spray_150_ml_0.jpg",
+                "title": "Fragrance",
+                "path": "fragrance"
+            },
+            {
+                "imageUrl": "https://www.netmeds.com/images/category/v1/3002/thumb/razors_cartridges_2.jpg",
+                "title": "Men's Grooming",
+                "path": "men_sGrooming"
+            }
+        ],
+        "mothersDayOffer": [
+            {
+                "id": 1,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
+                "title": "Revital H Capsule 10'S",
+                "seller": "Sun Pharmaceutical Industries Ltd",
+                "brand": "Revital",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 93.5,
+                "strikeOfPrice": 110
+            },
+            {
+                "id": 2,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
+                "title": "Revital H Woman Tablet 30'S",
+                "seller": "Sun Pharmaceutical Industries Ltd",
+                "brand": "Revital",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 293.25,
+                "strikeOfPrice": 345
+            },
+            {
+                "id": 3,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
+                "title": "Revital H Capsule 60'S",
+                "seller": "Sun Pharmaceutical Industries Ltd",
+                "brand": "Revital",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 467.5,
+                "strikeOfPrice": 550
+            },
+            {
+                "id": 4,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
+                "title": "Dettol Antiseptic Liquid 60 ml",
+                "seller": "Reckitt Benckiser India Ltd",
+                "brand": "Dettol",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 33.27,
+                "strikeOfPrice": 50
+            },
+            {
+                "id": 5,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
+                "title": "Revital H Capsule 30'S",
+                "seller": "Sun Pharmaceutical Industries Ltd",
+                "brand": "Revital",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 263.5,
+                "strikeOfPrice": 310
+            },
+            {
+                "id": 6,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/835057/dettol_antiseptic_liquid_550_ml_0.jpg",
+                "title": "Dettol Antiseptic Liquid 550 ml",
+                "seller": "Reckitt Benckiser India Ltd",
+                "brand": "Dettol",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 194.6,
+                "strikeOfPrice": 220
+            },
+            {
+                "id": 7,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/102099/dettol_antiseptic_liquid_1_ltr_0_1.jpg",
+                "title": "Dettol Antiseptic Liquid 1 ltr",
+                "seller": "Reckitt Benckiser India Ltd",
+                "brand": "Dettol",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 331.41,
+                "strikeOfPrice": 380
+            },
+            {
+                "id": 8,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/408222/revital_h_woman_tablet_10_s_0.jpg",
+                "title": "Revital H Woman Tablet 10'S",
+                "seller": "Sun Pharmaceutical Industries Ltd",
+                "brand": "Revital",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 102,
+                "strikeOfPrice": 120
+            },
+            {
+                "id": 9,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/38049/garlic_pearls_capsule_100_s_0.jpg",
+                "title": "Garlic Pearls Capsule 100'S",
+                "seller": "Sun Pharmaceutical Industries Ltd",
+                "brand": "Garlic Pearls",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 127.5,
+                "strikeOfPrice": 150
+            },
+            {
+                "id": 10,
+                "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/886988/dettol_antiseptic_liquid_disinfectant_250_ml_0_1.jpg",
+                "title": "Dettol Antiseptic Liquid Disinfectant 250 ml",
+                "seller": "Reckitt Benckiser India Ltd",
+                "brand": "Dettol",
+                "category": "wellness",
+                "type": "covidEssentials",
+                "salePrice": 116.16,
+                "strikeOfPrice": 150
+            }
+        ]
     }
   ],
   "homepage": {

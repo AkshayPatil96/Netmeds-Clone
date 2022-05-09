@@ -1,3 +1,4 @@
+
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
@@ -12,7 +13,7 @@ const CardProducts = (props) => {
   console.log(totals, "sagar");
   console.log(user);
   function remove(index) {
-    let products = user.cart.filter(function (el, i) {
+    let products = product.cart.filter(function (el, i) {
       return i !== index;
     });
     setProduct([...products]);

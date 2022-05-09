@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
+let dis=localStorage.getItem("discount")||"";
+
 const Wrapper = styled.div`
   width: 65%;
   margin: auto;
@@ -633,7 +635,7 @@ const Payment = () => {
                 </PayT>
                 <PayT>
                   <span>Netmeds Discount</span>
-                  <span>- Rs.163.12</span>
+                  <span>- Rs.{dis}</span>
                 </PayT>
                 <PayS>
                   <span>Total Amount*</span>
@@ -641,7 +643,7 @@ const Payment = () => {
                 </PayS>
               </div>
               <PatTS>
-                <p>TOTAL SAVINGS RS.163.12</p>
+                <p>TOTAL SAVINGS RS.{dis}</p>
               </PatTS>
             </div>
             <div style={{ marginTop: "35px", fontStyle: "italic" }}>
