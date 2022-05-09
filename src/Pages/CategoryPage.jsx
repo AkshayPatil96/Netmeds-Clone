@@ -9,7 +9,7 @@ import Slider from "react-slick/lib/slider";
 import { CategoryDiv, SliderDiv } from "../Components/Product.styled";
 import ProductCard from "../Components/ProductCard";
 import Footer from "../Components/Footer";
-import Labtest from "./Labtest";
+import LabMain from "./LabMain";
 import AllMedicine from "./AllMedicine";
 import Carousel from "../Components/Carousel/Carousel";
 
@@ -59,7 +59,7 @@ const CategoryPage = () => {
   return (
     <>
       {category === "lab-test" ? (
-        <Labtest />
+        <LabMain />
       ) : category === "medicine" ? (
         <AllMedicine />
       ) : (
