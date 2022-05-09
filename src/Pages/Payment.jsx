@@ -490,9 +490,9 @@ const Payment = () => {
                       <div>
                         <p>CARD NUMBER</p>
                         <input
-                          type="text"
-                          name=""
-                          id=""
+                          type="tel"
+                          minLength={16}
+                          maxLength={16}
                           className="pText"
                           style={{ borderBottom: "2px solid #e4dede" }}
                           required
@@ -535,6 +535,8 @@ const Payment = () => {
                           <InpCvv
                             type="text"
                             name=""
+                            minLength={3}
+                            maxLength={3}
                             style={{ borderBottom: "2px solid #e4dede" }}
                             required
                           ></InpCvv>
@@ -552,7 +554,7 @@ const Payment = () => {
                         />
                       </div>
                       <div>
-                        <PayBtn type="submit" value="PAY" onClick={()=>navigate("/delhivery")} />
+                       <Link to="/delhivery"><PayBtn type="submit" value="PAY"/></Link>
                       </div>
                     </CardDiv>
                   ) : (
