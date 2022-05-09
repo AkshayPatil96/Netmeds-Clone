@@ -1,0 +1,12 @@
+.bookBtn{
+    background: #24aeb1;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 33px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+}
