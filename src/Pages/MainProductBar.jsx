@@ -21,7 +21,6 @@ const MainProductBar = () => {
     <div
       style={{
         margin: "5% 0",
-        border: "1px solid",
       }}
     >
       <div style={{ display: "flex" }}>
