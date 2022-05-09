@@ -1441,15 +1441,27 @@
           "qunt": 1
         },
         {
-          "id": 1,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
-          "title": "Revital H Capsule 10'S",
+          "id": 4,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/15114/dettol_antiseptic_liquid_60_ml_0_1.jpg",
+          "title": "Dettol Antiseptic Liquid 60 ml",
+          "seller": "Reckitt Benckiser India Ltd",
+          "brand": "Dettol",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 33.27,
+          "strikeOfPrice": 50,
+          "qunt": 1
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
+          "title": "Revital H Capsule 60'S",
           "seller": "Sun Pharmaceutical Industries Ltd",
           "brand": "Revital",
           "category": "wellness",
           "type": "covidEssentials",
-          "salePrice": 93.5,
-          "strikeOfPrice": 110,
+          "salePrice": 467.5,
+          "strikeOfPrice": 550,
           "qunt": 1
         },
         {
@@ -1462,6 +1474,18 @@
           "type": "covidEssentials",
           "salePrice": 293.25,
           "strikeOfPrice": 345,
+          "qunt": 1
+        },
+        {
+          "id": 1,
+          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113742/revital_h_capsule_10_s_0.jpg",
+          "title": "Revital H Capsule 10'S",
+          "seller": "Sun Pharmaceutical Industries Ltd",
+          "brand": "Revital",
+          "category": "wellness",
+          "type": "covidEssentials",
+          "salePrice": 93.5,
+          "strikeOfPrice": 110,
           "qunt": 1
         }
       ]
