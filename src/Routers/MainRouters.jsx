@@ -13,14 +13,9 @@ import Cart from "../Pages/Cart";
 import MainProductBar from "../Pages/MainProductBar";
 import Order from "../Pages/Order";
 import Payment from "../Pages/Payment";
-<<<<<<< Updated upstream
-import Delhivery from "../Pages/Delhivery";
-import Footer from "../Components/Footer";
-=======
 import Delhivery from "../Pages/Delhivery"
 import Footer from "../Components/Footer";
 
->>>>>>> Stashed changes
 const MainRouters = () => {
   return (
     <>
@@ -55,11 +50,7 @@ const MainRouters = () => {
         <Route path="/delhivery" element={<Delhivery />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-<<<<<<< Updated upstream
-      <Footer />
-=======
       <Footer/>
->>>>>>> Stashed changes
     </>
   );
 };
