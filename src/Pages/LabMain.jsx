@@ -1,7 +1,14 @@
+<<<<<<< Updated upstream
 import React from "react";
 import LImage from "../Components/LabTest/LImage";
 // import PopularTests from "../Components";
 import RForm from "../Components/LabTest/RForm";
+=======
+import React from 'react'
+import LImage from '../Components/LabTest/LImage'
+import PopularTests from './PopularTests'
+import RForm from '../Components/LabTest/RForm'
+>>>>>>> Stashed changes
 
 const LabMain = () => {
   return (
