@@ -116,7 +116,7 @@ const CategoryPage = () => {
               <div>
                 <div className={styles.carousel}>
                   <div className={styles.headingFlex}>
-                    <h1 className={styles.heading}>Popular Categories</h1>
+                    <h1 className={styles.heading}>Mother's Day Special</h1>
                     {/* <p>View All</p> */}
                   </div>
 
@@ -134,15 +134,15 @@ const CategoryPage = () => {
               <div>
                 <div className={styles.carousel}>
                   <div className={styles.headingFlex}>
-                    <h1 className={styles.heading}>Popular Categories</h1>
+                    <h1 className={styles.heading}>Top Products</h1>
                     {/* <p>View All</p> */}
                   </div>
 
                   {/* category */}
 
                   <Slider {...carouselProperties} className={styles.slider}>
-                    {data.mothersDayOffer &&
-                      data.mothersDayOffer.map((product, index) => {
+                    {data.topProducts &&
+                      data.topProducts.map((product, index) => {
                         return <ProductCard key={index} {...product} />;
                       })}
                   </Slider>
