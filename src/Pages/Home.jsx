@@ -7,9 +7,13 @@ import Footer from "../Components/Footer";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getCategory, getHomeData } from "../Redux/Category/action";
+import AutoMultiItem from "../Components/Carousel/AutoMultiItem";
+import { MedicineSub, ExplorePlan } from "../Components/MedicineSub";
+import HomeMultiItem from "../Components/Carousel/HomeMultiItem";
 
 const Home = () => {
     const { category } = useParams();
+    console.log('category: ', category);
     const { isLoading, isError, homepage } = useSelector(
         (state) => state.products
     );
@@ -25,41 +29,63 @@ const Home = () => {
     return (
         <>
             {/* Slider */}
-
-            <Carousel />
+            <div
+                style={{
+                    margin: "5% 3%",
+                }}
+            >
+                <Carousel />
+            </div>
 
             {/* Categories */}
 
             <HomeCategory />
 
+            <div>
+                <AutoMultiItem
+                    data={homepage.trendingToday}
+                    heading="Trending Today"
+                    view="View All"
+                />
+            </div>
+
             {/* Sub-Category */}
 
-            <MultiItem
+            <HomeMultiItem
                 heading="Categories in Focus"
                 data={homepage.categoryInFocus}
-                autoplay={false}
             />
+
+            <ExplorePlan />
 
             {/* Multi Product Slider for Top Brands */}
 
-            <MultiItem
+            <HomeMultiItem
                 gradBgColor="#ef4281"
                 heading="Expolre Beauty"
                 view="View All"
                 headingColor="#fff"
                 data={homepage.exploreBeauty}
-                autoplay={false}
             />
 
             {/* Multi Product Slider for Top Brands */}
 
-            <MultiItem
+            <HomeMultiItem
+                heading="Men's Grooming"
+                view="View All"
+                headingColor="#555"
+                data={homepage.men_sGrooming}
+            />
+
+            <HomeMultiItem
                 gradBgColor="#8b9096"
                 heading="Top Brands"
                 view="View All"
                 headingColor="#fff"
                 data={homepage.topInBeauty}
             />
+
+            <MedicineSub />
 
             {/* Footer */}
 

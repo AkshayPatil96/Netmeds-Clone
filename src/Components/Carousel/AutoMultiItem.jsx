@@ -42,12 +42,14 @@ const NextBtn = (props) => {
     );
 };
 
-const MultiItem = (props) => {
+const AutoMultiItem = (props) => {
     const carouselProperties = {
         prevArrow: <PreviousBtn />,
         nextArrow: <NextBtn />,
+        autoplay: true,
+        autoplaySpeed: 2000,
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         centerPadding: "170px",
         responsive: [
@@ -96,7 +98,18 @@ const MultiItem = (props) => {
                 <Slider {...carouselProperties} className={styles.slider}>
                     {props.data &&
                         props.data.map((product, index) => {
-                            return <ShowMultiItems key={index} {...product} />;
+                            // return <ShowMultiItems key={index} {...product} />;
+                            return (
+                                <div key={index}>
+                                    <img
+                                        src={product.imageUrl}
+                                        alt=""
+                                        style={{
+                                            padding: "5px",
+                                        }}
+                                    />
+                                </div>
+                            );
                         })}
                 </Slider>
             </div>
@@ -104,4 +117,4 @@ const MultiItem = (props) => {
     );
 };
 
-export default MultiItem;
+export default AutoMultiItem;

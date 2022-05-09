@@ -392,7 +392,7 @@ export const Navbar = () => {
     const [pincode, setPincode] = useState();
 
     const { token, user } = useSelector((state) => state.isAuth);
-    // console.log(user);
+    console.log(user);
 
     useEffect(() => {
         if (localToken) {
@@ -682,10 +682,12 @@ export const SubNav = () => {
             <div className="secondDiv">
                 <ul>
                     <li>
-                        <Link to={"#"}>COVID Essentials</Link>
+                        <Link to={"/wellness/covidEssentials"}>
+                            COVID Essentials
+                        </Link>
                     </li>
                     <li>
-                        <Link to={"#"}>Diabetes</Link>
+                        <Link to={"/wellness/ayurvedic"}>Diabetes</Link>
                     </li>
                     <li>
                         <Link to={"#"}>Eyewear</Link>
