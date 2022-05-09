@@ -2648,30 +2648,6 @@
       "mobileNumber": "9561062000",
       "cart": [
         {
-          "id": 3,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/113653/revital_h_capsule_60_s_0.jpg",
-          "title": "Revital H Capsule 60'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 467.5,
-          "strikeOfPrice": 550,
-          "qunt": 1
-        },
-        {
-          "id": 5,
-          "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/328123/revital_h_capsule_30_s_0.jpg",
-          "title": "Revital H Capsule 30'S",
-          "seller": "Sun Pharmaceutical Industries Ltd",
-          "brand": "Revital",
-          "category": "wellness",
-          "type": "covidEssentials",
-          "salePrice": 263.5,
-          "strikeOfPrice": 310,
-          "qunt": 1
-        },
-        {
           "id": 2,
           "imageUrl": "https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
           "title": "Revital H Woman Tablet 30'S",
@@ -2687,6 +2663,14 @@
       "firstName": "Akshay",
       "lastName": "Patil",
       "id": 5
+    },
+    {
+      "email": "akshayr.patil96@gmail.com",
+      "mobileNumber": "9561062001",
+      "cart": [],
+      "firstName": "Akshay",
+      "lastName": "Patil",
+      "id": 6
     }
   ]
 }
