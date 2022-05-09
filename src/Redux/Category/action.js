@@ -80,7 +80,7 @@ const getCategory = (category) => async (dispatch) => {
     dispatch(request());
     try {
         let response = await axios.get(
-            `http://localhost:8080/categories/${category}`
+            `https://netmedsbackend.herokuapp.com/categories/${category}`
         );
         let data = await response.data;
         dispatch(successCategory(data));
@@ -95,7 +95,7 @@ const getProducts = (category, product) => async (dispatch) => {
     dispatch(request());
     try {
         let response = await axios.get(
-            `http://localhost:8080/data?category=${category}&type=${product}`
+            `https://netmedsbackend.herokuapp.com/data?category=${category}&type=${product}`
         );
         let data = await response.data;
         dispatch(successProduct(data));
@@ -108,7 +108,7 @@ const getHomeData = () => async (dispatch) => {
     dispatch(request());
     try {
         let response = await axios.get(
-            `http://localhost:8080/homepage`
+            `https://netmedsbackend.herokuapp.com/homepage`
         );
         let data = await response.data;
         dispatch(successHomepage(data));
@@ -123,7 +123,7 @@ const sortingH2L = (category, product) => async (dispatch) => {
     dispatch(request());
     try {
         let response = await axios.get(
-            `http://localhost:8080/data?category=${category}&type=${product}`
+            `https://netmedsbackend.herokuapp.com/data?category=${category}&type=${product}`
         );
         let data = await response.data;
         let sortHigh = data.sort((a, b) => b.salePrice - a.salePrice);
@@ -139,7 +139,7 @@ const sortingL2H = (category, product) => async (dispatch) => {
     dispatch(request());
     try {
         let response = await axios.get(
-            `http://localhost:8080/data?category=${category}&type=${product}`
+            `https://netmedsbackend.herokuapp.com/data?category=${category}&type=${product}`
         );
         let data = await response.data;
         let sortHigh = data.sort((a, b) => a.salePrice - b.salePrice);
@@ -155,7 +155,7 @@ const discountData = (category, product) => async (dispatch) => {
     dispatch(request());
     try {
         let response = await axios.get(
-            `http://localhost:8080/data?category=${category}&type=${product}`
+          `https://netmedsbackend.herokuapp.com/data?category=${category}&type=${product}`
         );
         let data = await response.data;
         let dis = data.sort(
@@ -175,7 +175,7 @@ const getFilteredProducts = (category, product, brand) => async (dispatch) => {
     dispatch(request());
     try {
         let response = await axios.get(
-            `http://localhost:8080/data?category=${category}&type=${product}&brand=${brand}`
+            `https://netmedsbackend.herokuapp.com/data?category=${category}&type=${product}&brand=${brand}`
         );
         let data = await response.data;
         dispatch(successProduct(data));
@@ -191,7 +191,7 @@ const getFilteredManufacturers =
         dispatch(request());
         try {
             let response = await axios.get(
-                `http://localhost:8080/data?category=${category}&type=${product}&seller=${brand}`
+                `https://netmedsbackend.herokuapp.com/data?category=${category}&type=${product}&seller=${brand}`
             );
             let data = await response.data;
             dispatch(successProduct(data));
@@ -205,7 +205,7 @@ const getFilteredManufacturers =
 const getSingleProduct = (id) => async (dispatch) => {
     dispatch(request());
     try {
-        let response = await axios.get(`http://localhost:8080/data/${id}`);
+        let response = await axios.get(`https://netmedsbackend.herokuapp.com/data/${id}`);
         let data = await response.data;
         dispatch(successSingleProduct(data));
     } catch (error) {

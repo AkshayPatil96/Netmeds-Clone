@@ -98,7 +98,7 @@ const Cart = () => {
               }}
             >
               <input
-                class="red-input"
+                className="red-input"
                 type="checkbox"
                 onClick={() => setPromotoggle(!promotoggle)}
               />
@@ -176,7 +176,7 @@ const Cart = () => {
                     }}
                   >
                     <input
-                      class="red-input"
+                      className="red-input"
                       type="checkbox"
                       onClick={() => setdiscount(0.2)}
                     />
@@ -215,7 +215,7 @@ const Cart = () => {
                     }}
                   >
                     <input
-                      class="red-input"
+                      className="red-input"
                       type="checkbox"
                       onClick={() => setdiscount(0.15)}
                     />

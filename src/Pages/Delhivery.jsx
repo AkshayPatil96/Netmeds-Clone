@@ -23,7 +23,7 @@ const Delhivery = () => {
   return (
     <div>
       <Wrapper>
-        <h1>Your Product successfully order</h1>
+        <h1>Your Product successfully ordered</h1>
         <Button onClick={()=>navigate("/")}>Go to Home</Button>
       </Wrapper>
     </div>

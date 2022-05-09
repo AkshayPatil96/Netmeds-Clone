@@ -70,7 +70,7 @@ const OTP = () => {
   const getAuthNo = async (number) => {
     try {
       let res = await axios.get(
-        `http://localhost:8080/AuthDetails?mobileNumber=${number}`
+        `https://netmedsbackend.herokuapp.com/AuthDetails?mobileNumber=${number}`
       );
       let data = await res.data;
 
@@ -90,7 +90,7 @@ const OTP = () => {
     let { email, mobileNumber, firstName, lastName } = userData;
 
     if (!email || !mobileNumber || !firstName || !lastName) {
-      alert("Invalid Input");
+      alert("Invalid Input. Enter 123456 as your OTP");
     } else {
       if (userAuth) {
         token = nanoid(10);
@@ -109,7 +109,7 @@ const OTP = () => {
           localStorage.setItem("user", JSON.stringify(userLocalData));
           navigate("/");
         } else {
-          alert("Invalid OTP");
+          alert("Invalid OTP. Enter 123456 as your otp");
         }
       } else {
         token = nanoid(10);
@@ -128,7 +128,7 @@ const OTP = () => {
           localStorage.setItem("user", JSON.stringify(userLocalData));
           navigate("/");
         } else {
-          alert("Invalid OTP");
+          alert("Invalid OTP. Enter 123456 as your otp");
         }
       }
     }

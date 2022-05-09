@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
-let dis=localStorage.getItem("discount")||"";
+let dis = localStorage.getItem("discount") || "";
 
 const Wrapper = styled.div`
   width: 65%;
@@ -367,7 +367,7 @@ const Payment = () => {
                         onClick={handlePayA}
                       />
                       <div>
-                        <button>
+                        <button onClick={() => navigate("/delhivery")}>
                           PAY <span>RS.{total}</span>
                           {/*data */}
                         </button>
@@ -408,7 +408,7 @@ const Payment = () => {
                         onClick={handlePayP}
                       />
                       <div>
-                        <button>
+                        <button onClick={() => navigate("/delhivery")}>
                           Pay <span>Rs.{total}</span>
                         </button>
                       </div>
@@ -449,7 +449,7 @@ const Payment = () => {
                         onClick={handlePayG}
                       />
                       <div>
-                        <button>
+                        <button onClick={() => navigate("/delhivery")}>
                           PAY <span>RS.{total}</span>
                           {/*data */}
                         </button>
@@ -556,7 +556,9 @@ const Payment = () => {
                         />
                       </div>
                       <div>
-                       <Link to="/delhivery"><PayBtn type="submit" value="PAY"/></Link>
+                        <Link to="/delhivery">
+                          <PayBtn type="submit" value="PAY" />
+                        </Link>
                       </div>
                     </CardDiv>
                   ) : (
