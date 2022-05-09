@@ -49,7 +49,7 @@ const CategoryPage = () => {
   const { category } = useParams();
   const { isLoading, isError, data } = useSelector((state) => state.products);
 
-  // console.log("products: ", data);
+  console.log("products: ", data.mothersDayOffer);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -113,16 +113,52 @@ const CategoryPage = () => {
                 </div>
               </div>
 
+              <div>
+                <div className={styles.carousel}>
+                  <div className={styles.headingFlex}>
+                    <h1 className={styles.heading}>Popular Categories</h1>
+                    {/* <p>View All</p> */}
+                  </div>
+
+                  {/* category */}
+
+                  <Slider {...carouselProperties} className={styles.slider}>
+                    {data.mothersDayOffer &&
+                      data.mothersDayOffer.map((product, index) => {
+                        return <ProductCard key={index} {...product} />;
+                      })}
+                  </Slider>
+                </div>
+              </div>
+              
+              <div>
+                <div className={styles.carousel}>
+                  <div className={styles.headingFlex}>
+                    <h1 className={styles.heading}>Popular Categories</h1>
+                    {/* <p>View All</p> */}
+                  </div>
+
+                  {/* category */}
+
+                  <Slider {...carouselProperties} className={styles.slider}>
+                    {data.mothersDayOffer &&
+                      data.mothersDayOffer.map((product, index) => {
+                        return <ProductCard key={index} {...product} />;
+                      })}
+                  </Slider>
+                </div>
+              </div>
+
               {/* All Products */}
 
-              <CategoryDiv>
+              {/* <CategoryDiv>
                 <div className="products">
                   {data.products &&
                     data.products.map((product, index) => {
                       return <ProductCard key={index} {...product} />;
                     })}
                 </div>
-              </CategoryDiv>
+              </CategoryDiv> */}
             </>
           )}
         </>
