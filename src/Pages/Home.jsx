@@ -12,86 +12,86 @@ import { MedicineSub, ExplorePlan } from "../Components/MedicineSub";
 import HomeMultiItem from "../Components/Carousel/HomeMultiItem";
 
 const Home = () => {
-    const { category } = useParams();
-    console.log('category: ', category);
-    const { isLoading, isError, homepage } = useSelector(
-        (state) => state.products
-    );
-    console.log("homepage: ", homepage.categoryInFocus);
+  const { category } = useParams();
+  console.log("category: ", category);
+  const { isLoading, isError, homepage } = useSelector(
+    (state) => state.products
+  );
+  console.log("homepage: ", homepage.categoryInFocus);
 
-    // console.log("products: ", data);
-    const dispatch = useDispatch();
+  // console.log("products: ", data);
+  const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(getHomeData());
-    }, []);
+  useEffect(() => {
+    dispatch(getHomeData());
+  }, []);
 
-    return (
-        <>
-            {/* Slider */}
-            <div
-                style={{
-                    margin: "5% 3%",
-                }}
-            >
-                <Carousel />
-            </div>
+  return (
+    <>
+      {/* Slider */}
+      <div
+        style={{
+          margin: "5% 3%",
+        }}
+      >
+        <Carousel />
+      </div>
 
-            {/* Categories */}
+      {/* Categories */}
 
-            <HomeCategory />
+      <HomeCategory />
 
-            <div>
-                <AutoMultiItem
-                    data={homepage.trendingToday}
-                    heading="Trending Today"
-                    view="View All"
-                />
-            </div>
+      <div>
+        <AutoMultiItem
+          data={homepage.trendingToday}
+          heading="Trending Today"
+          view="View All"
+        />
+      </div>
 
-            {/* Sub-Category */}
+      {/* Sub-Category */}
 
-            <HomeMultiItem
-                heading="Categories in Focus"
-                data={homepage.categoryInFocus}
-            />
+      <HomeMultiItem
+        heading="Categories in Focus"
+        data={homepage.categoryInFocus}
+      />
 
-            <ExplorePlan />
+      <ExplorePlan />
 
-            {/* Multi Product Slider for Top Brands */}
+      {/* Multi Product Slider for Top Brands */}
 
-            <HomeMultiItem
-                gradBgColor="#ef4281"
-                heading="Expolre Beauty"
-                view="View All"
-                headingColor="#fff"
-                data={homepage.exploreBeauty}
-            />
+      <HomeMultiItem
+        gradBgColor="#ef4281"
+        heading="Expolre Beauty"
+        view="View All"
+        headingColor="#fff"
+        data={homepage.exploreBeauty}
+      />
 
-            {/* Multi Product Slider for Top Brands */}
+      {/* Multi Product Slider for Top Brands */}
 
-            <HomeMultiItem
-                heading="Men's Grooming"
-                view="View All"
-                headingColor="#555"
-                data={homepage.men_sGrooming}
-            />
+      <HomeMultiItem
+        heading="Men's Grooming"
+        view="View All"
+        headingColor="#555"
+        data={homepage.men_sGrooming}
+      />
 
-            <HomeMultiItem
-                gradBgColor="#8b9096"
-                heading="Top Brands"
-                view="View All"
-                headingColor="#fff"
-                data={homepage.topInBeauty}
-            />
+      <HomeMultiItem
+        gradBgColor="#8b9096"
+        heading="Top Brands"
+        view="View All"
+        headingColor="#fff"
+        data={homepage.topInBeauty}
+      />
 
-            <MedicineSub />
+      <MedicineSub />
 
-            {/* Footer */}
+      {/* Footer */}
 
-            <Footer />
-        </>
-    );
+      {/* <Footer /> */}
+    </>
+  );
 };
 
 export default Home;

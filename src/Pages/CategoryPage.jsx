@@ -130,7 +130,7 @@ const CategoryPage = () => {
                   </Slider>
                 </div>
               </div>
-              
+
               <div>
                 <div className={styles.carousel}>
                   <div className={styles.headingFlex}>
@@ -166,7 +166,7 @@ const CategoryPage = () => {
 
       {/* Footer */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
