@@ -279,7 +279,7 @@ const OTP = () => {
                 onClick={(e) => veryfyUser(e, "exist")}
                 className="submitOTP"
               >
-                VERIFY
+                VERIFY use otp as (123456)
               </button>
             </div>
           </div>
@@ -408,7 +408,7 @@ const OTP = () => {
                 className="submitOTP"
                 onClick={(e) => veryfyUser(e, "newUser")}
               >
-                VERIFY
+                VERIFY use otp as (123456)
               </button>
             </div>
           </form>
