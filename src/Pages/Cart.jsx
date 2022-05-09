@@ -34,7 +34,7 @@ const Cart = () => {
   const [discount, setdiscount] = useState(0);
 
   console.log(discount);
-  let dis=totals * discount
+  let dis=totals * discount|| "";
 
   localStorage.setItem("discount",dis);
 
@@ -276,7 +276,7 @@ const Cart = () => {
               </div>
               <div>
                 <Button>
-                  <Link to="/order">PROCEED</Link>
+                  <Link to="/order" style={{color:"white",textDecoration:"none"}}>PROCEED</Link>
                 </Button>
               </div>
             </TotalSub>
