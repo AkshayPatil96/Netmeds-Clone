@@ -390,7 +390,7 @@ const Order = () => {
                 </div>
                 <div>
                   <Button>
-                    <Link to="/payment">Pay</Link>
+                    <Link to="/payment" style={{color:"white",textDecoration:"none"}}>Pay</Link>
                   </Button>
                 </div>
               </TotalSub>
