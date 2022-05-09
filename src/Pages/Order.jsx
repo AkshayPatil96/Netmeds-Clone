@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 import CardProducts from "../Components/CartProducts";
 import "../Components/Carts.css";
 
-let dis=localStorage.getItem("discount")||"";
+let dis = localStorage.getItem("discount") || "";
 
 const Order = () => {
   const [totals, setTotal] = useState(0);
@@ -378,9 +378,7 @@ const Order = () => {
                   <p>Rs {totals - dis}</p>
                 </div>
               </TotalSub>
-              <TotalSaving>
-                {`TOTAL SAVINGS  RS ${dis}`}
-              </TotalSaving>
+              <TotalSaving>{`TOTAL SAVINGS  RS ${dis}`}</TotalSaving>
               <TotalSub>
                 <div>
                   <P>TOTAL AMOUNT</P>
@@ -390,7 +388,12 @@ const Order = () => {
                 </div>
                 <div>
                   <Button>
-                    <Link to="/payment" style={{color:"white",textDecoration:"none"}}>Pay</Link>
+                    <Link
+                      to="/payment"
+                      style={{ color: "white", textDecoration: "none" }}
+                    >
+                      Pay
+                    </Link>
                   </Button>
                 </div>
               </TotalSub>
