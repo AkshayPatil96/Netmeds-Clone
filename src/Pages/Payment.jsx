@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
+let dis=localStorage.getItem("discount")||"";
+
 const Wrapper = styled.div`
   width: 65%;
   margin: auto;
@@ -490,9 +492,9 @@ const Payment = () => {
                       <div>
                         <p>CARD NUMBER</p>
                         <input
-                          type="text"
-                          name=""
-                          id=""
+                          type="tel"
+                          minLength={16}
+                          maxLength={16}
                           className="pText"
                           style={{ borderBottom: "2px solid #e4dede" }}
                           required
@@ -535,6 +537,8 @@ const Payment = () => {
                           <InpCvv
                             type="text"
                             name=""
+                            minLength={3}
+                            maxLength={3}
                             style={{ borderBottom: "2px solid #e4dede" }}
                             required
                           ></InpCvv>
@@ -552,7 +556,7 @@ const Payment = () => {
                         />
                       </div>
                       <div>
-                        <PayBtn type="submit" value="PAY" onClick={()=>navigate("/delhivery")} />
+                       <Link to="/delhivery"><PayBtn type="submit" value="PAY"/></Link>
                       </div>
                     </CardDiv>
                   ) : (
@@ -631,7 +635,7 @@ const Payment = () => {
                 </PayT>
                 <PayT>
                   <span>Netmeds Discount</span>
-                  <span>- Rs.163.12</span>
+                  <span>- Rs.{dis}</span>
                 </PayT>
                 <PayS>
                   <span>Total Amount*</span>
@@ -639,7 +643,7 @@ const Payment = () => {
                 </PayS>
               </div>
               <PatTS>
-                <p>TOTAL SAVINGS RS.163.12</p>
+                <p>TOTAL SAVINGS RS.{dis}</p>
               </PatTS>
             </div>
             <div style={{ marginTop: "35px", fontStyle: "italic" }}>
