@@ -13,6 +13,7 @@ import Cart from "../Pages/Cart";
 import MainProductBar from "../Pages/MainProductBar";
 import Order from "../Pages/Order";
 import Payment from "../Pages/Payment";
+import Delhivery from "../Pages/Delhivery"
 const MainRouters = () => {
   return (
     <>
@@ -44,6 +45,7 @@ const MainRouters = () => {
         />
         <Route path="/order" element={<Order />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/delhivery" element={<Delhivery/>}/>
         <Route path="/login" element={<Login />} />
       </Routes>
     </>
