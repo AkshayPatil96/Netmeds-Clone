@@ -25,13 +25,11 @@ Netmeds.com is leading E-Commerce website for all type of cosmetic products such
 
 ## Features
 
-- Login and Signin
-- Product slider for different categorise
-- Product page for different categorise
+- Login and Sign in authentication
+- Product slider for different categorize
+- Product page for different categorize
 - Detailed product preview page
-- Sort functions for Higher to Lower price,Lower to Higher price and Search bar for finding the product by it's name.
-- Wishlist.
-- Add to cart option for buying products and wishlist option to add product to wishlist.
+- Add to cart option for buying products and wishlist option to add the product to wishlist.
 
 ## Presentation
 
@@ -64,13 +62,9 @@ Netmeds.com is leading E-Commerce website for all type of cosmetic products such
 
 ## Challenges
 
-1. As every journey has some challenges and so was ours. In our team, all of the members were not familiar with each other so it was difficult for all of us to communicate and collaborate, there were some moments where members were not able to communicate with each other and had a conflict and it was hard for everyone to handle these conflicts.
+1. As every journey has some challenges and so was ours. In our team, all of the members were not familiar with each other so it was difficult for all of us to communicate and collaborate, there were some moments when members were not able to communicate with each other and had a conflict and it was hard for everyone to handle these conflicts.
 
 2. Another problem was to merge all of the files in a proper sequence which was again a difficult task for us because while merging and connecting all the pages some of the pages had the same name, and while running the site it was redirecting to some other pages so it was difficult to find the location and to rename the file.
-
-3. As the navbar and footer were common for all the pages so we copied both of them in a single folder and imported them in every code, this was a kind of new method for us and we struggled while doing this step.
-
-4. We faced challenges with CSS tags and class also, because when we merged CSS files for any page in which 2-3 members have worked, sometimes tags were colliding because of the same names of tags and classes.
 
 ## Team
 
