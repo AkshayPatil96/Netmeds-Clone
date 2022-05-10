@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Clone of Netmeds.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was our project for Unit-4 Construct week at Masai Shcool.
+Our mian objective was to complete all main functionality of this e-commerce website , such as sing up to till to the byuing of a product.
+We have completed this project in 5 days.
 
-## Available Scripts
+- [Click here](https://unrivaled-sprite-2be9c1.netlify.app/) to see preview of our project.
 
-In the project directory, you can run:
+Netmeds.com is leading E-Commerce website for all type of cosmetic products such as makeup, skin care, hair, fragrance's and tools and brush.
 
-### `npm start`
+## Credits
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Images : [netmeds.com](https://www.sephora.com/)
+- Content : [netmeds.com](https://www.sephora.com/)
+- Icons : [Font Awesome](https://fontawesome.com/)
+- References : [MDN Docs](https://developer.mozilla.org/en-US/) | [W3School](https://www.w3schools.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- HTML 5
+- CSS 3
+- Javascript
+- React
+- Material UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Login and Signin
+- Product slider for different categorise
+- Product page for different categorise
+- Detailed product preview page
+- Sort functions for Higher to Lower price,Lower to Higher price and Search bar for finding the product by it's name.
+- Wishlist.
+- Add to cart option for buying products and wishlist option to add product to wishlist.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Presentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Click here](https://drive.google.com/file/d/1hJlVRXwj7t5CBO3wlVlL7cB2OzD7cwig/view) to watch our project presentation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot from 2022-05-10 19-37-16.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191770432/hmc1nsjoD.png align="left")
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot from 2022-05-10 19-37-24.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191799866/rH2uKVIgq.png align="left")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot from 2022-05-10 19-37-35.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191810657/pGHc_We8X.png align="left")
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot from 2022-05-10 19-37-50.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191817758/jUupQ7dvV.png align="left")
 
-## Learn More
+![Screenshot from 2022-05-10 19-37-58.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191825935/AYbF3CthC.png align="left")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot from 2022-05-10 19-38-01.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191833357/5Ih2ivoNZ.png align="left")
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot from 2022-05-10 19-38-32.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191841112/f5ovQFKVb.png align="left")
 
-### Code Splitting
+![Screenshot from 2022-05-10 19-38-38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191848797/WTlzQ9Jxe.png align="left")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot from 2022-05-10 19-38-41.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191857946/zmnU1QWzzc.png align="left")
 
-### Analyzing the Bundle Size
+![Screenshot from 2022-05-10 19-36-31.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191785613/urmh2B_-i.png align="left")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Challenges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. As every journey has some challenges and so was ours. In our team, all of the members were not familiar with each other so it was difficult for all of us to communicate and collaborate, there were some moments where members were not able to communicate with each other and had a conflict and it was hard for everyone to handle these conflicts.
 
-### Advanced Configuration
+2. Another problem was to merge all of the files in a proper sequence which was again a difficult task for us because while merging and connecting all the pages some of the pages had the same name, and while running the site it was redirecting to some other pages so it was difficult to find the location and to rename the file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. As the navbar and footer were common for all the pages so we copied both of them in a single folder and imported them in every code, this was a kind of new method for us and we struggled while doing this step.
 
-### Deployment
+4. We faced challenges with CSS tags and class also, because when we merged CSS files for any page in which 2-3 members have worked, sometimes tags were colliding because of the same names of tags and classes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Team
 
-### `npm run build` fails to minify
+- Akshay Patil
+- Gautam Gohil
+- Gaurav Kumar	
+- Shubham Pawar	
+- Sagar Kothadiya	
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+- [@Gautam Gohil](https://github.com/gautam6023)
