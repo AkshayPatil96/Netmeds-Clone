@@ -40,25 +40,26 @@ Netmeds.com is leading E-Commerce website for all type of cosmetic products such
 ## Screenshots
 
 
-![Screenshot from 2022-05-10 19-37-16.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191770432/hmc1nsjoD.png align="left")
+![Screenshot from 2022-05-10 19-37-16.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191770432/hmc1nsjoD.png?auto=compress,format&format=webp)
 
-![Screenshot from 2022-05-10 19-37-24.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191799866/rH2uKVIgq.png align="left")
+![Screenshot from 2022-05-10 19-37-24.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191799866/rH2uKVIgq.png?auto=compress,format&format=webp)
 
-![Screenshot from 2022-05-10 19-37-35.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191810657/pGHc_We8X.png align="left")
+![Screenshot from 2022-05-10 19-37-35.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191810657/pGHc_We8X.png?auto=compress,format&format=webp)
 
-![Screenshot from 2022-05-10 19-37-50.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191817758/jUupQ7dvV.png align="left")
+![Screenshot from 2022-05-10 19-37-50.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191817758/jUupQ7dvV.png?auto=compress,format&format=webp)
 
-![Screenshot from 2022-05-10 19-37-58.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191825935/AYbF3CthC.png align="left")
+![Screenshot from 2022-05-10 19-37-58.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191817758/jUupQ7dvV.png?auto=compress,format&format=webp)
 
-![Screenshot from 2022-05-10 19-38-01.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191833357/5Ih2ivoNZ.png align="left")
+![Screenshot from 2022-05-10 19-38-01.png](![Screenshot from 2022-05-10 19-38-01.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191833357/5Ih2ivoNZ.png align="left")
+)
 
-![Screenshot from 2022-05-10 19-38-32.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191841112/f5ovQFKVb.png align="left")
+![Screenshot from 2022-05-10 19-38-32.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191833357/5Ih2ivoNZ.png?auto=compress,format&format=webp)
 
-![Screenshot from 2022-05-10 19-38-38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191848797/WTlzQ9Jxe.png align="left")
+![Screenshot from 2022-05-10 19-38-38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191841112/f5ovQFKVb.png?auto=compress,format&format=webp)
 
-![Screenshot from 2022-05-10 19-38-41.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191857946/zmnU1QWzzc.png align="left")
+![Screenshot from 2022-05-10 19-38-41.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191848797/WTlzQ9Jxe.png?auto=compress,format&format=webp)
 
-![Screenshot from 2022-05-10 19-36-31.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191785613/urmh2B_-i.png align="left")
+![Screenshot from 2022-05-10 19-36-31.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191857946/zmnU1QWzzc.png?auto=compress,format&format=webp)
 
 
 ## Challenges
