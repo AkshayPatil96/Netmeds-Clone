@@ -10,8 +10,8 @@ Netmeds.com is leading E-Commerce website for all type of cosmetic products such
 
 ## Credits
 
-- Images : [netmeds.com](https://www.sephora.com/)
-- Content : [netmeds.com](https://www.sephora.com/)
+- Images : [netmeds.com](https://www.netmeds.com/)
+- Content : [netmeds.com](https://www.netmeds.com/)
 - Icons : [Font Awesome](https://fontawesome.com/)
 - References : [MDN Docs](https://developer.mozilla.org/en-US/) | [W3School](https://www.w3schools.com/)
 
