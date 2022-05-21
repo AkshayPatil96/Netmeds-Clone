@@ -26,8 +26,8 @@ Netmeds.com is leading E-Commerce website for all type of cosmetic products such
 ## Features
 
 - Login and Sign in authentication
-- Product slider for different categorize
-- Product page for different categorize
+- Product slider for different categories
+- Product page for different categories
 - Detailed product preview page
 - Add to cart option for buying products and wishlist option to add the product to wishlist.
 
