@@ -40,16 +40,15 @@ Netmeds.com is leading E-Commerce website for all type of cosmetic products such
 
 ![Screenshot from 2022-05-10 19-37-16.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191770432/hmc1nsjoD.png?auto=compress,format&format=webp)
 
+
 ![Screenshot from 2022-05-10 19-37-24.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191799866/rH2uKVIgq.png?auto=compress,format&format=webp)
+
 
 ![Screenshot from 2022-05-10 19-37-35.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191810657/pGHc_We8X.png?auto=compress,format&format=webp)
 
 ![Screenshot from 2022-05-10 19-37-50.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191817758/jUupQ7dvV.png?auto=compress,format&format=webp)
 
 ![Screenshot from 2022-05-10 19-37-58.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191817758/jUupQ7dvV.png?auto=compress,format&format=webp)
-
-![Screenshot from 2022-05-10 19-38-01.png](![Screenshot from 2022-05-10 19-38-01.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191833357/5Ih2ivoNZ.png align="left")
-)
 
 ![Screenshot from 2022-05-10 19-38-32.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191833357/5Ih2ivoNZ.png?auto=compress,format&format=webp)
 
