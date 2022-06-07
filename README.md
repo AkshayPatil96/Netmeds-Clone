@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Clone of Netmeds.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was our project for Unit-4 Construct week at Masai Shcool.
+Our mian objective was to complete all main functionality of this e-commerce website , such as sing up to till to the byuing of a product.
+We have completed this project in 5 days.
 
-## Available Scripts
+- [Click here](https://unrivaled-sprite-2be9c1.netlify.app/) to see preview of our project.
 
-In the project directory, you can run:
+Netmeds.com is leading E-Commerce website for all type of cosmetic products such as makeup, skin care, hair, fragrance's and tools and brush.
 
-### `npm start`
+## Credits
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Images : [netmeds.com](https://www.netmeds.com/)
+- Content : [netmeds.com](https://www.netmeds.com/)
+- Icons : [Font Awesome](https://fontawesome.com/)
+- References : [MDN Docs](https://developer.mozilla.org/en-US/) | [W3School](https://www.w3schools.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- HTML 5
+- CSS 3
+- Javascript
+- React
+- Material UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Login and Sign in authentication
+- Product slider for different categories
+- Product page for different categories
+- Detailed product preview page
+- Add to cart option for buying products and wishlist option to add the product to wishlist.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Presentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Click here](https://drive.google.com/file/d/1hJlVRXwj7t5CBO3wlVlL7cB2OzD7cwig/view) to watch our project presentation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot from 2022-05-10 19-37-16.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191770432/hmc1nsjoD.png?auto=compress,format&format=webp)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot from 2022-05-10 19-37-24.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191799866/rH2uKVIgq.png?auto=compress,format&format=webp)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+![Screenshot from 2022-05-10 19-37-35.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191810657/pGHc_We8X.png?auto=compress,format&format=webp)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot from 2022-05-10 19-37-50.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191817758/jUupQ7dvV.png?auto=compress,format&format=webp)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot from 2022-05-10 19-37-58.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191817758/jUupQ7dvV.png?auto=compress,format&format=webp)
 
-### Code Splitting
+![Screenshot from 2022-05-10 19-38-32.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191833357/5Ih2ivoNZ.png?auto=compress,format&format=webp)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot from 2022-05-10 19-38-38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191841112/f5ovQFKVb.png?auto=compress,format&format=webp)
 
-### Analyzing the Bundle Size
+![Screenshot from 2022-05-10 19-38-41.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191848797/WTlzQ9Jxe.png?auto=compress,format&format=webp)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot from 2022-05-10 19-36-31.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652191857946/zmnU1QWzzc.png?auto=compress,format&format=webp)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Challenges
 
-### Advanced Configuration
+1. As every journey has some challenges and so was ours. In our team, all of the members were not familiar with each other so it was difficult for all of us to communicate and collaborate, there were some moments when members were not able to communicate with each other and had a conflict and it was hard for everyone to handle these conflicts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Another problem was to merge all of the files in a proper sequence which was again a difficult task for us because while merging and connecting all the pages some of the pages had the same name, and while running the site it was redirecting to some other pages so it was difficult to find the location and to rename the file.
 
-### Deployment
+## Team
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Akshay Patil
+- Gautam Gohil
+- Gaurav Kumar	
+- Shubham Pawar	
+- Sagar Kothadiya	
 
-### `npm run build` fails to minify
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@Gautam Gohil](https://github.com/gautam6023)
