@@ -395,7 +395,7 @@ export const Navbar = () => {
   console.log(user);
 
   useEffect(() => {
-    if (localToken) {
+    if (localToken && localUser) {
       dispatch(getData(localToken, localUser.mobileNumber));
     } else {
       return;
