@@ -4,7 +4,7 @@ This was our project for Unit-4 Construct week at Masai Shcool.
 Our mian objective was to complete all main functionality of this e-commerce website , such as sing up to till to the byuing of a product.
 We have completed this project in 5 days.
 
-- [Click here](https://unrivaled-sprite-2be9c1.netlify.app/) to see preview of our project.
+- [Click here](https://netmeds-clone-sigma.vercel.app/) to see preview of our project.
 
 Netmeds.com is leading E-Commerce website for all type of cosmetic products such as makeup, skin care, hair, fragrance's and tools and brush.
 
