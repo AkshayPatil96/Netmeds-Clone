@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import {
   Cardmain,
@@ -307,4 +308,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default Cart
