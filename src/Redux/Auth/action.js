@@ -23,10 +23,8 @@ const addNewUserType = (userData, token) => ({
 
 export const addNewUser = (userData, token) => async (dispatch) => {
   try {
-    let res = await axios.post(
-      "https://netmedsbackend.herokuapp.com/AuthDetails",
-      userData
-    );
+
+    let res = await axios.post("https://netmedsbackend.herokuapp.com/AuthDetails", userData);
     let data = await res.data;
 
     dispatch(addNewUserType(data, token));
@@ -47,6 +45,7 @@ const getUser = (token, userData) => ({
   payload: {
     userData,
     token,
+    
   },
 });
 
@@ -83,15 +82,10 @@ const addToCart = (payload) => ({
 let userData;
 export const toCart = (id, mobile) => async (dispatch) => {
   try {
-    let res = await axios.get(
-      `https://netmedsbackend.herokuapp.com/data/${id}`
-    );
+
+    let res = await axios.get(`https://netmedsbackend.herokuapp.com/data/${id}`);
     let data = await res.data;
 
-    let user = await axios.get(
-      `https://netmedsbackend.herokuapp.com/AuthDetails/${mobile}`
-    );
-    userData = await user.data;
     console.log("userData", userData);
     data.qunt = 1;
     let patch = await fetch(
