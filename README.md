@@ -6,8 +6,7 @@ We have completed this project in 5 days.
 
 - [Click here](https://netmeds-clone-sigma.vercel.app/) to see preview of our project.
 
-Netmeds.com is leading E-Commerce website for all type of cosmetic products such as makeup, skin care, hair, fragrance's and tools and brush.
-
+Netmeds.com provides a wide range of prescription medicines and other health products conveniently all across India.
 ## Credits
 
 - Images : [netmeds.com](https://www.netmeds.com/)
