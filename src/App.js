@@ -6,21 +6,21 @@ import Login from "./Pages/Account/Login";
 import Payment from "./Pages/Payment";
 import Account from "./Pages/Account/Account";
 import MainRouters from "./Routers/MainRouters";
-import Cart from "./Pages/Cart"
+import Cart from "./Pages/Cart";
 const App = () => {
   return (
     <div>
       <MainRouters />
-     {/* <Navbar /> */}
+      {/* <Navbar /> */}
       {/* <SubNav />  */}
-       {/* <Account />  */}
-       {/* <SubNav />  */}
+      {/* <Account />  */}
+      {/* <SubNav />  */}
       {/* <Payment /> */}
       {/* <SubNav /> */}
       {/* <Home /> */}
       {/* <Product /> */}
       {/* <Login /> */}
-      <Cart/> 
+      {/* <Cart/>  */}
     </div>
   );
 };

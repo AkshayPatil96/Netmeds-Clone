@@ -23,8 +23,10 @@ const addNewUserType = (userData, token) => ({
 
 export const addNewUser = (userData, token) => async (dispatch) => {
   try {
-
-    let res = await axios.post("https://netmedsbackend.herokuapp.com/AuthDetails", userData);
+    let res = await axios.post(
+      "https://netmeds-backend.onrender.com/AuthDetails",
+      userData
+    );
     let data = await res.data;
 
     dispatch(addNewUserType(data, token));
@@ -45,14 +47,13 @@ const getUser = (token, userData) => ({
   payload: {
     userData,
     token,
-    
   },
 });
 
 export const getData = (token, mobile) => async (dispatch) => {
   try {
     let res = await axios.get(
-      `https://netmedsbackend.herokuapp.com/AuthDetails?mobileNumber=${mobile}`
+      `https://netmeds-backend.onrender.com/AuthDetails?mobileNumber=${mobile}`
     );
     let data = await res.data;
 
@@ -80,21 +81,22 @@ const addToCart = (payload) => ({
 
 //Add to cart
 let userData;
-export const toCart = (id, mobile) => async (dispatch) => {
+export const toCart = (id, mobile, cart) => async (dispatch) => {
   try {
-
-    let res = await axios.get(`https://netmedsbackend.herokuapp.com/data/${id}`);
+    let res = await axios.get(
+      `https://netmeds-backend.onrender.com/data/${id}`
+    );
     let data = await res.data;
 
-    console.log("userData", userData);
+    console.log("userData", cart);
     data.qunt = 1;
     let patch = await fetch(
-      `https://netmedsbackend.herokuapp.com/AuthDetails/${mobile}`,
+      `https://netmeds-backend.onrender.com/AuthDetails/${mobile}`,
       {
         method: "PATCH",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
-          cart: [...userData.cart, data],
+          cart: [...cart, data],
         }),
       }
     );
@@ -116,7 +118,7 @@ export const deleteProduct = (data, id) => async (dispatch) => {
 
   try {
     let patch = await fetch(
-      `https://netmedsbackend.herokuapp.com/AuthDetails/${id}`,
+      `https://netmeds-backend.onrender.com/AuthDetails/${id}`,
       {
         method: "PATCH",
         headers: { "content-type": "application/json" },

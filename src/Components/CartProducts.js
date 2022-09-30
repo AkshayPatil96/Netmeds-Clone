@@ -50,7 +50,7 @@ const CardProducts = (props) => {
   const Todoserver = async () => {
     try {
       let response = await axios.get(
-        `https://netmedsbackend.herokuapp.com/AuthDetails/${user.id}`
+        `https://netmeds-backend.onrender.com/AuthDetails/${user.id}`
       );
       let data = await response.data;
       console.log(data.cart);

@@ -7,7 +7,7 @@ const ReqAuth = ({ children }) => {
   //   const { token } = useSelector((state) => state.isAuth);
 
   console.log(children);
-  let token = localStorage.getItem("token") || "";
+  let token = localStorage.getItem("netmeds-token") || "";
   if (token) {
     return children;
   }

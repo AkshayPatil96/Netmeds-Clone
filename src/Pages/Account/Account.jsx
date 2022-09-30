@@ -13,8 +13,8 @@ const Account = () => {
 
   //Logout
   const LogoutAccount = () => {
-    localStorage.removeItem("token");
-    localStorage.removeItem("user");
+    localStorage.removeItem("netmeds-token");
+    localStorage.removeItem("netmeds-user");
     dispatch(logoutUser());
     navigate("/");
   };

@@ -7,9 +7,9 @@ import { addNewUser, loginExisitingUser } from "../../Redux/Auth/action.js";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-let token = localStorage.getItem("token") || "";
+let token = localStorage.getItem("netmeds-token") || "";
 
-let userLocalData = JSON.parse(localStorage.getItem("user")) || {};
+let userLocalData = JSON.parse(localStorage.getItem("netmeds-user")) || {};
 
 const OTP = () => {
   const dispatch = useDispatch();
@@ -71,7 +71,7 @@ const OTP = () => {
   const getAuthNo = async (number) => {
     try {
       let res = await axios.get(
-        `https://netmedsbackend.herokuapp.com/AuthDetails?mobileNumber=${number}`
+        `https://netmeds-backend.onrender.com/AuthDetails?mobileNumber=${number}`
       );
       let data = await res.data;
 
@@ -112,8 +112,8 @@ const OTP = () => {
           };
 
           dispatch(loginExisitingUser(userData, token));
-          localStorage.setItem("token", token);
-          localStorage.setItem("user", JSON.stringify(userLocalData));
+          localStorage.setItem("netmeds-token", token);
+          localStorage.setItem("netmeds-user", JSON.stringify(userLocalData));
           navigate("/");
         } else {
           alert("Invalid OTP. Enter 123456 as your otp");
@@ -127,8 +127,8 @@ const OTP = () => {
           console.log(otp);
 
           dispatch(addNewUser(userData, token));
-          localStorage.setItem("token", token);
-          localStorage.setItem("user", JSON.stringify(userLocalData));
+          localStorage.setItem("netmeds-token", token);
+          localStorage.setItem("netmeds-user", JSON.stringify(userLocalData));
           navigate("/");
         } else {
           alert("Invalid OTP. Enter 123456 as your otp");

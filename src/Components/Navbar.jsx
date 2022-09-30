@@ -15,8 +15,8 @@ import { icon } from "@fortawesome/fontawesome-svg-core";
 import { getData } from "../Redux/Auth/action";
 import { useDispatch } from "react-redux";
 //Taking data from localStorage
-let localToken = localStorage.getItem("token") || "";
-let localUser = JSON.parse(localStorage.getItem("user"));
+let localToken = localStorage.getItem("netmeds-token") || "";
+let localUser = JSON.parse(localStorage.getItem("netmeds-user"));
 
 // console.log(localToken);
 const NavContainer = styled.nav`

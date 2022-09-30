@@ -208,8 +208,8 @@ const ProductCard = (props) => {
 
   const addToCart = () => {
     setAuthCount(true);
-    // console.log();
-    dispatch(toCart(props.id, user.id));
+    // console.log(user.cart);
+    dispatch(toCart(props.id, user.id, user.cart));
 
     setCount(1);
     // console.log(props);
@@ -238,7 +238,7 @@ const ProductCard = (props) => {
   };
 
   const discountPrice = Math.ceil(
-      ((props.strikeOfPrice - props.salePrice) / props.strikeOfPrice) * 100
+    ((props.strikeOfPrice - props.salePrice) / props.strikeOfPrice) * 100
   );
 
   return (
