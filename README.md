@@ -4,7 +4,7 @@ This was our project for Unit-4 Construct week at Masai Shcool.
 Our mian objective was to complete all main functionality of this e-commerce website , such as sing up to till to the byuing of a product.
 We have completed this project in 5 days.
 
-- [Click here](https://netmeds-clone-sigma.vercel.app/) to see preview of our project.
+- [Click here](https://comforting-florentine-ebb115.netlify.app/) to see preview of our project.
 
 Netmeds.com provides a wide range of prescription medicines and other health products conveniently all across India.
 ## Credits
